@@ -57,7 +57,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // Fetch Lessons Data
-  fetch('lessons_data.json')
+  fetch('lessons_data.json?v=3')
     .then(res => res.json())
     .then(data => {
       lessons = data;
