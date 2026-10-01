@@ -43,6 +43,28 @@ document.addEventListener('DOMContentLoaded', () => {
   const sidebarOverlay = document.getElementById('sidebarOverlay');
   const sidebarEl = document.querySelector('.sidebar');
 
+  const guideBanner = document.getElementById('guideBanner');
+  const dismissGuideBtn = document.getElementById('dismissGuideBtn');
+  const helpBtn = document.getElementById('helpBtn');
+
+  // Check if guide was dismissed previously
+  if (localStorage.getItem('guideDismissed') === 'true' && guideBanner) {
+    guideBanner.classList.add('hidden');
+  }
+
+  if (dismissGuideBtn && guideBanner) {
+    dismissGuideBtn.addEventListener('click', () => {
+      guideBanner.classList.add('hidden');
+      localStorage.setItem('guideDismissed', 'true');
+    });
+  }
+
+  if (helpBtn && guideBanner) {
+    helpBtn.addEventListener('click', () => {
+      guideBanner.classList.toggle('hidden');
+    });
+  }
+
   // Mobile Drawer Toggle
   if (mobileMenuBtn && sidebarEl && sidebarOverlay) {
     mobileMenuBtn.addEventListener('click', () => {

@@ -10,7 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@400;600;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
   <!-- Remix Icons -->
   <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=4">
+  <link rel="stylesheet" href="styles.css?v=5">
 </head>
 <body class="dark-theme">
 
@@ -86,6 +86,7 @@
 
           <div class="extra-controls">
             <button id="speedBtn" class="speed-btn" title="倍速播放">1.0x</button>
+            <button id="helpBtn" class="guide-toggle-btn" title="首次指南 / Guide"><i class="ri-question-line"></i> 指南</button>
             <div class="volume-wrap">
               <i class="ri-volume-up-line" id="volumeIcon"></i>
               <input type="range" id="volumeBar" min="0" max="1" step="0.05" value="1">
@@ -95,6 +96,57 @@
 
         <audio id="audioElement" preload="metadata"></audio>
       </header>
+
+      <!-- Quick Start Guide Banner for First-Time Visitors -->
+      <div class="guide-banner" id="guideBanner">
+        <div class="guide-banner-header">
+          <div class="guide-banner-title">
+            <i class="ri-compass-discover-line"></i>
+            <span>首次访问指南 / Quick Start Guide</span>
+          </div>
+          <button class="guide-dismiss-btn" id="dismissGuideBtn" title="关闭指南 / Close">
+            <i class="ri-close-line"></i>
+          </button>
+        </div>
+
+        <div class="guide-steps-grid">
+          <div class="guide-step-card">
+            <div class="step-num">1</div>
+            <div class="step-content">
+              <h4>📚 选课目录 / Course List</h4>
+              <p>点击左上角 <strong>☰ 菜单</strong> (手机端) 或左侧边栏，自由选择 24 讲课程。</p>
+              <p class="step-en">Tap top-left <strong>☰ Menu</strong> or sidebar to choose any of the 24 modules.</p>
+            </div>
+          </div>
+
+          <div class="guide-step-card">
+            <div class="step-num">2</div>
+            <div class="step-content">
+              <h4>📌 双语导读 / Bilingual Summary</h4>
+              <p>默认进入 <strong>Summary</strong> 选项卡，30 秒快速掌握核心要点与精髓概念。</p>
+              <p class="step-en">Start on <strong>Summary</strong> tab for key insights in Chinese & English.</p>
+            </div>
+          </div>
+
+          <div class="guide-step-card">
+            <div class="step-num">3</div>
+            <div class="step-content">
+              <h4>🎧 语音播放 / Audio Player</h4>
+              <p>点击顶部播放控制条收听讲义，支持 1.0x / 1.25x / 1.5x 倍速选择。</p>
+              <p class="step-en">Tap Play button to listen. Adjust playback speed as desired.</p>
+            </div>
+          </div>
+
+          <div class="guide-step-card">
+            <div class="step-num">4</div>
+            <div class="step-content">
+              <h4>📜 完整文稿 / Full Transcripts</h4>
+              <p>切换至 <strong>中文</strong> 或 <strong>English</strong> 选项卡，边听边跟读完整讲义。</p>
+              <p class="step-en">Switch to <strong>中文</strong> or <strong>English</strong> tabs to follow full speech transcripts.</p>
+            </div>
+          </div>
+        </div>
+      </div>
 
       <!-- Content Grid: Quote Card + Transcript -->
       <div class="content-grid">
@@ -161,6 +213,6 @@
     </div>
   </div>
 
-  <script src="app.js?v=4"></script>
+  <script src="app.js?v=5"></script>
 </body>
 </html>
