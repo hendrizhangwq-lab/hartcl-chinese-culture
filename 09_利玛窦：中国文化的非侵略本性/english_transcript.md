@@ -1,0 +1,41 @@
+# Ricci: The Non-Aggressive Nature of Chinese Culture
+
+- **课程专辑**: 《余秋雨·中国文化必修课》
+- **喜马拉雅 Track ID**: 98141029
+- **音频在线地址**: `https://www.ximalaya.com/sound/98141029`
+
+---
+
+## 📜 Full Verbatim Transcript
+
+Course Quotes
+Click to save the image and share today's lesson clause to your circle of friends
+第59集 利玛窦：中国文化的非侵略本性
+Today's Script
+Hello, I'm Yu Qiuyu, let's continue the lecture.
+I mentioned last time that Michelangelo was only three years younger than Wang Yangming, and they were people of the same era. I would now like to mention that half a century after Wang Yangming's death, an Italian missionary came to China, and his name was Matteo Ricci.
+Just a little more than half a century, you see, because the Renaissance in Europe changed many of their social structures, changed their technology, changed their way of life. So it was possible to spread Western civilization in a missionary way, or to spread Western civilization in a missionary way, and Ricci came.
+Ricci's Chinese Notes
+It is very important for this person to come to China, as everyone knows, I will not go into detail. In the first year of the 17th century, he met a Chinese official named Xu Guangqi in Nanjing, a brilliant light that inspired, as everyone knows, Xu Guangqi.
+I considered him important, so one year I made a special trip to the University of Coimbra in Portugal, where I knew he had worked for a period of time. Unfortunately, when I went to the university to interview him, they weren&#39;t very familiar with him anymore. A few people knew, but they charged us a hefty filming fee. So we felt at the time that only we Chinese truly understood the profound importance of Matteo Ricci.
+Because Ricci came to China, he stayed in China for a long time, and finally wrote a book called "Ricci's Chinese Notes", and China's image in the world was further corrected. The Chinese Notes of Matteo Ricci is another important text after the Travels of Marco Polo, which in a sense gives a more complete account of Chinese culture.
+Because Marco Polo was only a traveling bystander, and Ricci was different, he was a scholar who went deep for a long time, so his speech was very convincing. I once used the words in "Ricci's Chinese Notes" to refute the Chinese threat theory internationally.
+因为当年利玛窦到中国来以后，和他一起来的一些欧洲传教士也看到中国的国力很强盛，因为明朝的时候中国国力很强盛，特别是朱元璋、朱棣以后国力还是很强盛，而且部队也很精良。
+In their imagination, according to Chinese logic, there is a lot of money, and the army is very sophisticated. That is, it must invade foreign countries, and it must even hit Europe, and there is a huge sense of insecurity. So Ricci seriously studied Chinese civilization, and he seriously made various friends in China, high, low, official and general literati, all contacted.
+After contacting him, he finally wrote his conclusions in the "Chinese Notes" in his later years, and I talked about such things in the "Matteo Ricci China Notes" at the World Civilization Congress. I read this passage that I said at the time, and I said:
+继马克波罗之后，另一个完整地用国际眼光来考察中国文明的是意大利天主教耶稣会的传教士利玛窦。与马可波罗不同的是，利玛窦在中国待了整整30年，深入研究了中华文明的历史和经典，与许多中国的学者进行了充分的交往。所以他在晚年所写的《利玛窦的中国札记》的第一卷第六章中，表述了他几十年研究的一个重要答案，那就是中国文明的非侵略、非扩张的本性。
+利玛窦说：虽然中国人有装备精良的陆军和海军，很容易征服邻近的国家，但是他们的皇上和人民都从来没有发动过侵略战争，他们很满足于自己已经有的东西，没有征服的野心，在这方面他们与欧洲人很不相同。
+Matteo Ricci said: At that time, some European scholars wrote that China had or would inevitably conquer its neighbors and expand its sphere of influence, and some Western missionaries who traveled with him had similar views, which he believed to be untrue. So he concluded: I have carefully studied China's 4,000-year history, and have to admit that I have never seen such a record of conquest, nor have I heard of the fact that they have expanded their national borders.
+He also said that he often asked the most learned historians in China about this question, and their answers were exactly the same. Nothing like aggression or expansion ever happened, nor could it happen. Ricci also specifically explained: Genghis Khan's massive conquest at that time, when the main part of Chinese civilization was also the object of conquest rather than the conqueror.
+The confluence of two civilizations
+This note of Matteo Ricci was very influential in Europe, published in Germany in 1615, and later in four Latin texts, three French texts, German, Spanish, Italian, and English, so it was very influential. Then, in my keynote speech at the World Civilization Congress, I said:
+Along the lines of Matteo Ricci, I also started my academic research. I went through the historical documents of various countries in the world, and I found that the ancient Greeks, Persians, Romans, Arabs, and the modern Spaniards, Portuguese, Dutch, British, Germans, and Japanese all left a series of plans to conquer the world in the historical documents. But among the various classics of China's vast sea of smoke, there is no similar plan.
+I used this conclusion of Ricci to convince those in the world who had doubts about Chinese culture, whether it was not very clear, but at least some of the cultural people on the floor at that time, if he had cultural logic, he should be able to feel the front and back relationship here. This is the first meaning of Ricci. He discussed the non-aggression and non-expansion nature of Chinese culture in the "Chinese Notes". We are very grateful to Ricci because he really told the truth.
+In addition, Ricci also had a cultural role. This cultural role was his meeting with Xu Guangqi. Because Xu Guangqi is a high-ranking official in China, this is no small matter. Moreover, he was of Confucian origin. Xu Guangqi himself was a Confucian. After the two of them met and translated six volumes of "Geometric Elements" together, China began to understand Western mathematics, which played an epoch-making role.
+Xu Guangqi himself converted to Catholicism, worshipped religiously, and continued to worship. This gives us a message that if high-ranking Chinese officials can accept Western civilization according to Ricci's path, it is possible to peacefully implement the docking and dialogue between the two civilizations.
+You see, because Xu Guangqi is a Catholic, the tombstone at the time of his death is in Latin, which shows that the two cultures are connected. Although he died with a tombstone in Latin, the emperor of China paid tribute to him one day. Is it possible for the two cultures to live together in harmony? But as a result, they did not get along well and started fighting.
+Here I must tell you the fact that his grave moved to his hometown after a while, that is, a place outside Shanghai City, which is now the old city and countryside. At that time, there was a place outside the city. Because his grave was there, the people surnamed Xu were also concentrated there and gathered there, so the place was called Xujiahui.
+Later, the two civilizations they represented docked, reconciled, quarreled, and finally fought. The first thing that emerged after the war was the Opium War. Although the British won the war in Hong Kong, they felt that the resistance there was very strong. So when they went north along the coastline, they finally saw a city. Facing the sea, there was a vast Yangtze River behind them. Then this place was more suitable for them than other places, so they settled there.
+After they had settled, they came to live their days according to their ways, and to worship them. Just when they were praying, they suddenly discovered that there was a place in Shanghai where Catholic worship activities had been held, that is, Xujiahui, where Xu Guangqi's tomb is located, so they built churches, schools, and library buildings, and Xujiahui civilization appeared.
+I once specifically mentioned in the article "Shanghai People", I said: Xu Jiahui civilization is the hub of Shanghai civilization. Then it can also be seen from here that if from the perspective of culture and civilization, there are some bloodstained life and death struggles that could have been resolved in a peaceful way, nationalism and iron-blooded military may not necessarily be the inevitability of history.
+Thank you!

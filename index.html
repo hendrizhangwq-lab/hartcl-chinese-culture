@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>中国文化视角下的全球观察</title>
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@400;600;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <!-- Remix Icons -->
+  <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body class="dark-theme">
+
+  <div class="app-container">
+    <div class="sidebar-overlay" id="sidebarOverlay"></div>
+    
+    <!-- Sidebar Navigation -->
+    <aside class="sidebar">
+      <div class="brand">
+        <div class="brand-icon"><i class="ri-compass-3-line"></i></div>
+        <div class="brand-text">
+          <h1>中国文化视角下的全球观察</h1>
+          <span class="subtitle">精品课程与讲义</span>
+        </div>
+      </div>
+
+      <div class="search-box">
+        <i class="ri-search-line search-icon"></i>
+        <input type="text" id="searchInput" placeholder="搜索课程标题或文稿内容...">
+      </div>
+
+      <div class="course-section-header">
+        <i class="ri-book-open-line"></i>
+        <span>中国文化必修课</span>
+      </div>
+
+      <nav class="lesson-list" id="lessonList">
+        <!-- Dynamic Lesson Items rendered by JS -->
+      </nav>
+
+      <div class="sidebar-footer">
+        <button id="themeToggle" class="theme-toggle-btn">
+          <i class="ri-sun-line light-icon"></i>
+          <i class="ri-moon-line dark-icon"></i>
+          <span id="themeLabel">切换主题</span>
+        </button>
+      </div>
+    </aside>
+
+    <!-- Main Content Area -->
+    <main class="main-content">
+      
+      <!-- Top Audio Control Bar -->
+      <header class="audio-sticky-header">
+        <button id="mobileMenuBtn" class="mobile-menu-btn" title="课程列表">
+          <i class="ri-menu-line"></i>
+        </button>
+        <div class="current-track-info">
+          <div class="track-badge" id="currentTrackNum">01</div>
+          <div class="track-title-wrap">
+            <h2 id="currentTrackTitle">选择一门课程开始学习</h2>
+            <p id="currentTrackCategory">《中国文化必修课》系列</p>
+          </div>
+        </div>
+
+        <div class="player-controls">
+          <div class="control-buttons">
+            <button id="prevBtn" class="control-btn" title="上一集"><i class="ri-skip-back-line"></i></button>
+            <button id="rewindBtn" class="control-btn" title="快退10秒"><i class="ri-replay-10-line"></i></button>
+            <button id="playPauseBtn" class="control-btn play-btn" title="播放/暂停"><i class="ri-play-fill"></i></button>
+            <button id="forwardBtn" class="control-btn" title="快进10秒"><i class="ri-forward-10-line"></i></button>
+            <button id="nextBtn" class="control-btn" title="下一集"><i class="ri-skip-forward-line"></i></button>
+          </div>
+
+          <div class="progress-wrap">
+            <span id="currentTime">00:00</span>
+            <input type="range" id="progressBar" min="0" max="100" value="0">
+            <span id="durationTime">00:00</span>
+          </div>
+
+          <div class="extra-controls">
+            <button id="speedBtn" class="speed-btn" title="倍速播放">1.0x</button>
+            <div class="volume-wrap">
+              <i class="ri-volume-up-line" id="volumeIcon"></i>
+              <input type="range" id="volumeBar" min="0" max="1" step="0.05" value="1">
+            </div>
+          </div>
+        </div>
+
+        <audio id="audioElement" preload="metadata"></audio>
+      </header>
+
+      <!-- Content Grid: Quote Card + Transcript -->
+      <div class="content-grid">
+        
+        <!-- Left/Top Card: Quote Card Poster -->
+        <div class="poster-section">
+          <div class="section-card-header">
+            <h3><i class="ri-image-line"></i> 课程金句卡片</h3>
+          </div>
+          <div class="poster-container" id="posterContainer">
+            <div class="poster-placeholder" id="posterPlaceholder">
+              <i class="ri-image-2-line"></i>
+              <p>暂无卡片图片</p>
+            </div>
+            <img id="quoteCardImage" src="" alt="课程金句卡片" class="quote-card-img hidden">
+            <div class="poster-overlay" id="posterOverlay">
+              <i class="ri-zoom-in-line"></i>
+              <span>点击查看大图</span>
+            </div>
+          </div>
+        </div>
+
+        <!-- Right/Main Card: Clean Transcript with Language Toggles -->
+        <div class="transcript-section">
+          <div class="transcript-header">
+            <div class="transcript-title">
+              <h3><i class="ri-file-text-line"></i> 今日文稿</h3>
+            </div>
+            
+            <div class="language-toggle-group">
+              <button class="lang-btn active" data-lang="zh">中文</button>
+              <button class="lang-btn" data-lang="en">English</button>
+              <button class="lang-btn" data-lang="bilingual">双语对照</button>
+            </div>
+          </div>
+
+          <div class="transcript-body" id="transcriptBody">
+            <div class="loading-spinner" id="transcriptLoading">
+              <i class="ri-loader-4-line spin"></i>
+              <span>正在加载文稿...</span>
+            </div>
+            <div id="transcriptContent" class="transcript-content"></div>
+          </div>
+        </div>
+
+      </div>
+
+    </main>
+
+  </div>
+
+  <!-- Image Lightbox Modal -->
+  <div class="modal" id="imageModal">
+    <div class="modal-backdrop" id="modalBackdrop"></div>
+    <div class="modal-content">
+      <button class="modal-close" id="modalCloseBtn"><i class="ri-close-line"></i></button>
+      <img id="modalImage" src="" alt="课程金句卡片放大视图">
+    </div>
+  </div>
+
+  <script src="app.js"></script>
+</body>
+</html>
