@@ -47,7 +47,125 @@ document.addEventListener('DOMContentLoaded', () => {
   const dismissGuideBtn = document.getElementById('dismissGuideBtn');
   const helpBtn = document.getElementById('helpBtn');
 
-  // Check if guide was dismissed previously
+  // Interactive Tour Pop-Up Data & Logic
+  const tourSteps = [
+    {
+      icon: 'ri-book-open-line',
+      target: '#mobileMenuBtn',
+      title: '第一步：选择 24 讲课程',
+      descZh: '点击左上角 ☰ 菜单(手机端) 或左侧边栏，轻松浏览并选择《中国文化视角下的全球观察》24 讲精选课程。',
+      descEn: 'Tap top-left ☰ Menu or sidebar to select any of the 24 modules.'
+    },
+    {
+      icon: 'ri-compass-3-line',
+      target: '.language-toggle-group',
+      title: '第二步：阅读双语核心导读',
+      descZh: '默认进入 Summary 选项卡，30 秒快速掌握每讲的中英双语核心要点与精髓概念。',
+      descEn: 'Start with Summary tab to quickly scan executive takeaways in Chinese & English.'
+    },
+    {
+      icon: 'ri-headphone-line',
+      target: '.audio-sticky-header',
+      title: '第三步：收听讲义原音',
+      descZh: '点击顶部播放控制条收听完整讲义，随时选择 1.0x / 1.25x / 1.5x 倍速。',
+      descEn: 'Tap Play button on the top audio player bar to listen. Adjust playback speed anytime.'
+    },
+    {
+      icon: 'ri-file-text-line',
+      target: '.transcript-header',
+      title: '第四步：切换完整语音文稿',
+      descZh: '随时切换至「中文」或「English」选项卡，边听边跟读原汁原味的完整讲义文稿。',
+      descEn: 'Switch to Chinese or English tabs to read the complete speech transcripts.'
+    }
+  ];
+
+  let currentTourStep = 0;
+  const tourModal = document.getElementById('tourModal');
+  const tourCloseBtn = document.getElementById('tourCloseBtn');
+  const tourBackdrop = document.getElementById('tourBackdrop');
+  const tourPrevBtn = document.getElementById('tourPrevBtn');
+  const tourNextBtn = document.getElementById('tourNextBtn');
+  const tourStepBadge = document.getElementById('tourStepBadge');
+  const tourIconWrap = document.getElementById('tourIconWrap');
+  const tourTitle = document.getElementById('tourTitle');
+  const tourDescZh = document.getElementById('tourDescZh');
+  const tourDescEn = document.getElementById('tourDescEn');
+  const tourDots = document.querySelectorAll('.tour-dots .dot');
+
+  function showTourStep(index) {
+    if (index < 0 || index >= tourSteps.length) return;
+    currentTourStep = index;
+    const step = tourSteps[index];
+
+    tourStepBadge.textContent = `Step ${index + 1} of ${tourSteps.length}`;
+    tourIconWrap.innerHTML = `<i class="${step.icon}"></i>`;
+    tourTitle.textContent = step.title;
+    tourDescZh.textContent = step.descZh;
+    tourDescEn.textContent = step.descEn;
+
+    tourDots.forEach((d, i) => d.classList.toggle('active', i === index));
+
+    tourPrevBtn.style.visibility = index === 0 ? 'hidden' : 'visible';
+    if (index === tourSteps.length - 1) {
+      tourNextBtn.textContent = '完成 / Got It';
+    } else {
+      tourNextBtn.textContent = '下一步 / Next';
+    }
+
+    document.querySelectorAll('.tour-highlight').forEach(el => el.classList.remove('tour-highlight'));
+    const targetEl = document.querySelector(step.target);
+    if (targetEl) {
+      targetEl.classList.add('tour-highlight');
+      targetEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+    }
+  }
+
+  function startTour() {
+    if (!tourModal) return;
+    tourModal.classList.add('active');
+    showTourStep(0);
+  }
+
+  function closeTour() {
+    if (!tourModal) return;
+    tourModal.classList.remove('active');
+    document.querySelectorAll('.tour-highlight').forEach(el => el.classList.remove('tour-highlight'));
+    localStorage.setItem('tourCompleted', 'true');
+  }
+
+  if (tourNextBtn) {
+    tourNextBtn.addEventListener('click', () => {
+      if (currentTourStep === tourSteps.length - 1) {
+        closeTour();
+      } else {
+        showTourStep(currentTourStep + 1);
+      }
+    });
+  }
+
+  if (tourPrevBtn) {
+    tourPrevBtn.addEventListener('click', () => {
+      showTourStep(currentTourStep - 1);
+    });
+  }
+
+  if (tourCloseBtn) tourCloseBtn.addEventListener('click', closeTour);
+  if (tourBackdrop) tourBackdrop.addEventListener('click', closeTour);
+
+  // Auto start tour on first visit
+  if (localStorage.getItem('tourCompleted') !== 'true') {
+    setTimeout(() => {
+      startTour();
+    }, 600);
+  }
+
+  if (helpBtn) {
+    helpBtn.addEventListener('click', () => {
+      startTour();
+    });
+  }
+
+  // Check if guide banner was dismissed
   if (localStorage.getItem('guideDismissed') === 'true' && guideBanner) {
     guideBanner.classList.add('hidden');
   }
@@ -56,12 +174,6 @@ document.addEventListener('DOMContentLoaded', () => {
     dismissGuideBtn.addEventListener('click', () => {
       guideBanner.classList.add('hidden');
       localStorage.setItem('guideDismissed', 'true');
-    });
-  }
-
-  if (helpBtn && guideBanner) {
-    helpBtn.addEventListener('click', () => {
-      guideBanner.classList.toggle('hidden');
     });
   }
 

@@ -10,7 +10,7 @@
   <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Noto+Serif+SC:wght@400;600;700&family=Outfit:wght@400;500;600;700&display=swap" rel="stylesheet">
   <!-- Remix Icons -->
   <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
-  <link rel="stylesheet" href="styles.css?v=5">
+  <link rel="stylesheet" href="styles.css?v=6">
 </head>
 <body class="dark-theme">
 
@@ -213,6 +213,35 @@
     </div>
   </div>
 
-  <script src="app.js?v=5"></script>
+  <!-- Interactive Step-by-Step Pop-Up Tour Modal -->
+  <div class="tour-modal" id="tourModal">
+    <div class="tour-backdrop" id="tourBackdrop"></div>
+    <div class="tour-card" id="tourCard">
+      <div class="tour-header">
+        <div class="tour-step-badge" id="tourStepBadge">Step 1 of 4</div>
+        <button class="tour-close-btn" id="tourCloseBtn" title="跳过导览 / Skip Tour"><i class="ri-close-line"></i></button>
+      </div>
+      <div class="tour-body">
+        <div class="tour-icon-wrap" id="tourIconWrap">
+          <i class="ri-compass-3-line"></i>
+        </div>
+        <h3 id="tourTitle">第一步：选择 24 讲课程</h3>
+        <p class="tour-desc-zh" id="tourDescZh">点击左上角 ☰ 菜单或左侧边栏，轻松浏览并选择《中国文化视角下的全球观察》24 讲精选课程。</p>
+        <p class="tour-desc-en" id="tourDescEn">Tap top-left ☰ Menu or sidebar to select any of the 24 modules.</p>
+      </div>
+      <div class="tour-footer">
+        <button class="tour-btn tour-btn-secondary" id="tourPrevBtn">上一步 / Prev</button>
+        <div class="tour-dots" id="tourDots">
+          <span class="dot active"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+          <span class="dot"></span>
+        </div>
+        <button class="tour-btn tour-btn-primary" id="tourNextBtn">下一步 / Next</button>
+      </div>
+    </div>
+  </div>
+
+  <script src="app.js?v=6"></script>
 </body>
 </html>
