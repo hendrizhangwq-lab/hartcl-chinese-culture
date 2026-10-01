@@ -106,7 +106,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // Select Lesson
-  function selectLesson(index) {
+  function selectLesson(index, autoplay = false) {
     if (index < 0 || index >= lessons.length) return;
     currentLessonIndex = index;
     const lesson = lessons[index];
@@ -130,7 +130,11 @@ document.addEventListener('DOMContentLoaded', () => {
     audioElement.src = lesson.audioPath;
     audioElement.playbackRate = playbackSpeeds[currentSpeedIndex];
     audioElement.load();
-    playAudio();
+    if (autoplay) {
+      playAudio();
+    } else {
+      pauseAudio();
+    }
 
     // Load Quote Card Poster Image
     if (lesson.quoteCardPath) {
