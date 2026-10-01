@@ -1,7 +1,7 @@
 document.addEventListener('DOMContentLoaded', () => {
   let lessons = [];
   let currentLessonIndex = 0;
-  let currentLanguage = 'zh'; // 'zh', 'en', 'bilingual'
+  let currentLanguage = 'summary'; // 'summary', 'zh', 'en'
   let playbackSpeeds = [0.8, 1.0, 1.25, 1.5, 2.0];
   let currentSpeedIndex = 1; // Default 1.0x
 
@@ -158,7 +158,55 @@ document.addEventListener('DOMContentLoaded', () => {
     const zhText = lesson.transcriptZh || '';
     const enText = lesson.transcriptEn || '';
 
-    if (currentLanguage === 'zh') {
+    if (currentLanguage === 'summary') {
+      const sum = lesson.summary || {};
+      const gistZh = sum.gistZh || '暂无摘要';
+      const gistEn = sum.gistEn || 'No summary available.';
+      const highlights = sum.highlights || [];
+
+      let highlightsHtml = '';
+      highlights.forEach((h, idx) => {
+        highlightsHtml += `
+          <div class="summary-card-point">
+            <div class="point-badge">${idx + 1}</div>
+            <div class="point-text">
+              <div class="point-zh">${h.zh}</div>
+              <div class="point-en">${h.en}</div>
+            </div>
+          </div>
+        `;
+      });
+
+      transcriptContentEl.innerHTML = `
+        <div class="summary-wrapper">
+          <div class="summary-block">
+            <div class="summary-section-title">
+              <i class="ri-compass-3-line"></i>
+              <span>核心要点 / Executive Summary</span>
+            </div>
+            <div class="summary-gist-box">
+              <p class="summary-gist-zh">${gistZh}</p>
+              <p class="summary-gist-en">${gistEn}</p>
+            </div>
+          </div>
+
+          <div class="summary-block">
+            <div class="summary-section-title">
+              <i class="ri-lightbulb-line"></i>
+              <span>关键概念与亮点 / Key Concepts & Highlights</span>
+            </div>
+            <div class="summary-highlights-list">
+              ${highlightsHtml}
+            </div>
+          </div>
+
+          <div class="summary-tip">
+            <i class="ri-information-line"></i>
+            <span>提示：您可以在顶部或下方播放音频，或切换至「中文」/「English」选项卡阅读完整语音文稿。</span>
+          </div>
+        </div>
+      `;
+    } else if (currentLanguage === 'zh') {
       const paras = zhText.split('\n').filter(p => p.trim() !== '');
       paras.forEach(p => {
         const pEl = document.createElement('p');
@@ -172,24 +220,6 @@ document.addEventListener('DOMContentLoaded', () => {
         pEl.textContent = p;
         transcriptContentEl.appendChild(pEl);
       });
-    } else if (currentLanguage === 'bilingual') {
-      const zhParas = zhText.split('\n');
-      const enParas = enText.split('\n');
-      const maxLen = Math.max(zhParas.length, enParas.length);
-
-      for (let i = 0; i < maxLen; i++) {
-        const zhP = zhParas[i] || '';
-        const enP = enParas[i] || '';
-        if (!zhP.trim() && !enP.trim()) continue;
-
-        const pairEl = document.createElement('div');
-        pairEl.className = 'bilingual-pair';
-        pairEl.innerHTML = `
-          <div class="bilingual-zh">${zhP}</div>
-          <div class="bilingual-en">${enP}</div>
-        `;
-        transcriptContentEl.appendChild(pairEl);
-      }
     }
   }
 
