@@ -423,6 +423,7 @@ body.light-theme .dark-icon { display: block; }
 }
 
 .speed-btn {
+  order: 1;
   background-color: var(--bg-card);
   border: 1px solid var(--border-color);
   color: var(--text-secondary);
@@ -440,6 +441,7 @@ body.light-theme .dark-icon { display: block; }
 }
 
 .volume-wrap {
+  order: 2;
   display: flex;
   align-items: center;
   gap: 6px;
@@ -969,10 +971,25 @@ body.light-theme .dark-icon { display: block; }
   .extra-controls {
     justify-content: space-between;
     width: 100%;
+    align-items: center;
+  }
+
+  .speed-btn {
+    order: 1;
   }
 
   .volume-wrap {
-    display: none; /* Hide volume slider on mobile; users use hardware buttons */
+    display: flex;
+    order: 2;
+    max-width: 110px;
+  }
+
+  .volume-wrap input[type="range"] {
+    width: 60px;
+  }
+
+  .guide-toggle-btn {
+    order: 3;
   }
 
   /* Content Grid Adjustments */
@@ -1090,6 +1107,7 @@ body.light-theme .dark-icon { display: block; }
 
 /* Quick Start Guide Banner */
 .guide-toggle-btn {
+  order: 3;
   background: var(--bg-card);
   border: 1px solid var(--border-color);
   color: var(--accent-gold);
