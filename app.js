@@ -51,36 +51,38 @@ document.addEventListener('DOMContentLoaded', () => {
   const tourSteps = [
     {
       icon: 'ri-book-open-line',
-      target: '#mobileMenuBtn',
+      target: () => (window.innerWidth <= 900 ? document.getElementById('mobileMenuBtn') : document.querySelector('.sidebar')),
       title: '第一步：选择 24 讲课程',
-      descZh: '点击左上角 ☰ 菜单(手机端) 或左侧边栏，轻松浏览并选择《中国文化视角下的全球观察》24 讲精选课程。',
-      descEn: 'Tap top-left ☰ Menu or sidebar to select any of the 24 modules.'
+      descZh: '点击此处 ☰ 菜单或左侧边栏，自由浏览并选择 24 门文化精选课程。',
+      descEn: 'Tap here to browse and select any of the 24 modules.'
     },
     {
       icon: 'ri-compass-3-line',
-      target: '.language-toggle-group',
+      target: () => document.querySelector('button[data-lang="summary"]'),
       title: '第二步：阅读双语核心导读',
-      descZh: '默认进入 Summary 选项卡，30 秒快速掌握每讲的中英双语核心要点与精髓概念。',
-      descEn: 'Start with Summary tab to quickly scan executive takeaways in Chinese & English.'
+      descZh: '从这里开始！30 秒快速掌握本讲的中英双语核心要点与精髓概念。',
+      descEn: 'Start here to scan executive takeaways in Chinese & English.'
     },
     {
       icon: 'ri-headphone-line',
-      target: '.audio-sticky-header',
+      target: () => document.getElementById('playPauseBtn'),
       title: '第三步：收听讲义原音',
-      descZh: '点击顶部播放控制条收听完整讲义，随时选择 1.0x / 1.25x / 1.5x 倍速。',
-      descEn: 'Tap Play button on the top audio player bar to listen. Adjust playback speed anytime.'
+      descZh: '点击这里播放完整讲义录音，随时调节 1.0x / 1.25x / 1.5x 倍速。',
+      descEn: 'Tap here to listen to audio. Adjust playback speed anytime.'
     },
     {
       icon: 'ri-file-text-line',
-      target: '.transcript-header',
-      title: '第四步：切换完整语音文稿',
-      descZh: '随时切换至「中文」或「English」选项卡，边听边跟读原汁原味的完整讲义文稿。',
-      descEn: 'Switch to Chinese or English tabs to read the complete speech transcripts.'
+      target: () => document.querySelector('.transcript-header'),
+      title: '第四步：跟读完整文稿',
+      descZh: '切换至「中文」或「English」选项卡，边听音频边跟读完整语音文稿。',
+      descEn: 'Switch tabs here to follow the complete speech transcripts.'
     }
   ];
 
   let currentTourStep = 0;
   const tourModal = document.getElementById('tourModal');
+  const tourCard = document.getElementById('tourCard');
+  const tourBubbleArrow = document.getElementById('tourBubbleArrow');
   const tourCloseBtn = document.getElementById('tourCloseBtn');
   const tourBackdrop = document.getElementById('tourBackdrop');
   const tourPrevBtn = document.getElementById('tourPrevBtn');
@@ -91,6 +93,57 @@ document.addEventListener('DOMContentLoaded', () => {
   const tourDescZh = document.getElementById('tourDescZh');
   const tourDescEn = document.getElementById('tourDescEn');
   const tourDots = document.querySelectorAll('.tour-dots .dot');
+
+  function positionTourBubble(targetEl) {
+    if (!tourCard) return;
+
+    if (!targetEl) {
+      tourCard.className = 'tour-card arrow-none';
+      tourCard.style.top = '50%';
+      tourCard.style.left = '50%';
+      tourCard.style.transform = 'translate(-50%, -50%)';
+      if (tourBubbleArrow) tourBubbleArrow.style.display = 'none';
+      return;
+    }
+
+    tourCard.style.transform = 'none';
+    const rect = targetEl.getBoundingClientRect();
+    const bubbleWidth = Math.min(330, window.innerWidth - 24);
+    tourCard.style.width = bubbleWidth + 'px';
+
+    const bubbleHeight = tourCard.offsetHeight || 220;
+    const arrowOffset = 10;
+
+    let top, left, placement;
+    const spaceBelow = window.innerHeight - rect.bottom;
+    const spaceAbove = rect.top;
+
+    if (spaceBelow >= bubbleHeight + arrowOffset + 15 || spaceBelow >= spaceAbove) {
+      placement = 'arrow-top';
+      top = rect.bottom + arrowOffset;
+    } else {
+      placement = 'arrow-bottom';
+      top = rect.top - bubbleHeight - arrowOffset;
+    }
+
+    // Keep top inside viewport
+    top = Math.max(12, Math.min(top, window.innerHeight - bubbleHeight - 12));
+
+    // Align horizontally
+    const targetCenterX = rect.left + rect.width / 2;
+    left = targetCenterX - bubbleWidth / 2;
+    left = Math.max(12, Math.min(left, window.innerWidth - bubbleWidth - 12));
+
+    tourCard.className = `tour-card ${placement}`;
+    tourCard.style.top = `${top}px`;
+    tourCard.style.left = `${left}px`;
+
+    if (tourBubbleArrow) {
+      tourBubbleArrow.style.display = 'block';
+      const arrowLeft = Math.max(18, Math.min(targetCenterX - left - 7, bubbleWidth - 28));
+      tourBubbleArrow.style.left = `${arrowLeft}px`;
+    }
+  }
 
   function showTourStep(index) {
     if (index < 0 || index >= tourSteps.length) return;
@@ -113,12 +166,25 @@ document.addEventListener('DOMContentLoaded', () => {
     }
 
     document.querySelectorAll('.tour-highlight').forEach(el => el.classList.remove('tour-highlight'));
-    const targetEl = document.querySelector(step.target);
+    const targetEl = typeof step.target === 'function' ? step.target() : document.querySelector(step.target);
     if (targetEl) {
       targetEl.classList.add('tour-highlight');
-      targetEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      targetEl.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
+      setTimeout(() => {
+        positionTourBubble(targetEl);
+      }, 150);
+    } else {
+      positionTourBubble(null);
     }
   }
+
+  window.addEventListener('resize', () => {
+    if (tourModal && tourModal.classList.contains('active')) {
+      const step = tourSteps[currentTourStep];
+      const targetEl = typeof step.target === 'function' ? step.target() : document.querySelector(step.target);
+      positionTourBubble(targetEl);
+    }
+  });
 
   function startTour() {
     if (!tourModal) return;
