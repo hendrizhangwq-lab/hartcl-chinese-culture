@@ -345,9 +345,9 @@ body.light-theme .dark-icon { display: block; }
 .player-controls {
   display: flex;
   align-items: center;
-  gap: 20px;
+  gap: 16px;
   flex: 1;
-  max-width: 680px;
+  min-width: 0;
 }
 
 .control-buttons {
@@ -419,7 +419,8 @@ body.light-theme .dark-icon { display: block; }
 .extra-controls {
   display: flex;
   align-items: center;
-  gap: 14px;
+  gap: 12px;
+  flex-shrink: 0;
 }
 
 .speed-btn {

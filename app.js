@@ -50,32 +50,32 @@ document.addEventListener('DOMContentLoaded', () => {
   // Interactive Chat Bubble Tour with Spotlight Cutout
   const tourSteps = [
     {
-      icon: 'ri-menu-line',
-      target: () => (window.innerWidth <= 900 ? document.getElementById('mobileMenuBtn') : document.querySelector('.sidebar-header') || document.querySelector('.sidebar')),
-      title: '第一步：选择 24 讲课程',
-      descZh: '点击这里 ☰ 菜单(手机端) 或左侧边栏，自由浏览并选择 24 讲精选课程。',
-      descEn: 'Tap here to browse and pick any of the 24 modules.'
+      icon: 'ri-sparkling-line',
+      target: () => document.querySelector('button[data-lang="summary"]'),
+      title: '第一步：30 秒双语导读',
+      descZh: '首选入口！先看 Summary 选项卡，30 秒快速掌握本讲的中英双语核心要点与精髓概念。',
+      descEn: 'Start here! Scan key concepts and executive takeaways in Chinese & English.'
     },
     {
       icon: 'ri-play-circle-line',
       target: () => document.getElementById('playPauseBtn'),
-      title: '第二步：播放讲义音频',
-      descZh: '点击这里播放或暂停音频，右侧可自由切换 1.0x / 1.25x / 1.5x 倍速。',
+      title: '第二步：收听讲义原音',
+      descZh: '点击这里播放或暂停音频，右侧可自由调节 1.0x / 1.25x / 1.5x 倍速。',
       descEn: 'Tap here to Play/Pause audio. Adjust playback speed on the right.'
-    },
-    {
-      icon: 'ri-sparkling-line',
-      target: () => document.querySelector('button[data-lang="summary"]'),
-      title: '第三步：阅读双语核心导读',
-      descZh: '推荐首选！30 秒快速掌握本讲的中英双语核心要点与精髓概念。',
-      descEn: 'Start here to scan executive takeaways in Chinese & English.'
     },
     {
       icon: 'ri-file-text-line',
       target: () => document.querySelector('.language-toggle-group'),
-      title: '第四步：跟读完整语音文稿',
-      descZh: '点击「中文」或「English」，边听音频边跟读完整讲义文稿。',
+      title: '第三步：跟读逐字文稿',
+      descZh: '切换至「中文」或「English」，边听音频边同步跟读逐字完整文稿。',
       descEn: 'Switch tabs here to read along with full speech transcripts.'
+    },
+    {
+      icon: 'ri-menu-line',
+      target: () => (window.innerWidth <= 900 ? document.getElementById('mobileMenuBtn') : document.querySelector('#lessonList .lesson-item:first-child') || document.getElementById('lessonList')),
+      title: '第四步：自由选修 24 讲',
+      descZh: '点击左上角 ☰ 菜单(手机端) 或左侧边栏，自由浏览并选择 24 讲精选课程。',
+      descEn: 'Tap top-left ☰ or sidebar to browse and pick any of the 24 modules.'
     }
   ];
 
@@ -183,9 +183,9 @@ document.addEventListener('DOMContentLoaded', () => {
       tourNextBtn.textContent = '下一步 / Next';
     }
 
-    // On mobile step 0, ensure sidebar drawer is closed so #mobileMenuBtn is in view
-    if (index === 0 && sidebar && window.innerWidth <= 900) {
-      sidebar.classList.remove('open');
+    // On mobile, ensure sidebar drawer is closed
+    if (sidebarEl && window.innerWidth <= 900) {
+      sidebarEl.classList.remove('open');
     }
 
     const targetEl = getTargetForStep(step);
