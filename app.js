@@ -47,41 +47,42 @@ document.addEventListener('DOMContentLoaded', () => {
   const dismissGuideBtn = document.getElementById('dismissGuideBtn');
   const helpBtn = document.getElementById('helpBtn');
 
-  // Interactive Tour Pop-Up Data & Logic
+  // Interactive Chat Bubble Tour with Spotlight Cutout
   const tourSteps = [
     {
-      icon: 'ri-book-open-line',
-      target: () => (window.innerWidth <= 900 ? document.getElementById('mobileMenuBtn') : document.querySelector('.sidebar')),
+      icon: 'ri-menu-line',
+      target: () => (window.innerWidth <= 900 ? document.getElementById('mobileMenuBtn') : document.querySelector('.sidebar-header') || document.querySelector('.sidebar')),
       title: '第一步：选择 24 讲课程',
-      descZh: '点击此处 ☰ 菜单或左侧边栏，自由浏览并选择 24 门文化精选课程。',
-      descEn: 'Tap here to browse and select any of the 24 modules.'
+      descZh: '点击这里 ☰ 菜单(手机端) 或左侧边栏，自由浏览并选择 24 讲精选课程。',
+      descEn: 'Tap here to browse and pick any of the 24 modules.'
     },
     {
-      icon: 'ri-compass-3-line',
+      icon: 'ri-play-circle-line',
+      target: () => document.getElementById('playPauseBtn'),
+      title: '第二步：播放讲义音频',
+      descZh: '点击这里播放或暂停音频，右侧可自由切换 1.0x / 1.25x / 1.5x 倍速。',
+      descEn: 'Tap here to Play/Pause audio. Adjust playback speed on the right.'
+    },
+    {
+      icon: 'ri-sparkling-line',
       target: () => document.querySelector('button[data-lang="summary"]'),
-      title: '第二步：阅读双语核心导读',
-      descZh: '从这里开始！30 秒快速掌握本讲的中英双语核心要点与精髓概念。',
+      title: '第三步：阅读双语核心导读',
+      descZh: '推荐首选！30 秒快速掌握本讲的中英双语核心要点与精髓概念。',
       descEn: 'Start here to scan executive takeaways in Chinese & English.'
     },
     {
-      icon: 'ri-headphone-line',
-      target: () => document.getElementById('playPauseBtn'),
-      title: '第三步：收听讲义原音',
-      descZh: '点击这里播放完整讲义录音，随时调节 1.0x / 1.25x / 1.5x 倍速。',
-      descEn: 'Tap here to listen to audio. Adjust playback speed anytime.'
-    },
-    {
       icon: 'ri-file-text-line',
-      target: () => document.querySelector('.transcript-header'),
-      title: '第四步：跟读完整文稿',
-      descZh: '切换至「中文」或「English」选项卡，边听音频边跟读完整语音文稿。',
-      descEn: 'Switch tabs here to follow the complete speech transcripts.'
+      target: () => document.querySelector('.language-toggle-group'),
+      title: '第四步：跟读完整语音文稿',
+      descZh: '点击「中文」或「English」，边听音频边跟读完整讲义文稿。',
+      descEn: 'Switch tabs here to read along with full speech transcripts.'
     }
   ];
 
   let currentTourStep = 0;
   const tourModal = document.getElementById('tourModal');
   const tourCard = document.getElementById('tourCard');
+  const tourSpotlight = document.getElementById('tourSpotlight');
   const tourBubbleArrow = document.getElementById('tourBubbleArrow');
   const tourCloseBtn = document.getElementById('tourCloseBtn');
   const tourBackdrop = document.getElementById('tourBackdrop');
@@ -94,10 +95,11 @@ document.addEventListener('DOMContentLoaded', () => {
   const tourDescEn = document.getElementById('tourDescEn');
   const tourDots = document.querySelectorAll('.tour-dots .dot');
 
-  function positionTourBubble(targetEl) {
-    if (!tourCard) return;
+  function positionSpotlightAndBubble(targetEl) {
+    if (!tourCard || !tourModal || !tourModal.classList.contains('active')) return;
 
     if (!targetEl) {
+      if (tourSpotlight) tourSpotlight.style.display = 'none';
       tourCard.className = 'tour-card arrow-none';
       tourCard.style.top = '50%';
       tourCard.style.left = '50%';
@@ -108,17 +110,28 @@ document.addEventListener('DOMContentLoaded', () => {
 
     tourCard.style.transform = 'none';
     const rect = targetEl.getBoundingClientRect();
-    const bubbleWidth = Math.min(330, window.innerWidth - 24);
-    tourCard.style.width = bubbleWidth + 'px';
 
-    const bubbleHeight = tourCard.offsetHeight || 220;
-    const arrowOffset = 10;
+    // 1. Position Spotlight around Target Element
+    if (tourSpotlight) {
+      tourSpotlight.style.display = 'block';
+      const pad = 6;
+      tourSpotlight.style.top = `${Math.max(2, rect.top - pad)}px`;
+      tourSpotlight.style.left = `${Math.max(2, rect.left - pad)}px`;
+      tourSpotlight.style.width = `${rect.width + pad * 2}px`;
+      tourSpotlight.style.height = `${rect.height + pad * 2}px`;
+    }
+
+    // 2. Position Chat Bubble & Arrow
+    const bubbleWidth = Math.min(320, window.innerWidth - 24);
+    tourCard.style.width = `${bubbleWidth}px`;
+    const bubbleHeight = tourCard.offsetHeight || 210;
+    const arrowOffset = 14;
 
     let top, left, placement;
     const spaceBelow = window.innerHeight - rect.bottom;
     const spaceAbove = rect.top;
 
-    if (spaceBelow >= bubbleHeight + arrowOffset + 15 || spaceBelow >= spaceAbove) {
+    if (spaceBelow >= bubbleHeight + arrowOffset + 10 || spaceBelow >= spaceAbove) {
       placement = 'arrow-top';
       top = rect.bottom + arrowOffset;
     } else {
@@ -126,10 +139,10 @@ document.addEventListener('DOMContentLoaded', () => {
       top = rect.top - bubbleHeight - arrowOffset;
     }
 
-    // Keep top inside viewport
+    // Clamp top inside screen
     top = Math.max(12, Math.min(top, window.innerHeight - bubbleHeight - 12));
 
-    // Align horizontally
+    // Align horizontally with target element center
     const targetCenterX = rect.left + rect.width / 2;
     left = targetCenterX - bubbleWidth / 2;
     left = Math.max(12, Math.min(left, window.innerWidth - bubbleWidth - 12));
@@ -143,6 +156,11 @@ document.addEventListener('DOMContentLoaded', () => {
       const arrowLeft = Math.max(18, Math.min(targetCenterX - left - 7, bubbleWidth - 28));
       tourBubbleArrow.style.left = `${arrowLeft}px`;
     }
+  }
+
+  function getTargetForStep(step) {
+    if (!step) return null;
+    return typeof step.target === 'function' ? step.target() : document.querySelector(step.target);
   }
 
   function showTourStep(index) {
@@ -165,26 +183,33 @@ document.addEventListener('DOMContentLoaded', () => {
       tourNextBtn.textContent = '下一步 / Next';
     }
 
-    document.querySelectorAll('.tour-highlight').forEach(el => el.classList.remove('tour-highlight'));
-    const targetEl = typeof step.target === 'function' ? step.target() : document.querySelector(step.target);
+    // On mobile step 0, ensure sidebar drawer is closed so #mobileMenuBtn is in view
+    if (index === 0 && sidebar && window.innerWidth <= 900) {
+      sidebar.classList.remove('open');
+    }
+
+    const targetEl = getTargetForStep(step);
     if (targetEl) {
-      targetEl.classList.add('tour-highlight');
-      targetEl.scrollIntoView({ behavior: 'smooth', block: 'nearest' });
-      setTimeout(() => {
-        positionTourBubble(targetEl);
-      }, 150);
+      targetEl.scrollIntoView({ behavior: 'smooth', block: 'center' });
+      positionSpotlightAndBubble(targetEl);
+      setTimeout(() => positionSpotlightAndBubble(targetEl), 120);
+      setTimeout(() => positionSpotlightAndBubble(targetEl), 300);
+      setTimeout(() => positionSpotlightAndBubble(targetEl), 500);
     } else {
-      positionTourBubble(null);
+      positionSpotlightAndBubble(null);
     }
   }
 
-  window.addEventListener('resize', () => {
+  function updateActiveTourPosition() {
     if (tourModal && tourModal.classList.contains('active')) {
       const step = tourSteps[currentTourStep];
-      const targetEl = typeof step.target === 'function' ? step.target() : document.querySelector(step.target);
-      positionTourBubble(targetEl);
+      const targetEl = getTargetForStep(step);
+      positionSpotlightAndBubble(targetEl);
     }
-  });
+  }
+
+  window.addEventListener('resize', updateActiveTourPosition);
+  window.addEventListener('scroll', updateActiveTourPosition, true);
 
   function startTour() {
     if (!tourModal) return;
@@ -195,12 +220,13 @@ document.addEventListener('DOMContentLoaded', () => {
   function closeTour() {
     if (!tourModal) return;
     tourModal.classList.remove('active');
-    document.querySelectorAll('.tour-highlight').forEach(el => el.classList.remove('tour-highlight'));
-    localStorage.setItem('tourCompleted', 'true');
+    if (tourSpotlight) tourSpotlight.style.display = 'none';
+    sessionStorage.setItem('tourSeen', 'true');
   }
 
   if (tourNextBtn) {
-    tourNextBtn.addEventListener('click', () => {
+    tourNextBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
       if (currentTourStep === tourSteps.length - 1) {
         closeTour();
       } else {
@@ -210,36 +236,30 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   if (tourPrevBtn) {
-    tourPrevBtn.addEventListener('click', () => {
+    tourPrevBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
       showTourStep(currentTourStep - 1);
     });
   }
 
-  if (tourCloseBtn) tourCloseBtn.addEventListener('click', closeTour);
+  if (tourCloseBtn) tourCloseBtn.addEventListener('click', (e) => {
+    e.stopPropagation();
+    closeTour();
+  });
+
   if (tourBackdrop) tourBackdrop.addEventListener('click', closeTour);
 
-  // Auto start tour on first visit
-  if (localStorage.getItem('tourCompleted') !== 'true') {
+  // Auto start tour once per session for first-time visitors
+  if (!sessionStorage.getItem('tourSeen')) {
     setTimeout(() => {
       startTour();
-    }, 600);
+    }, 500);
   }
 
   if (helpBtn) {
-    helpBtn.addEventListener('click', () => {
+    helpBtn.addEventListener('click', (e) => {
+      e.stopPropagation();
       startTour();
-    });
-  }
-
-  // Check if guide banner was dismissed
-  if (localStorage.getItem('guideDismissed') === 'true' && guideBanner) {
-    guideBanner.classList.add('hidden');
-  }
-
-  if (dismissGuideBtn && guideBanner) {
-    dismissGuideBtn.addEventListener('click', () => {
-      guideBanner.classList.add('hidden');
-      localStorage.setItem('guideDismissed', 'true');
     });
   }
 
