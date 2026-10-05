@@ -250,7 +250,8 @@ document.addEventListener('DOMContentLoaded', () => {
   if (tourBackdrop) tourBackdrop.addEventListener('click', closeTour);
 
   // Auto start tour once per session for first-time visitors
-  if (!sessionStorage.getItem('tourSeen')) {
+  const urlParams = new URLSearchParams(window.location.search);
+  if (!sessionStorage.getItem('tourSeen') && !urlParams.has('notour')) {
     setTimeout(() => {
       startTour();
     }, 500);
@@ -277,13 +278,26 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // Fetch Lessons Data
-  fetch('lessons_data.json?v=5')
+  fetch('lessons_data.json?v=6')
     .then(res => res.json())
     .then(data => {
       lessons = data;
       renderLessonList(lessons);
       if (lessons.length > 0) {
+        const langParam = urlParams.get('lang');
+        if (langParam && ['summary', 'zh', 'en'].includes(langParam)) {
+          currentLanguage = langParam;
+          langBtns.forEach(b => b.classList.toggle('active', b.dataset.lang === langParam));
+        }
+        const timeParam = parseFloat(urlParams.get('t'));
+        if (!isNaN(timeParam)) {
+          audioElement.currentTime = timeParam;
+          currentTimeEl.textContent = formatTime(timeParam);
+        }
         selectLesson(0);
+        if (!isNaN(timeParam)) {
+          updateTranscriptHighlight(timeParam);
+        }
       }
     })
     .catch(err => {
@@ -426,6 +440,83 @@ document.addEventListener('DOMContentLoaded', () => {
           </div>
         </div>
       `;
+    } else if (lesson.timedTranscript && lesson.timedTranscript.length > 0) {
+      // Interactive Real-Time Spoken Audio Follow-Along Mode
+      const isZh = currentLanguage === 'zh';
+      lesson.timedTranscript.forEach(item => {
+        if (item.isHeading) {
+          const hBlock = document.createElement('div');
+          hBlock.className = 'transcript-heading-block';
+          hBlock.dataset.start = item.start;
+          hBlock.dataset.end = item.end;
+          hBlock.innerHTML = `<h3><i class="ri-bookmark-3-line"></i> ${isZh ? item.zh : item.en}</h3>`;
+          hBlock.addEventListener('click', () => {
+            audioElement.currentTime = item.start;
+            playAudio();
+          });
+          transcriptContentEl.appendChild(hBlock);
+        } else {
+          const pBlock = document.createElement('div');
+          pBlock.className = 'transcript-para-block';
+          pBlock.dataset.start = item.start;
+          pBlock.dataset.end = item.end;
+
+          const sents = isZh ? (item.zhSentences || []) : (item.enSentences || []);
+          let sentsHtml = '';
+          if (sents.length > 0) {
+            sents.forEach(s => {
+              sentsHtml += `<span class="transcript-sentence" data-start="${s.start}" data-end="${s.end}">${s.text} </span>`;
+            });
+          } else {
+            sentsHtml = `<span class="transcript-sentence" data-start="${item.start}" data-end="${item.end}">${isZh ? item.zh : item.en}</span>`;
+          }
+
+          pBlock.innerHTML = `
+            <div class="para-header">
+              <button class="para-seek-btn" data-seek="${item.start}" title="点击从此处播放 / Click to play from here">
+                <i class="ri-play-mini-fill"></i> ${formatTime(item.start)}
+              </button>
+            </div>
+            <p class="para-content">${sentsHtml}</p>
+          `;
+
+          pBlock.querySelectorAll('.transcript-sentence').forEach(sentEl => {
+            sentEl.addEventListener('click', (e) => {
+              e.stopPropagation();
+              const seekTime = parseFloat(sentEl.dataset.start);
+              if (!isNaN(seekTime)) {
+                audioElement.currentTime = seekTime;
+                playAudio();
+                updateTranscriptHighlight(seekTime);
+              }
+            });
+          });
+
+          const seekBtn = pBlock.querySelector('.para-seek-btn');
+          if (seekBtn) {
+            seekBtn.addEventListener('click', (e) => {
+              e.stopPropagation();
+              const seekTime = parseFloat(seekBtn.dataset.seek);
+              if (!isNaN(seekTime)) {
+                audioElement.currentTime = seekTime;
+                playAudio();
+                updateTranscriptHighlight(seekTime);
+              }
+            });
+          }
+
+          pBlock.addEventListener('click', () => {
+            audioElement.currentTime = item.start;
+            playAudio();
+            updateTranscriptHighlight(item.start);
+          });
+
+          transcriptContentEl.appendChild(pBlock);
+        }
+      });
+      lastActivePara = null;
+      lastActiveSent = null;
+      updateTranscriptHighlight(audioElement.currentTime || 0);
     } else if (currentLanguage === 'zh') {
       const paras = zhText.split('\n').filter(p => p.trim() !== '');
       paras.forEach(p => {
@@ -440,6 +531,61 @@ document.addEventListener('DOMContentLoaded', () => {
         pEl.textContent = p;
         transcriptContentEl.appendChild(pEl);
       });
+    }
+  }
+
+  // Real-Time Transcript Highlighting & Auto-Scroll
+  let lastActivePara = null;
+  let lastActiveSent = null;
+
+  function updateTranscriptHighlight(currentTime) {
+    if (currentLanguage === 'summary') return;
+
+    const activeParas = transcriptContentEl.querySelectorAll('.transcript-para-block');
+    if (!activeParas || activeParas.length === 0) return;
+
+    let currentPara = null;
+    let currentSent = null;
+
+    activeParas.forEach(p => {
+      const start = parseFloat(p.dataset.start);
+      const end = parseFloat(p.dataset.end);
+      if (currentTime >= start && currentTime < end) {
+        currentPara = p;
+      }
+    });
+
+    if (currentPara !== lastActivePara) {
+      if (lastActivePara) lastActivePara.classList.remove('active-para');
+      if (currentPara) {
+        currentPara.classList.add('active-para');
+        // Smoothly auto-scroll container
+        const bodyEl = document.querySelector('.transcript-body');
+        if (bodyEl) {
+          const bodyRect = bodyEl.getBoundingClientRect();
+          const pRect = currentPara.getBoundingClientRect();
+          const offset = pRect.top - bodyRect.top - (bodyRect.height * 0.25);
+          bodyEl.scrollBy({ top: offset, behavior: 'smooth' });
+        }
+      }
+      lastActivePara = currentPara;
+    }
+
+    if (currentPara) {
+      const sents = currentPara.querySelectorAll('.transcript-sentence');
+      sents.forEach(s => {
+        const start = parseFloat(s.dataset.start);
+        const end = parseFloat(s.dataset.end);
+        if (currentTime >= start && currentTime <= end) {
+          currentSent = s;
+        }
+      });
+    }
+
+    if (currentSent !== lastActiveSent) {
+      if (lastActiveSent) lastActiveSent.classList.remove('active-sentence');
+      if (currentSent) currentSent.classList.add('active-sentence');
+      lastActiveSent = currentSent;
     }
   }
 
@@ -492,6 +638,9 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     currentTimeEl.textContent = formatTime(current);
     durationTimeEl.textContent = formatTime(duration);
+
+    // Sync spoken text highlight
+    updateTranscriptHighlight(current);
   });
 
   audioElement.addEventListener('ended', () => {
