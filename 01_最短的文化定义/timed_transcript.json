@@ -5,7 +5,7 @@
     "start": 31.0,
     "end": 46.0,
     "zh": "大家好。今天的第一件事情，就是要还昨天欠着的债，公布我为文化制定的定义。我的定义是这样的：",
-    "en": "Hello everyone. The first thing today is to repay the debt owed yesterday and announce the definition of culture I have formulated. My definition is this:",
+    "en": "Hello everyone. The first thing on our agenda today is to settle yesterday's debt and share the definition of culture I have formulated. My definition goes like this:",
     "zhSentences": [
       {
         "text": "大家好。",
@@ -27,16 +27,16 @@
       {
         "text": "Hello everyone.",
         "start": 31.0,
-        "end": 32.5
+        "end": 32.3
       },
       {
-        "text": "The first thing today is to repay the debt owed yesterday and announce the definition of culture I have formulated.",
-        "start": 32.5,
-        "end": 43.8
+        "text": "The first thing on our agenda today is to settle yesterday's debt and share the definition of culture I have formulated.",
+        "start": 32.3,
+        "end": 43.0
       },
       {
-        "text": "My definition is this:",
-        "start": 43.8,
+        "text": "My definition goes like this:",
+        "start": 43.0,
         "end": 46.0
       }
     ]
@@ -47,7 +47,7 @@
     "start": 46.0,
     "end": 57.0,
     "zh": "文化是一种成为习惯的精神价值和生活方式，它的最终成果是集体人格。",
-    "en": "Culture is a spiritual value and way of life that becomes a habit, and its final result is a collective personality.",
+    "en": "Culture is a set of spiritual values and a way of life that have become ingrained habits, and its ultimate outcome is a collective personality.",
     "zhSentences": [
       {
         "text": "文化是一种成为习惯的精神价值和生活方式，它的最终成果是集体人格。",
@@ -57,7 +57,7 @@
     ],
     "enSentences": [
       {
-        "text": "Culture is a spiritual value and way of life that becomes a habit, and its final result is a collective personality.",
+        "text": "Culture is a set of spiritual values and a way of life that have become ingrained habits, and its ultimate outcome is a collective personality.",
         "start": 46.0,
         "end": 57.0
       }
@@ -69,7 +69,7 @@
     "start": 57.0,
     "end": 88.0,
     "zh": "数一数，正好30个字，全世界最短，而且好像不能再短了。对于这个最短的文化定义，我需要做一番解释。我们还是回到前面讲起过的跨国婚姻的离异事件，我始终认为这样的事件触及了文化的深层本性，关系到一个人的安身立命，远比几句古诗、几件文物更关系到文化的要害。",
-    "en": "Counting it down, it’s exactly 30 words, the shortest in the world, and it seems it can’t get any shorter. For this shortest definition of culture, I need to explain. Let’s go back to the divorce incident of transnational marriage mentioned earlier. I always believe that such incident touches the deep nature of culture and is related to a person’s settlement and life. It is far more important to culture than a few lines of ancient poems or a few cultural relics.",
+    "en": "Count them: exactly thirty Chinese characters—the shortest in the world, and it seems impossible to make it any shorter. For this world-shortest definition of culture, allow me to offer an explanation. Let us return to the transnational divorce case I mentioned earlier; I have always believed such incidents touch the deep essence of culture and determine how one finds spiritual anchor and settles one's life—far more crucial to the core of culture than a few lines of ancient poetry or a handful of antiques.",
     "zhSentences": [
       {
         "text": "数一数，正好30个字，全世界最短，而且好像不能再短了。",
@@ -89,28 +89,18 @@
     ],
     "enSentences": [
       {
-        "text": "Counting it down, it’s exactly 30 words, the shortest in the world, and it seems it can’t get any shorter.",
+        "text": "Count them: exactly thirty Chinese characters—the shortest in the world, and it seems impossible to make it any shorter.",
         "start": 57.0,
-        "end": 64.1
+        "end": 63.8
       },
       {
-        "text": "For this shortest definition of culture, I need to explain.",
-        "start": 64.1,
-        "end": 68.1
+        "text": "For this world-shortest definition of culture, allow me to offer an explanation.",
+        "start": 63.8,
+        "end": 69.0
       },
       {
-        "text": "Let’s go back to the divorce incident of transnational marriage mentioned earlier.",
-        "start": 68.1,
-        "end": 73.6
-      },
-      {
-        "text": "I always believe that such incident touches the deep nature of culture and is related to a person’s settlement and life.",
-        "start": 73.6,
-        "end": 81.7
-      },
-      {
-        "text": "It is far more important to culture than a few lines of ancient poems or a few cultural relics.",
-        "start": 81.7,
+        "text": "Let us return to the transnational divorce case I mentioned earlier; I have always believed such incidents touch the deep essence of culture and determine how one finds spiritual anchor and settles one's life—far more crucial to the core of culture than a few lines of ancient poetry or a handful of antiques.",
+        "start": 69.0,
         "end": 88.0
       }
     ]
@@ -121,7 +111,7 @@
     "start": 88.0,
     "end": 96.0,
     "zh": "精神价值和生活方式",
-    "en": "spiritual values ​​and lifestyle",
+    "en": "Spiritual Values and Ways of Life",
     "zhSentences": [
       {
         "text": "精神价值和生活方式",
@@ -131,7 +121,7 @@
     ],
     "enSentences": [
       {
-        "text": "spiritual values ​​and lifestyle",
+        "text": "Spiritual Values and Ways of Life",
         "start": 88.0,
         "end": 96.0
       }
@@ -143,7 +133,7 @@
     "start": 96.0,
     "end": 123.0,
     "zh": "例如，我知道一种跨国婚姻的最初的裂缝是怎么产生的。男方是中国人，女方是美国人，原是大学同学，在美国结婚，在美国过日子。女方很好，一点也不苛刻，但是实在不理解，丈夫为什么每年的清明节都必须回国回家来扫墓。她想，工作那么繁忙，又并非是长假期，路途那么遥远，何必年年如此。",
-    "en": "For example, I know how the first cracks in a transnational marriage arise. The man is Chinese and the woman is American. They were college classmates. They got married in the United States and lived in the United States. The woman is very nice and not harsh at all, but she really doesn’t understand why her husband has to go back to China to visit his grave every Qingming Festival. She thought, the work was so busy, it was not a long vacation, and the journey was so long, why should it be like this every year.",
+    "en": "For instance, I know how the initial rift in a certain transnational marriage opened up. The husband was Chinese and the wife was American; they were former college classmates who married and built their life in the United States. The wife was a wonderful person, not demanding in the least, yet she genuinely could not comprehend why her husband insisted on flying back to China every Qingming Festival to sweep ancestral graves. She thought to herself: work is so demanding, this is not a long holiday, and the journey is so far—why must he do this year after year?",
     "zhSentences": [
       {
         "text": "例如，我知道一种跨国婚姻的最初的裂缝是怎么产生的。",
@@ -168,33 +158,23 @@
     ],
     "enSentences": [
       {
-        "text": "For example, I know how the first cracks in a transnational marriage arise.",
+        "text": "For instance, I know how the initial rift in a certain transnational marriage opened up.",
         "start": 96.0,
-        "end": 100.0
+        "end": 101.1
       },
       {
-        "text": "The man is Chinese and the woman is American.",
-        "start": 100.0,
-        "end": 102.4
+        "text": "The husband was Chinese and the wife was American; they were former college classmates who married and built their life in the United States.",
+        "start": 101.1,
+        "end": 108.0
       },
       {
-        "text": "They were college classmates.",
-        "start": 102.4,
-        "end": 103.9
+        "text": "The wife was a wonderful person, not demanding in the least, yet she genuinely could not comprehend why her husband insisted on flying back to China every Qingming Festival to sweep ancestral graves.",
+        "start": 108.0,
+        "end": 116.5
       },
       {
-        "text": "They got married in the United States and lived in the United States.",
-        "start": 103.9,
-        "end": 107.6
-      },
-      {
-        "text": "The woman is very nice and not harsh at all, but she really doesn’t understand why her husband has to go back to China to visit his grave every Qingming Festival.",
-        "start": 107.6,
-        "end": 116.2
-      },
-      {
-        "text": "She thought, the work was so busy, it was not a long vacation, and the journey was so long, why should it be like this every year.",
-        "start": 116.2,
+        "text": "She thought to herself: work is so demanding, this is not a long holiday, and the journey is so far—why must he do this year after year?",
+        "start": 116.5,
         "end": 123.0
       }
     ]
@@ -205,7 +185,7 @@
     "start": 123.0,
     "end": 149.0,
     "zh": "但男方想的是，父母已经年迈，好像来日不多，弟妹众目睽睽，我不能不回来。这中间就触及了中国人的一个核心的精神价值，那就是亲情伦理；而且每年必须在那个时候回来，又变成了一种习惯的生活方式。这都是女方难以体会的了。",
-    "en": "But what the man thinks about is that his parents are old and their days are numbered. With his siblings in full view, I have to come back. This touches on a core spiritual value of the Chinese people, that is, the ethics of family affection; and having to come back at that time every year has become a habitual way of life. This is difficult for women to understand.",
+    "en": "Yet the husband thought: my parents are aging and may not have many days left, and with my siblings watching, how could I not return? This touches upon a core spiritual value of the Chinese people—familial and filial ethics; and returning home at that exact time every year had become an ingrained way of life. All of this was truly difficult for his wife to appreciate or relate to.",
     "zhSentences": [
       {
         "text": "但男方想的是，父母已经年迈，好像来日不多，弟妹众目睽睽，我不能不回来。",
@@ -225,23 +205,18 @@
     ],
     "enSentences": [
       {
-        "text": "But what the man thinks about is that his parents are old and their days are numbered.",
+        "text": "Yet the husband thought: my parents are aging and may not have many days left, and with my siblings watching, how could I not return?",
         "start": 123.0,
-        "end": 129.1
+        "end": 131.8
       },
       {
-        "text": "With his siblings in full view, I have to come back.",
-        "start": 129.1,
-        "end": 132.8
+        "text": "This touches upon a core spiritual value of the Chinese people—familial and filial ethics; and returning home at that exact time every year had become an ingrained way of life.",
+        "start": 131.8,
+        "end": 146.1
       },
       {
-        "text": "This touches on a core spiritual value of the Chinese people, that is, the ethics of family affection; and having to come back at that time every year has become a habitual way of life.",
-        "start": 132.8,
-        "end": 146.0
-      },
-      {
-        "text": "This is difficult for women to understand.",
-        "start": 146.0,
+        "text": "All of this was truly difficult for his wife to appreciate or relate to.",
+        "start": 146.1,
         "end": 149.0
       }
     ]
@@ -252,7 +227,7 @@
     "start": 149.0,
     "end": 177.0,
     "zh": "举了这个实例，让我们再读一下我的定义，就非常好懂了。文化是一种成为习惯的精神价值和生活方式。他们夫妻因文化差异而离异，也就可以理解了。由这个实例生发开去，大家想一想，哪一种文化不牵涉到精神价值和生活方式呢？",
-    "en": "After giving this example, let us read my definition again, it will be very easy to understand. Culture is a spiritual value and lifestyle that becomes habitual. It is understandable that the couple divorced due to cultural differences. Starting from this example, think about it, which culture does not involve spiritual values ​​and lifestyles?",
+    "en": "Having shared this example, rereading my definition makes it remarkably easy to understand. Culture is a set of spiritual values and a way of life that have become ingrained habits. That this couple divorced due to cultural divergence now becomes completely understandable. Branching out from this case, reflect for a moment: which culture in the world does not involve spiritual values and ways of life?",
     "zhSentences": [
       {
         "text": "举了这个实例，让我们再读一下我的定义，就非常好懂了。",
@@ -277,23 +252,23 @@
     ],
     "enSentences": [
       {
-        "text": "After giving this example, let us read my definition again, it will be very easy to understand.",
+        "text": "Having shared this example, rereading my definition makes it remarkably easy to understand.",
         "start": 149.0,
-        "end": 156.8
+        "end": 156.1
       },
       {
-        "text": "Culture is a spiritual value and lifestyle that becomes habitual.",
-        "start": 156.8,
-        "end": 162.1
+        "text": "Culture is a set of spiritual values and a way of life that have become ingrained habits.",
+        "start": 156.1,
+        "end": 161.5
       },
       {
-        "text": "It is understandable that the couple divorced due to cultural differences.",
-        "start": 162.1,
-        "end": 168.1
+        "text": "That this couple divorced due to cultural divergence now becomes completely understandable.",
+        "start": 161.5,
+        "end": 167.2
       },
       {
-        "text": "Starting from this example, think about it, which culture does not involve spiritual values ​​and lifestyles?",
-        "start": 168.1,
+        "text": "Branching out from this case, reflect for a moment: which culture in the world does not involve spiritual values and ways of life?",
+        "start": 167.2,
         "end": 177.0
       }
     ]
@@ -304,7 +279,7 @@
     "start": 179.0,
     "end": 211.0,
     "zh": "从根源上说，我们遥远的祖先，不管是择水而居，还是狩猎为生，开始都只是为了生活，但是当生活稳定成为习惯的时候，也就变成了生活方式，而方式就是文化。在一定的生活方式当中，人们逐渐地会处理自己与天地的关系，与家属的关系，与同伙的关系，那就出现了精神价值。精神价值一出现，文化就有了主心骨。",
-    "en": "Fundamentally speaking, our distant ancestors, whether they lived on the water or hunted for a living, started out just to survive. But when a stable life became a habit, it also became a way of life, and the way is culture. In a certain way of life, people will gradually deal with their relationship with heaven and earth, their family members, and their friends, and then spiritual value will appear. Once spiritual values ​​appear, culture has a backbone.",
+    "en": "At the root of it, our ancient ancestors—whether settling near water or hunting for survival—initially did so merely to sustain life; but once that routine stabilized into habit, it transformed into a way of life, and that 'way' is culture. Within a given way of life, people gradually learned how to relate to heaven and earth, to their kin, and to their peers—and from this, spiritual values emerged. Once spiritual values appeared, culture gained its defining backbone.",
     "zhSentences": [
       {
         "text": "从根源上说，我们遥远的祖先，不管是择水而居，还是狩猎为生，开始都只是为了生活，但是当生活稳定成为习惯的时候，也就变成了生活方式，而方式就是文化。",
@@ -324,23 +299,18 @@
     ],
     "enSentences": [
       {
-        "text": "Fundamentally speaking, our distant ancestors, whether they lived on the water or hunted for a living, started out just to survive.",
+        "text": "At the root of it, our ancient ancestors—whether settling near water or hunting for survival—initially did so merely to sustain life; but once that routine stabilized into habit, it transformed into a way of life, and that 'way' is culture.",
         "start": 179.0,
-        "end": 188.2
+        "end": 195.3
       },
       {
-        "text": "But when a stable life became a habit, it also became a way of life, and the way is culture.",
-        "start": 188.2,
-        "end": 194.7
+        "text": "Within a given way of life, people gradually learned how to relate to heaven and earth, to their kin, and to their peers—and from this, spiritual values emerged.",
+        "start": 195.3,
+        "end": 207.1
       },
       {
-        "text": "In a certain way of life, people will gradually deal with their relationship with heaven and earth, their family members, and their friends, and then spiritual value will appear.",
-        "start": 194.7,
-        "end": 207.2
-      },
-      {
-        "text": "Once spiritual values ​​appear, culture has a backbone.",
-        "start": 207.2,
+        "text": "Once spiritual values appeared, culture gained its defining backbone.",
+        "start": 207.1,
         "end": 211.0
       }
     ]
@@ -351,7 +321,7 @@
     "start": 211.0,
     "end": 236.0,
     "zh": "历史发展到今天，如果要问什么是中国文化？比较清楚的回答是，中国人形成了习惯的精神价值和生活方式。例如，儒家伦理、诗词歌赋主要属于精神价值，八大菜系、中医中药主要属于生活方式，加在一起就成了中国文化的最佳组合。",
-    "en": "With the development of history to this day, if you want to ask what is Chinese culture? The clearer answer is that the Chinese people have developed customary spiritual values ​​and lifestyles. For example, Confucian ethics and poetry mainly belong to spiritual values, while the eight major cuisines and traditional Chinese medicine mainly belong to lifestyle. Together they form the best combination of Chinese culture.",
+    "en": "As history progressed to the present day, if one asks: what is Chinese culture? A clear answer would be: the habitual spiritual values and ways of life that the Chinese people have developed. For example, Confucian ethics and classical poetry belong primarily to spiritual values, whereas the eight major culinary traditions and Chinese medicine belong to ways of life; combined, they constitute the quintessential tapestry of Chinese culture.",
     "zhSentences": [
       {
         "text": "历史发展到今天，如果要问什么是中国文化？",
@@ -371,23 +341,18 @@
     ],
     "enSentences": [
       {
-        "text": "With the development of history to this day, if you want to ask what is Chinese culture?",
+        "text": "As history progressed to the present day, if one asks: what is Chinese culture?",
         "start": 211.0,
-        "end": 216.3
+        "end": 215.8
       },
       {
-        "text": "The clearer answer is that the Chinese people have developed customary spiritual values ​​and lifestyles.",
-        "start": 216.3,
-        "end": 222.6
+        "text": "A clear answer would be: the habitual spiritual values and ways of life that the Chinese people have developed.",
+        "start": 215.8,
+        "end": 222.5
       },
       {
-        "text": "For example, Confucian ethics and poetry mainly belong to spiritual values, while the eight major cuisines and traditional Chinese medicine mainly belong to lifestyle.",
-        "start": 222.6,
-        "end": 232.6
-      },
-      {
-        "text": "Together they form the best combination of Chinese culture.",
-        "start": 232.6,
+        "text": "For example, Confucian ethics and classical poetry belong primarily to spiritual values, whereas the eight major culinary traditions and Chinese medicine belong to ways of life; combined, they constitute the quintessential tapestry of Chinese culture.",
+        "start": 222.5,
         "end": 236.0
       }
     ]
@@ -398,7 +363,7 @@
     "start": 237.0,
     "end": 268.0,
     "zh": "在中国文化的大盘子里还分很多地域文化。譬如，什么是山西文化、什么是上海文化。同样，那就是山西人、上海人也形成了习惯的精神价值和生活方式。进一步问什么是80后的文化、90后的文化，同样是指几个年龄层的人所习惯的精神价值和生活方式。",
-    "en": "There are many regional cultures in the big plate of Chinese culture. For example, what is Shanxi culture and what is Shanghai culture? Similarly, Shanxi people and Shanghai people have also formed customary spiritual values ​​and lifestyles. To further ask, what is the culture of the post-80s and post-90s generations? They also refer to the spiritual values ​​and lifestyles that people of several age groups are accustomed to.",
+    "en": "Within the grand vessel of Chinese culture, there are also numerous regional cultures. For instance: what is Shanxi culture, or what is Shanghai culture? Likewise, it refers to the habitual spiritual values and ways of life formed by the people of Shanxi or Shanghai. Taking it a step further, what is the culture of the post-80s or post-90s generation? It likewise refers to the spiritual values and ways of life shared by those specific age cohorts.",
     "zhSentences": [
       {
         "text": "在中国文化的大盘子里还分很多地域文化。",
@@ -423,28 +388,23 @@
     ],
     "enSentences": [
       {
-        "text": "There are many regional cultures in the big plate of Chinese culture.",
+        "text": "Within the grand vessel of Chinese culture, there are also numerous regional cultures.",
         "start": 237.0,
-        "end": 242.0
+        "end": 242.2
       },
       {
-        "text": "For example, what is Shanxi culture and what is Shanghai culture?",
-        "start": 242.0,
-        "end": 246.7
+        "text": "For instance: what is Shanxi culture, or what is Shanghai culture?",
+        "start": 242.2,
+        "end": 247.4
       },
       {
-        "text": "Similarly, Shanxi people and Shanghai people have also formed customary spiritual values ​​and lifestyles.",
-        "start": 246.7,
-        "end": 254.4
+        "text": "Likewise, it refers to the habitual spiritual values and ways of life formed by the people of Shanxi or Shanghai.",
+        "start": 247.4,
+        "end": 255.6
       },
       {
-        "text": "To further ask, what is the culture of the post-80s and post-90s generations?",
-        "start": 254.4,
-        "end": 260.0
-      },
-      {
-        "text": "They also refer to the spiritual values ​​and lifestyles that people of several age groups are accustomed to.",
-        "start": 260.0,
+        "text": "Taking it a step further, what is the culture of the post-80s or post-90s generation? It likewise refers to the spiritual values and ways of life shared by those specific age cohorts.",
+        "start": 255.6,
         "end": 268.0
       }
     ]
@@ -455,7 +415,7 @@
     "start": 268.0,
     "end": 302.0,
     "zh": "我发现倒是很多文化学者固守的文化，恰恰是把文化应有的生命幅度放弃了。他们往往是，对上不问鼎精神高度，对下又看不起衣食住行，在故作艰深的咬文嚼字当中，做着小文化、私文化。我的最短的文化定义，可以帮助他们重新出发。上精神之田，入生态之地，以新的活力创造新的文化。在我看来，这是一次本意上的文化解放。",
-    "en": "I found that the culture that many cultural scholars cling to is precisely giving up the vitality that culture should have. They often do not strive for spiritual heights when talking to superiors, but look down on basic necessities, food, housing, and transportation to subordinates. They practice small culture and private culture in the pretense of being sophisticated. My shortest definition of culture can help them start over. Go to the spiritual field, enter the ecological land, and create a new culture with new vitality. In my opinion, this is a cultural liberation in its original meaning.",
+    "en": "Yet I have observed that the notion of culture clung to by many academics is precisely one that abandons culture's rightful breadth of life. All too often, they neither aspire upward toward spiritual heights nor deign to embrace the daily realities of food, clothing, shelter, and travel below—indulging instead in pedantic wordplay to produce insular, private micro-cultures. My concise definition of culture can help them start anew. To cultivate the realm of the spirit, immerse in the soil of daily life, and forge fresh culture with renewed vitality. In my view, this represents a true cultural liberation in the authentic sense.",
     "zhSentences": [
       {
         "text": "我发现倒是很多文化学者固守的文化，恰恰是把文化应有的生命幅度放弃了。",
@@ -485,32 +445,27 @@
     ],
     "enSentences": [
       {
-        "text": "I found that the culture that many cultural scholars cling to is precisely giving up the vitality that culture should have.",
+        "text": "Yet I have observed that the notion of culture clung to by many academics is precisely one that abandons culture's rightful breadth of life.",
         "start": 268.0,
-        "end": 275.0
+        "end": 275.9
       },
       {
-        "text": "They often do not strive for spiritual heights when talking to superiors, but look down on basic necessities, food, housing, and transportation to subordinates.",
-        "start": 275.0,
-        "end": 284.1
+        "text": "All too often, they neither aspire upward toward spiritual heights nor deign to embrace the daily realities of food, clothing, shelter, and travel below—indulging instead in pedantic wordplay to produce insular, private micro-cultures.",
+        "start": 275.9,
+        "end": 287.5
       },
       {
-        "text": "They practice small culture and private culture in the pretense of being sophisticated.",
-        "start": 284.1,
-        "end": 289.1
+        "text": "My concise definition of culture can help them start anew.",
+        "start": 287.5,
+        "end": 292.4
       },
       {
-        "text": "My shortest definition of culture can help them start over.",
-        "start": 289.1,
-        "end": 292.5
-      },
-      {
-        "text": "Go to the spiritual field, enter the ecological land, and create a new culture with new vitality.",
-        "start": 292.5,
+        "text": "To cultivate the realm of the spirit, immerse in the soil of daily life, and forge fresh culture with renewed vitality.",
+        "start": 292.4,
         "end": 298.0
       },
       {
-        "text": "In my opinion, this is a cultural liberation in its original meaning.",
+        "text": "In my view, this represents a true cultural liberation in the authentic sense.",
         "start": 298.0,
         "end": 302.0
       }
@@ -522,7 +477,7 @@
     "start": 302.0,
     "end": 305.0,
     "zh": "文化的最终成果",
-    "en": "the end result of culture",
+    "en": "The Ultimate Outcome of Culture",
     "zhSentences": [
       {
         "text": "文化的最终成果",
@@ -532,7 +487,7 @@
     ],
     "enSentences": [
       {
-        "text": "the end result of culture",
+        "text": "The Ultimate Outcome of Culture",
         "start": 302.0,
         "end": 305.0
       }
@@ -544,7 +499,7 @@
     "start": 305.0,
     "end": 348.0,
     "zh": "说到这里，我只是停留在这个定义的上半句，也就是变成了习惯的精神价值和生活方式。现在要讲下半句，它的最终成果是集体人格。变成习惯的精神价值和生活方式，经过长时间的沉淀，一定会结晶出一个东西来，这东西就是集体人格。人格指的是一个人的生命格调和行为规范，集体人格是指一批人在生命格调和行为规范上的共同默契。这种共同默契不必订立，而是深入到潜意识当中成为一种本能。",
-    "en": "Having said that, I only stay at the first half of this definition, which is the spiritual values ​​and lifestyle that have become habits. Now for the second half, the ultimate outcome of which is collective personality. The spiritual values ​​and lifestyle that have become habits will, after a long period of precipitation, crystallize into something, which is the collective personality. Personality refers to a person's life style and behavioral norms, and collective personality refers to the common tacit understanding of a group of people in terms of life style and behavioral norms. This kind of mutual tacit understanding does not need to be established, but goes deep into the subconscious mind and becomes an instinct.",
+    "en": "Thus far, I have only dwelt on the first half of the definition—namely, spiritual values and ways of life that have become ingrained habits. Now let us turn to the second half: its ultimate outcome is a collective personality. Ingrained spiritual values and ways of life, after enduring centuries of settling, inevitably crystallize into something tangible—and that entity is collective personality. Personality refers to an individual's life orientation and code of conduct; collective personality refers to the unspoken tacit understanding shared by a community regarding their life orientation and conduct. This shared tacit agreement requires no formal covenants; it penetrates deep into the subconscious to become a natural instinct.",
     "zhSentences": [
       {
         "text": "说到这里，我只是停留在这个定义的上半句，也就是变成了习惯的精神价值和生活方式。",
@@ -574,28 +529,28 @@
     ],
     "enSentences": [
       {
-        "text": "Having said that, I only stay at the first half of this definition, which is the spiritual values ​​and lifestyle that have become habits.",
+        "text": "Thus far, I have only dwelt on the first half of the definition—namely, spiritual values and ways of life that have become ingrained habits.",
         "start": 305.0,
-        "end": 313.2
+        "end": 314.4
       },
       {
-        "text": "Now for the second half, the ultimate outcome of which is collective personality.",
-        "start": 313.2,
-        "end": 318.0
+        "text": "Now let us turn to the second half: its ultimate outcome is a collective personality.",
+        "start": 314.4,
+        "end": 319.2
       },
       {
-        "text": "The spiritual values ​​and lifestyle that have become habits will, after a long period of precipitation, crystallize into something, which is the collective personality.",
-        "start": 318.0,
-        "end": 328.0
+        "text": "Ingrained spiritual values and ways of life, after enduring centuries of settling, inevitably crystallize into something tangible—and that entity is collective personality.",
+        "start": 319.2,
+        "end": 330.3
       },
       {
-        "text": "Personality refers to a person's life style and behavioral norms, and collective personality refers to the common tacit understanding of a group of people in terms of life style and behavioral norms.",
-        "start": 328.0,
-        "end": 339.8
+        "text": "Personality refers to an individual's life orientation and code of conduct; collective personality refers to the unspoken tacit understanding shared by a community regarding their life orientation and conduct.",
+        "start": 330.3,
+        "end": 341.2
       },
       {
-        "text": "This kind of mutual tacit understanding does not need to be established, but goes deep into the subconscious mind and becomes an instinct.",
-        "start": 339.8,
+        "text": "This shared tacit agreement requires no formal covenants; it penetrates deep into the subconscious to become a natural instinct.",
+        "start": 341.2,
         "end": 348.0
       }
     ]
@@ -606,7 +561,7 @@
     "start": 348.0,
     "end": 395.0,
     "zh": "这个学术深度最先是大家熟悉的弗洛伊德创建的，他提出的集体无意识已经打下了一个基础。更重要的是他的学生和对手荣格，明确地提出一切文化的最终成果是人格。他又说，对于人类各民族而言，更重要的是各民族的集体人格。荣格以歌德为例，他说歌德创造的浮士德就是德意志民族集体人格的象征。这种集体人格是由文化沉淀出来的，因此早就存在，歌德只是把它写出来罢了。所以荣格写了一句著名的话：不是歌德创造了浮士德，而是浮士德创造了歌德。",
-    "en": "This academic depth was first created by the familiar Freud, whose collective unconsciousness has laid a foundation. More importantly, his student and rival Jung clearly stated that the ultimate outcome of all culture is personality. He also said that for all human nations, what is more important is the collective personality of each nation. Jung took Goethe as an example. He said that Faust created by Goethe was a symbol of the collective personality of the German nation. This collective personality is precipitated by culture, so it has already existed. Goethe only wrote it out. So Jung wrote a famous saying: Goethe did not create Faust, but Faust created Goethe.",
+    "en": "This intellectual depth was first pioneered by Sigmund Freud, whose theories laid the initial foundation. More crucially, his student and intellectual rival Carl Jung explicitly stated that the ultimate fruit of all culture is personality. Jung further asserted that across human nations, what matters even more is the collective personality of each people. Jung cited Johann Wolfgang von Goethe as an example, remarking that Faust was a living emblem of the German nation's collective personality. This collective personality had long been deposited by culture and therefore already existed; Goethe merely gave it literary form. Hence Jung penned that famous dictum: it was not Goethe who created Faust, but Faust who created Goethe.",
     "zhSentences": [
       {
         "text": "这个学术深度最先是大家熟悉的弗洛伊德创建的，他提出的集体无意识已经打下了一个基础。",
@@ -641,43 +596,33 @@
     ],
     "enSentences": [
       {
-        "text": "This academic depth was first created by the familiar Freud, whose collective unconsciousness has laid a foundation.",
+        "text": "This intellectual depth was first pioneered by Sigmund Freud, whose theories laid the initial foundation.",
         "start": 348.0,
-        "end": 356.2
+        "end": 357.4
       },
       {
-        "text": "More importantly, his student and rival Jung clearly stated that the ultimate outcome of all culture is personality.",
-        "start": 356.2,
-        "end": 364.4
+        "text": "More crucially, his student and intellectual rival Carl Jung explicitly stated that the ultimate fruit of all culture is personality.",
+        "start": 357.4,
+        "end": 365.0
       },
       {
-        "text": "He also said that for all human nations, what is more important is the collective personality of each nation.",
-        "start": 364.4,
-        "end": 372.1
+        "text": "Jung further asserted that across human nations, what matters even more is the collective personality of each people.",
+        "start": 365.0,
+        "end": 371.4
       },
       {
-        "text": "Jung took Goethe as an example.",
-        "start": 372.1,
-        "end": 374.3
+        "text": "Jung cited Johann Wolfgang von Goethe as an example, remarking that Faust was a living emblem of the German nation's collective personality.",
+        "start": 371.4,
+        "end": 379.0
       },
       {
-        "text": "He said that Faust created by Goethe was a symbol of the collective personality of the German nation.",
-        "start": 374.3,
-        "end": 381.4
+        "text": "This collective personality had long been deposited by culture and therefore already existed; Goethe merely gave it literary form.",
+        "start": 379.0,
+        "end": 387.0
       },
       {
-        "text": "This collective personality is precipitated by culture, so it has already existed.",
-        "start": 381.4,
-        "end": 387.2
-      },
-      {
-        "text": "Goethe only wrote it out.",
-        "start": 387.2,
-        "end": 389.0
-      },
-      {
-        "text": "So Jung wrote a famous saying: Goethe did not create Faust, but Faust created Goethe.",
-        "start": 389.0,
+        "text": "Hence Jung penned that famous dictum: it was not Goethe who created Faust, but Faust who created Goethe.",
+        "start": 387.0,
         "end": 395.0
       }
     ]
@@ -688,7 +633,7 @@
     "start": 395.0,
     "end": 442.0,
     "zh": "说到这里，你听起来是不是觉得有点艰深？那我们就不要跟着精神下去了，回到比较简明的叙述上来。荣格的意思是文化的最后成果不是作品，而是人，而且是群体性的人。这种群体性的人可以寻找一个象征体，譬如浮士德。说的更通俗一点，中国文化的最后成果不是一大堆书，而是一大批人。也就是说，中国文化的最后成果，是中国人的集体人格。按照上面的分开的说法，山西文化的最后成果是山西人的集体人格，上海文化的最后成果是上海人的集体人格。",
-    "en": "Having said this, does it sound a bit difficult to you? Then let’s not follow the spirit and return to a more concise narrative. What Jung meant was that the final product of culture is not works, but people, and they are group people. Such group people can look for a symbol, such as Faust. To put it more simply, the final result of Chinese culture is not a large number of books, but a large number of people. In other words, the final achievement of Chinese culture is the collective personality of the Chinese people. According to the above separation, the final result of Shanxi culture is the collective personality of Shanxi people, and the final result of Shanghai culture is the collective personality of Shanghai people.",
+    "en": "Hearing this, does it sound a bit dense and abstract? Then let us not dwell in the clouds of abstract theory, but return to a simpler, clearer narrative. What Jung meant was that the ultimate fruit of culture is not works of art or books, but human beings—specifically, people as a community. Such collective communities can find an archetypal symbol, such as Faust. Put more colloquially: the ultimate outcome of Chinese culture is not a massive pile of books, but a great multitude of people. In other words, the final achievement of Chinese culture is the collective personality of the Chinese people. Applied regionally as we discussed earlier: the ultimate outcome of Shanxi culture is the Shanxi collective personality, and that of Shanghai culture is the Shanghai collective personality.",
     "zhSentences": [
       {
         "text": "说到这里，你听起来是不是觉得有点艰深？",
@@ -728,38 +673,38 @@
     ],
     "enSentences": [
       {
-        "text": "Having said this, does it sound a bit difficult to you?",
+        "text": "Hearing this, does it sound a bit dense and abstract?",
         "start": 395.0,
-        "end": 398.6
+        "end": 399.4
       },
       {
-        "text": "Then let’s not follow the spirit and return to a more concise narrative.",
-        "start": 398.6,
-        "end": 403.3
+        "text": "Then let us not dwell in the clouds of abstract theory, but return to a simpler, clearer narrative.",
+        "start": 399.4,
+        "end": 405.4
       },
       {
-        "text": "What Jung meant was that the final product of culture is not works, but people, and they are group people.",
-        "start": 403.3,
-        "end": 410.2
+        "text": "What Jung meant was that the ultimate fruit of culture is not works of art or books, but human beings—specifically, people as a community.",
+        "start": 405.4,
+        "end": 412.5
       },
       {
-        "text": "Such group people can look for a symbol, such as Faust.",
-        "start": 410.2,
-        "end": 413.8
+        "text": "Such collective communities can find an archetypal symbol, such as Faust.",
+        "start": 412.5,
+        "end": 417.8
       },
       {
-        "text": "To put it more simply, the final result of Chinese culture is not a large number of books, but a large number of people.",
-        "start": 413.8,
-        "end": 421.6
+        "text": "Put more colloquially: the ultimate outcome of Chinese culture is not a massive pile of books, but a great multitude of people.",
+        "start": 417.8,
+        "end": 424.9
       },
       {
         "text": "In other words, the final achievement of Chinese culture is the collective personality of the Chinese people.",
-        "start": 421.6,
-        "end": 428.7
+        "start": 424.9,
+        "end": 430.7
       },
       {
-        "text": "According to the above separation, the final result of Shanxi culture is the collective personality of Shanxi people, and the final result of Shanghai culture is the collective personality of Shanghai people.",
-        "start": 428.7,
+        "text": "Applied regionally as we discussed earlier: the ultimate outcome of Shanxi culture is the Shanxi collective personality, and that of Shanghai culture is the Shanghai collective personality.",
+        "start": 430.7,
         "end": 442.0
       }
     ]
@@ -770,7 +715,7 @@
     "start": 442.0,
     "end": 483.0,
     "zh": "荣格关于集体人格的说法，被一个比他小六岁的中国人听到了，那就是鲁迅。鲁迅也希望为中国人寻找集体人格，那个时候他把它翻译成国民性，他找到了一个国民性的象征体那就是阿Q。除了阿Q之外，鲁迅还写了《孔乙己》、《药》、《故事新编》等等作品，都在寻找国民性，也就是寻找中国人的集体人格，这一点中国现代作家中没有一个比得上，他是一个真正懂得文化深意的中国现代作家，可能还是唯一。",
-    "en": "Jung's statement about collective personality was heard by a Chinese who was six years younger than him, that is Lu Xun. Lu Xun also hoped to find a collective personality for the Chinese people. At that time, he translated it into national character, and he found a symbol of national character, which was Ah Q. In addition to Ah Q, Lu Xun also wrote \"Kong Yiji\", \"Medicine\", \"New Stories\" and other works, all of which are looking for national character, that is, looking for the collective personality of the Chinese people. No modern Chinese writer can match this. He is a modern Chinese writer who truly understands the profound meaning of culture, and may be the only one.",
+    "en": "Jung's thesis on collective personality was heard by a Chinese thinker six years his junior—Lu Xun. Lu Xun likewise sought to articulate the collective personality of the Chinese people, which he termed 'national character' (guominxing), and he found its archetypal symbol in the figure of Ah Q. Beyond Ah Q, Lu Xun wrote masterpieces like 'Kong Yiji', 'Medicine', and 'Old Tales Retold'—all exploring national character and probing the collective personality of the Chinese; in this regard, no modern Chinese writer compares to him, for he was one who truly understood culture's profound essence, perhaps even the only one.",
     "zhSentences": [
       {
         "text": "荣格关于集体人格的说法，被一个比他小六岁的中国人听到了，那就是鲁迅。",
@@ -790,33 +735,18 @@
     ],
     "enSentences": [
       {
-        "text": "Jung's statement about collective personality was heard by a Chinese who was six years younger than him, that is Lu Xun.",
+        "text": "Jung's thesis on collective personality was heard by a Chinese thinker six years his junior—Lu Xun.",
         "start": 442.0,
-        "end": 449.3
+        "end": 449.6
       },
       {
-        "text": "Lu Xun also hoped to find a collective personality for the Chinese people.",
-        "start": 449.3,
-        "end": 453.8
+        "text": "Lu Xun likewise sought to articulate the collective personality of the Chinese people, which he termed 'national character' (guominxing), and he found its archetypal symbol in the figure of Ah Q.",
+        "start": 449.6,
+        "end": 460.6
       },
       {
-        "text": "At that time, he translated it into national character, and he found a symbol of national character, which was Ah Q.",
-        "start": 453.8,
-        "end": 460.9
-      },
-      {
-        "text": "In addition to Ah Q, Lu Xun also wrote \"Kong Yiji\", \"Medicine\", \"New Stories\" and other works, all of which are looking for national character, that is, looking for the collective personality of the Chinese people.",
-        "start": 460.9,
-        "end": 473.9
-      },
-      {
-        "text": "No modern Chinese writer can match this.",
-        "start": 473.9,
-        "end": 476.3
-      },
-      {
-        "text": "He is a modern Chinese writer who truly understands the profound meaning of culture, and may be the only one.",
-        "start": 476.3,
+        "text": "Beyond Ah Q, Lu Xun wrote masterpieces like 'Kong Yiji', 'Medicine', and 'Old Tales Retold'—all exploring national character and probing the collective personality of the Chinese; in this regard, no modern Chinese writer compares to him, for he was one who truly understood culture's profound essence, perhaps even the only one.",
+        "start": 460.6,
         "end": 483.0
       }
     ]
@@ -827,7 +757,7 @@
     "start": 483.0,
     "end": 511.0,
     "zh": "大家一定会问鲁迅所寻找到的阿Q、孔乙己这样的国民性、这样的集体人格，都包含着很大的负面性质，确实这也就是鲁迅对中国文化的严厉解剖。因为按照荣格的理论，阿Q、孔乙己他们，正是由中国文化沉淀出来的结晶体。鲁迅明白，改造国民性，提升阿Q、孔乙己等人的集体人格，才是中国文化的出路。",
-    "en": "Everyone will definitely ask whether the national character and collective personality of Ah Q and Kong Yiji that Lu Xun found contain great negative qualities. Indeed, this is Lu Xun's severe dissection of Chinese culture. Because according to Jung's theory, Ah Q, Kong Yiji and others are the crystallization of Chinese culture. Lu Xun understood that the way out for Chinese culture was to transform the national character and enhance the collective personality of Ah Q, Kong Yiji and others.",
+    "en": "One might ask: do not the characters of Ah Q and Kong Yiji embody heavily flawed aspects of national character? Indeed, this was Lu Xun's unflinching, surgical dissection of Chinese culture. Because under Jung's framework, figures like Ah Q and Kong Yiji were precisely the crystallized precipitates of traditional Chinese culture. Lu Xun understood that reforming the national character and elevating the collective personality exemplified by Ah Q and Kong Yiji was the only true salvation for Chinese culture.",
     "zhSentences": [
       {
         "text": "大家一定会问鲁迅所寻找到的阿Q、孔乙己这样的国民性、这样的集体人格，都包含着很大的负面性质，确实这也就是鲁迅对中国文化的严厉解剖。",
@@ -847,23 +777,18 @@
     ],
     "enSentences": [
       {
-        "text": "Everyone will definitely ask whether the national character and collective personality of Ah Q and Kong Yiji that Lu Xun found contain great negative qualities.",
+        "text": "One might ask: do not the characters of Ah Q and Kong Yiji embody heavily flawed aspects of national character? Indeed, this was Lu Xun's unflinching, surgical dissection of Chinese culture.",
         "start": 483.0,
-        "end": 492.1
+        "end": 496.3
       },
       {
-        "text": "Indeed, this is Lu Xun's severe dissection of Chinese culture.",
-        "start": 492.1,
-        "end": 495.6
+        "text": "Because under Jung's framework, figures like Ah Q and Kong Yiji were precisely the crystallized precipitates of traditional Chinese culture.",
+        "start": 496.3,
+        "end": 503.5
       },
       {
-        "text": "Because according to Jung's theory, Ah Q, Kong Yiji and others are the crystallization of Chinese culture.",
-        "start": 495.6,
-        "end": 501.6
-      },
-      {
-        "text": "Lu Xun understood that the way out for Chinese culture was to transform the national character and enhance the collective personality of Ah Q, Kong Yiji and others.",
-        "start": 501.6,
+        "text": "Lu Xun understood that reforming the national character and elevating the collective personality exemplified by Ah Q and Kong Yiji was the only true salvation for Chinese culture.",
+        "start": 503.5,
         "end": 511.0
       }
     ]
@@ -874,7 +799,7 @@
     "start": 511.0,
     "end": 529.0,
     "zh": "那就可以简单地概括一下了：中国文化的最大成果是中国人，中国文化的首要任务是提升中国人。如果中国人真的提升了，中国文化也就是真正的伟大、完成了使命。",
-    "en": "Then we can briefly summarize it: the greatest achievement of Chinese culture is the Chinese people, and the primary task of Chinese culture is to improve the Chinese people. If the Chinese people really improve, Chinese culture will be truly great and its mission will be fulfilled.",
+    "en": "This brings us to a concise summary: the greatest achievement of Chinese culture is the Chinese people, and the foremost task of Chinese culture is to uplift the Chinese people. If the Chinese people are truly elevated, then Chinese culture achieves authentic greatness and fulfills its historical mission.",
     "zhSentences": [
       {
         "text": "那就可以简单地概括一下了：中国文化的最大成果是中国人，中国文化的首要任务是提升中国人。",
@@ -889,13 +814,13 @@
     ],
     "enSentences": [
       {
-        "text": "Then we can briefly summarize it: the greatest achievement of Chinese culture is the Chinese people, and the primary task of Chinese culture is to improve the Chinese people.",
+        "text": "This brings us to a concise summary: the greatest achievement of Chinese culture is the Chinese people, and the foremost task of Chinese culture is to uplift the Chinese people.",
         "start": 511.0,
-        "end": 522.1
+        "end": 521.6
       },
       {
-        "text": "If the Chinese people really improve, Chinese culture will be truly great and its mission will be fulfilled.",
-        "start": 522.1,
+        "text": "If the Chinese people are truly elevated, then Chinese culture achieves authentic greatness and fulfills its historical mission.",
+        "start": 521.6,
         "end": 529.0
       }
     ]
@@ -906,7 +831,7 @@
     "start": 529.0,
     "end": 531.0,
     "zh": "人格的理想模型",
-    "en": "ideal model of personality",
+    "en": "The Ideal Models of Personality",
     "zhSentences": [
       {
         "text": "人格的理想模型",
@@ -916,7 +841,7 @@
     ],
     "enSentences": [
       {
-        "text": "ideal model of personality",
+        "text": "The Ideal Models of Personality",
         "start": 529.0,
         "end": 531.0
       }
@@ -928,7 +853,7 @@
     "start": 531.0,
     "end": 555.0,
     "zh": "我在举世最短的文化定义中，包含进了三个关键词，那就是精神价值、生活方式、集体人格。这三个关键词是这样的，第三个关键词——集体人格，是前面两个关键词的成果。这么一说，这个定义虽然很短，内容却很丰富。",
-    "en": "I included three key words in the world's shortest definition of culture, namely spiritual value, lifestyle, and collective personality. These three keywords are like this. The third keyword - collective personality, is the result of the previous two keywords. In this way, although this definition is short, it is rich in content.",
+    "en": "In this world-shortest definition of culture, I included three pivotal keywords: spiritual values, ways of life, and collective personality. These three terms interlock: the third keyword—collective personality—is the ultimate culmination of the first two. Put this way, although the definition is remarkably brief, its conceptual richness is immense.",
     "zhSentences": [
       {
         "text": "我在举世最短的文化定义中，包含进了三个关键词，那就是精神价值、生活方式、集体人格。",
@@ -948,23 +873,18 @@
     ],
     "enSentences": [
       {
-        "text": "I included three key words in the world's shortest definition of culture, namely spiritual value, lifestyle, and collective personality.",
+        "text": "In this world-shortest definition of culture, I included three pivotal keywords: spiritual values, ways of life, and collective personality.",
         "start": 531.0,
         "end": 541.0
       },
       {
-        "text": "These three keywords are like this.",
+        "text": "These three terms interlock: the third keyword—collective personality—is the ultimate culmination of the first two.",
         "start": 541.0,
-        "end": 543.6
+        "end": 549.8
       },
       {
-        "text": "The third keyword - collective personality, is the result of the previous two keywords.",
-        "start": 543.6,
-        "end": 550.0
-      },
-      {
-        "text": "In this way, although this definition is short, it is rich in content.",
-        "start": 550.0,
+        "text": "Put this way, although the definition is remarkably brief, its conceptual richness is immense.",
+        "start": 549.8,
         "end": 555.0
       }
     ]
@@ -975,7 +895,7 @@
     "start": 555.0,
     "end": 591.0,
     "zh": "我的思路来自于近代，特别是受益于荣格这位瑞士的心理学家。但是我必须立刻说明，荣格的学说来自于他对于古代智慧的吸取和消化。例如在古代中国，很多智者已经明白文化的标志和成果都是集体人格，虽然他们没有这么表达，但意思很明白。他们比鲁迅乐观，因此很早就提出了集体人格方面的一系列理想。",
-    "en": "My ideas come from modern times, especially from Jung, a Swiss psychologist. But I must explain right away that Jung’s teachings come from his absorption and digestion of ancient wisdom. For example, in ancient China, many wise men already understood that the symbols and achievements of culture are collective personality. Although they did not express it this way, the meaning was very clear. They were more optimistic than Lu Xun, so they put forward a series of ideals on collective personality very early.",
+    "en": "My thinking draws inspiration from modern thought, particularly benefiting from the Swiss psychologist Carl Jung. Yet I must immediately emphasize that Jung's theories themselves arose from his deep absorption and digestion of ancient wisdom. In ancient China, for instance, many sages had already recognized that culture's hallmark and ultimate outcome are collective personality—even if they did not frame it in those exact modern words, the essence was crystal clear. They were more optimistic than Lu Xun, and thus proposed a series of noble ideals regarding collective personality very early on.",
     "zhSentences": [
       {
         "text": "我的思路来自于近代，特别是受益于荣格这位瑞士的心理学家。",
@@ -1000,28 +920,23 @@
     ],
     "enSentences": [
       {
-        "text": "My ideas come from modern times, especially from Jung, a Swiss psychologist.",
+        "text": "My thinking draws inspiration from modern thought, particularly benefiting from the Swiss psychologist Carl Jung.",
         "start": 555.0,
-        "end": 560.4
+        "end": 562.3
       },
       {
-        "text": "But I must explain right away that Jung’s teachings come from his absorption and digestion of ancient wisdom.",
-        "start": 560.4,
-        "end": 568.2
+        "text": "Yet I must immediately emphasize that Jung's theories themselves arose from his deep absorption and digestion of ancient wisdom.",
+        "start": 562.3,
+        "end": 570.6
       },
       {
-        "text": "For example, in ancient China, many wise men already understood that the symbols and achievements of culture are collective personality.",
-        "start": 568.2,
-        "end": 577.9
+        "text": "In ancient China, for instance, many sages had already recognized that culture's hallmark and ultimate outcome are collective personality—even if they did not frame it in those exact modern words, the essence was crystal clear.",
+        "start": 570.6,
+        "end": 583.4
       },
       {
-        "text": "Although they did not express it this way, the meaning was very clear.",
-        "start": 577.9,
-        "end": 582.9
-      },
-      {
-        "text": "They were more optimistic than Lu Xun, so they put forward a series of ideals on collective personality very early.",
-        "start": 582.9,
+        "text": "They were more optimistic than Lu Xun, and thus proposed a series of noble ideals regarding collective personality very early on.",
+        "start": 583.4,
         "end": 591.0
       }
     ]
@@ -1032,7 +947,7 @@
     "start": 591.0,
     "end": 618.0,
     "zh": "最典型的例子就是儒家。他们在治国平天下方面提出了很多主张，但千万主张背后却只有一个主张，那就是要大家做君子、不做小人。君子和小人是两种对立的集体人格，孔子把他们放在庞大的文化课题的起点和终点上，足见它与现代国际的文化观念遥相呼应。",
-    "en": "The most typical example is Confucianism. They put forward many ideas on how to govern the country and bring peace to the world, but there is only one idea behind the thousands of ideas, which is that everyone should be gentlemen and not villains. The gentleman and the villain are two opposing collective personalities. Confucius placed them at the starting point and end point of a huge cultural issue, which shows that it echoes the cultural concepts of the modern world.",
+    "en": "The most quintessential example is Confucianism. They advanced countless doctrines on governing the state and pacifying the realm, yet behind all those myriad teachings lay a single core imperative: that everyone should become a Junzi (exemplary person / gentleman) rather than a Xiaoren (petty person). The Junzi and the Xiaoren represent two diametrically opposed collective personalities; by placing them at the alpha and omega of Chinese cultural inquiry, Confucius presaged modern global conceptions of culture.",
     "zhSentences": [
       {
         "text": "最典型的例子就是儒家。",
@@ -1052,23 +967,18 @@
     ],
     "enSentences": [
       {
-        "text": "The most typical example is Confucianism.",
+        "text": "The most quintessential example is Confucianism.",
         "start": 591.0,
-        "end": 593.4
+        "end": 593.6
       },
       {
-        "text": "They put forward many ideas on how to govern the country and bring peace to the world, but there is only one idea behind the thousands of ideas, which is that everyone should be gentlemen and not villains.",
-        "start": 593.4,
-        "end": 605.2
+        "text": "They advanced countless doctrines on governing the state and pacifying the realm, yet behind all those myriad teachings lay a single core imperative: that everyone should become a Junzi (exemplary person / gentleman) rather than a Xiaoren (petty person).",
+        "start": 593.6,
+        "end": 604.9
       },
       {
-        "text": "The gentleman and the villain are two opposing collective personalities.",
-        "start": 605.2,
-        "end": 609.3
-      },
-      {
-        "text": "Confucius placed them at the starting point and end point of a huge cultural issue, which shows that it echoes the cultural concepts of the modern world.",
-        "start": 609.3,
+        "text": "The Junzi and the Xiaoren represent two diametrically opposed collective personalities; by placing them at the alpha and omega of Chinese cultural inquiry, Confucius presaged modern global conceptions of culture.",
+        "start": 604.9,
         "end": 618.0
       }
     ]
@@ -1079,7 +989,7 @@
     "start": 619.0,
     "end": 640.0,
     "zh": "我在美国国会图书馆和哈佛大学演讲的时候，都把中国文化概括为君子之道，获得了听众的认同。君子确实是中国文化对集体人格的重大理想模型，类似的人格模型世界各民族都有，但是互相之间又很不相同。",
-    "en": "When I gave speeches at the Library of Congress and Harvard University, I summarized Chinese culture as the way of a gentleman, which was recognized by the audience. The gentleman is indeed an important ideal model of collective personality in Chinese culture. Similar personality models exist in all ethnic groups around the world, but they are very different from each other.",
+    "en": "When lecturing at the Library of Congress and Harvard University, I encapsulated Chinese culture as the 'Way of the Junzi', which resonated deeply with the audience. The Junzi is indeed Chinese culture's supreme ideal model of collective personality; civilizations worldwide have developed comparable personality paradigms, yet each differs markedly from the other.",
     "zhSentences": [
       {
         "text": "我在美国国会图书馆和哈佛大学演讲的时候，都把中国文化概括为君子之道，获得了听众的认同。",
@@ -1094,18 +1004,13 @@
     ],
     "enSentences": [
       {
-        "text": "When I gave speeches at the Library of Congress and Harvard University, I summarized Chinese culture as the way of a gentleman, which was recognized by the audience.",
+        "text": "When lecturing at the Library of Congress and Harvard University, I encapsulated Chinese culture as the 'Way of the Junzi', which resonated deeply with the audience.",
         "start": 619.0,
-        "end": 628.2
+        "end": 628.8
       },
       {
-        "text": "The gentleman is indeed an important ideal model of collective personality in Chinese culture.",
-        "start": 628.2,
-        "end": 633.5
-      },
-      {
-        "text": "Similar personality models exist in all ethnic groups around the world, but they are very different from each other.",
-        "start": 633.5,
+        "text": "The Junzi is indeed Chinese culture's supreme ideal model of collective personality; civilizations worldwide have developed comparable personality paradigms, yet each differs markedly from the other.",
+        "start": 628.8,
         "end": 640.0
       }
     ]
@@ -1116,7 +1021,7 @@
     "start": 640.0,
     "end": 665.0,
     "zh": "例如，有的文化把先知作为人格理想的模型，有的文化把巨人当作人格理想的模型，有的文化把绅士当作人格理想的模型，有的文化把武士当作人格理想的模型，而中国文化的人格理想模型，则完全不同，是君子。这是中国文化的本性和秘密。",
-    "en": "For example, some cultures regard prophets as the model of ideal personality, some cultures regard giants as the model of ideal personality, some cultures regard gentlemen as the model of ideal personality, and some cultures regard warriors as the model of ideal personality. However, the ideal model of personality in Chinese culture is completely different, it is the gentleman. This is the nature and secret of Chinese culture.",
+    "en": "For example, some civilizations venerate the prophet as their ideal archetype; others revere the titan, the English gentleman, or the samurai warrior; yet Chinese culture's ideal personality model is entirely distinct: it is the Junzi. This is both the innate essence and the open secret of Chinese culture.",
     "zhSentences": [
       {
         "text": "例如，有的文化把先知作为人格理想的模型，有的文化把巨人当作人格理想的模型，有的文化把绅士当作人格理想的模型，有的文化把武士当作人格理想的模型，而中国文化的人格理想模型，则完全不同，是君子。",
@@ -1131,18 +1036,13 @@
     ],
     "enSentences": [
       {
-        "text": "For example, some cultures regard prophets as the model of ideal personality, some cultures regard giants as the model of ideal personality, some cultures regard gentlemen as the model of ideal personality, and some cultures regard warriors as the model of ideal personality.",
+        "text": "For example, some civilizations venerate the prophet as their ideal archetype; others revere the titan, the English gentleman, or the samurai warrior; yet Chinese culture's ideal personality model is entirely distinct: it is the Junzi.",
         "start": 640.0,
-        "end": 656.1
+        "end": 662.0
       },
       {
-        "text": "However, the ideal model of personality in Chinese culture is completely different, it is the gentleman.",
-        "start": 656.1,
-        "end": 662.2
-      },
-      {
-        "text": "This is the nature and secret of Chinese culture.",
-        "start": 662.2,
+        "text": "This is both the innate essence and the open secret of Chinese culture.",
+        "start": 662.0,
         "end": 665.0
       }
     ]
@@ -1153,7 +1053,7 @@
     "start": 665.0,
     "end": 698.0,
     "zh": "当然在中国文化当中，把君子作为人格理想模型的，是在中国占主流地位的儒家，与儒家相依相存的还有佛家和道家。佛家的人格理想模型是觉者，觉悟的觉；道家的人格理想模型是真人，真假的真。于是君子、觉者、真人互相呼应，又互相弥补，构成了中国集体人格的系统，也就是中国文化的完整实现系统。",
-    "en": "Of course, in Chinese culture, Confucianism, which is the mainstream in China, regards the gentleman as the ideal model of personality. Buddhism and Taoism are also dependent on Confucianism. The ideal model of personality in Buddhism is the enlightened person, the awakening of enlightenment; the ideal model of personality in Taoism is the real person, the truth between true and false. Therefore, the gentleman, the enlightened person, and the true person echo each other and complement each other, forming the system of Chinese collective personality, which is also the complete realization system of Chinese culture.",
+    "en": "Within Chinese civilization, the school that championed the Junzi was Confucianism, the historical mainstream; yet coexisting and interlocking with Confucianism were Buddhism and Daoism. Buddhism's ideal personality model is the 'Juezhe' (Awakened One, the Buddha); Daoism's ideal model is the 'Zhenren' (True / Authentic Person). Thus the Junzi, the Awakened One, and the Authentic Person echo and complement one another, constructing the holistic architecture of Chinese collective personality—the complete realization of Chinese culture.",
     "zhSentences": [
       {
         "text": "当然在中国文化当中，把君子作为人格理想模型的，是在中国占主流地位的儒家，与儒家相依相存的还有佛家和道家。",
@@ -1173,23 +1073,18 @@
     ],
     "enSentences": [
       {
-        "text": "Of course, in Chinese culture, Confucianism, which is the mainstream in China, regards the gentleman as the ideal model of personality.",
+        "text": "Within Chinese civilization, the school that championed the Junzi was Confucianism, the historical mainstream; yet coexisting and interlocking with Confucianism were Buddhism and Daoism.",
         "start": 665.0,
-        "end": 672.2
+        "end": 677.5
       },
       {
-        "text": "Buddhism and Taoism are also dependent on Confucianism.",
-        "start": 672.2,
-        "end": 675.1
+        "text": "Buddhism's ideal personality model is the 'Juezhe' (Awakened One, the Buddha); Daoism's ideal model is the 'Zhenren' (True / Authentic Person).",
+        "start": 677.5,
+        "end": 686.2
       },
       {
-        "text": "The ideal model of personality in Buddhism is the enlightened person, the awakening of enlightenment; the ideal model of personality in Taoism is the real person, the truth between true and false.",
-        "start": 675.1,
-        "end": 685.6
-      },
-      {
-        "text": "Therefore, the gentleman, the enlightened person, and the true person echo each other and complement each other, forming the system of Chinese collective personality, which is also the complete realization system of Chinese culture.",
-        "start": 685.6,
+        "text": "Thus the Junzi, the Awakened One, and the Authentic Person echo and complement one another, constructing the holistic architecture of Chinese collective personality—the complete realization of Chinese culture.",
+        "start": 686.2,
         "end": 698.0
       }
     ]
@@ -1200,7 +1095,7 @@
     "start": 698.0,
     "end": 719.0,
     "zh": "到这里，我把文化定义讲完了，由这个定义得出来的君子人格、觉者人格和真人人格，我以后会一一详细地讲述。由于今天的课程学术性比较强、听起来比较累，所以我要概括一下：",
-    "en": "At this point, I have finished explaining the definition of culture. I will describe the gentleman’s personality, the enlightened person’s personality and the real person’s personality derived from this definition one by one in detail later. Since today’s course is quite academic and sounds tiring, I want to summarize it:",
+    "en": "With this, I have concluded my exposition on the definition of culture; as for the Junzi, Awakened One, and Authentic Person derived from it, I shall explore each in thorough detail in upcoming lessons. Because today's lecture was conceptually demanding and academic in nature, allow me to summarize the core takeaways:",
     "zhSentences": [
       {
         "text": "到这里，我把文化定义讲完了，由这个定义得出来的君子人格、觉者人格和真人人格，我以后会一一详细地讲述。",
@@ -1215,18 +1110,13 @@
     ],
     "enSentences": [
       {
-        "text": "At this point, I have finished explaining the definition of culture.",
+        "text": "With this, I have concluded my exposition on the definition of culture; as for the Junzi, Awakened One, and Authentic Person derived from it, I shall explore each in thorough detail in upcoming lessons.",
         "start": 698.0,
-        "end": 702.4
+        "end": 711.1
       },
       {
-        "text": "I will describe the gentleman’s personality, the enlightened person’s personality and the real person’s personality derived from this definition one by one in detail later.",
-        "start": 702.4,
-        "end": 713.7
-      },
-      {
-        "text": "Since today’s course is quite academic and sounds tiring, I want to summarize it:",
-        "start": 713.7,
+        "text": "Because today's lecture was conceptually demanding and academic in nature, allow me to summarize the core takeaways:",
+        "start": 711.1,
         "end": 719.0
       }
     ]
@@ -1237,7 +1127,7 @@
     "start": 720.0,
     "end": 734.0,
     "zh": "第一，必须再复习一遍我所议定的最短的定义，文化是一种成为习惯的精神价值和生活方式，它的最终成果是集体人格。",
-    "en": "First, the shortest definition I have agreed on must be reviewed again. Culture is a spiritual value and way of life that has become a habit, and its ultimate outcome is a collective personality.",
+    "en": "First, let us review the concise definition once more: Culture is a set of spiritual values and a way of life that have become ingrained habits, and its ultimate outcome is a collective personality.",
     "zhSentences": [
       {
         "text": "第一，必须再复习一遍我所议定的最短的定义，文化是一种成为习惯的精神价值和生活方式，它的最终成果是集体人格。",
@@ -1247,13 +1137,8 @@
     ],
     "enSentences": [
       {
-        "text": "First, the shortest definition I have agreed on must be reviewed again.",
+        "text": "First, let us review the concise definition once more: Culture is a set of spiritual values and a way of life that have become ingrained habits, and its ultimate outcome is a collective personality.",
         "start": 720.0,
-        "end": 725.1
-      },
-      {
-        "text": "Culture is a spiritual value and way of life that has become a habit, and its ultimate outcome is a collective personality.",
-        "start": 725.1,
         "end": 734.0
       }
     ]
@@ -1264,7 +1149,7 @@
     "start": 734.0,
     "end": 753.0,
     "zh": "第二，作为组成文化含义的精神价值和生活方式，在早期时间顺序上，是生活方式在先，精神价值在后。但当精神价值一出现，文化就有了主心骨。",
-    "en": "Second, as spiritual values ​​and lifestyles that constitute cultural meaning, in the early chronological order, lifestyle came first and spiritual values ​​came last. But when spiritual values ​​appear, culture has a backbone.",
+    "en": "Second, regarding the two components of culture—spiritual values and ways of life—chronologically in early history, ways of life emerged first, followed by spiritual values. Yet once spiritual values took form, culture gained its enduring backbone.",
     "zhSentences": [
       {
         "text": "第二，作为组成文化含义的精神价值和生活方式，在早期时间顺序上，是生活方式在先，精神价值在后。",
@@ -1279,13 +1164,13 @@
     ],
     "enSentences": [
       {
-        "text": "Second, as spiritual values ​​and lifestyles that constitute cultural meaning, in the early chronological order, lifestyle came first and spiritual values ​​came last.",
+        "text": "Second, regarding the two components of culture—spiritual values and ways of life—chronologically in early history, ways of life emerged first, followed by spiritual values.",
         "start": 734.0,
-        "end": 748.0
+        "end": 747.4
       },
       {
-        "text": "But when spiritual values ​​appear, culture has a backbone.",
-        "start": 748.0,
+        "text": "Yet once spiritual values took form, culture gained its enduring backbone.",
+        "start": 747.4,
         "end": 753.0
       }
     ]
@@ -1296,7 +1181,7 @@
     "start": 753.0,
     "end": 768.0,
     "zh": "第三，这个文化定义的精华是集体人格，这个概念取自于瑞士心理学家荣格。集体人格这个概念出现，使文化找到了终极归集点，那就是人。",
-    "en": "Third, the essence of this cultural definition is collective personality, a concept taken from Swiss psychologist Jung. The emergence of the concept of collective personality enables culture to find its ultimate gathering point, which is people.",
+    "en": "Third, the core essence of this definition is collective personality, a concept inspired by Swiss psychologist Carl Jung. With the arrival of collective personality, culture found its ultimate locus of convergence: human beings.",
     "zhSentences": [
       {
         "text": "第三，这个文化定义的精华是集体人格，这个概念取自于瑞士心理学家荣格。",
@@ -1311,13 +1196,13 @@
     ],
     "enSentences": [
       {
-        "text": "Third, the essence of this cultural definition is collective personality, a concept taken from Swiss psychologist Jung.",
+        "text": "Third, the core essence of this definition is collective personality, a concept inspired by Swiss psychologist Carl Jung.",
         "start": 753.0,
-        "end": 760.3
+        "end": 761.2
       },
       {
-        "text": "The emergence of the concept of collective personality enables culture to find its ultimate gathering point, which is people.",
-        "start": 760.3,
+        "text": "With the arrival of collective personality, culture found its ultimate locus of convergence: human beings.",
+        "start": 761.2,
         "end": 768.0
       }
     ]
@@ -1328,7 +1213,7 @@
     "start": 768.0,
     "end": 784.0,
     "zh": "第四，中国最早以创作来实践荣格的观点的是鲁迅。他通过阿Q等形象对国民性的解释，就是对集体人格的探索，促进了文化的本义。",
-    "en": "Fourth, the first person in China to practice Jung’s ideas through creation was Lu Xun. His explanation of national character through images such as Ah Q is an exploration of collective personality and promotes the original meaning of culture.",
+    "en": "Fourth, the first Chinese writer to explore this perspective through literary creation was Lu Xun. His dissection of national character through characters like Ah Q was a profound exploration of collective personality, illuminating the true purpose of culture.",
     "zhSentences": [
       {
         "text": "第四，中国最早以创作来实践荣格的观点的是鲁迅。",
@@ -1343,13 +1228,13 @@
     ],
     "enSentences": [
       {
-        "text": "Fourth, the first person in China to practice Jung’s ideas through creation was Lu Xun.",
+        "text": "Fourth, the first Chinese writer to explore this perspective through literary creation was Lu Xun.",
         "start": 768.0,
-        "end": 773.8
+        "end": 774.2
       },
       {
-        "text": "His explanation of national character through images such as Ah Q is an exploration of collective personality and promotes the original meaning of culture.",
-        "start": 773.8,
+        "text": "His dissection of national character through characters like Ah Q was a profound exploration of collective personality, illuminating the true purpose of culture.",
+        "start": 774.2,
         "end": 784.0
       }
     ]
@@ -1360,7 +1245,7 @@
     "start": 784.0,
     "end": 806.0,
     "zh": "第五，其实儒家学者早就把中国文化的目标与人格理想相连，因而建立了君子之道，成为中国文化的核心内容。与君子理想互补共存的，还有佛家的觉者理想和道家的真人理想，共同组成了中国文化的宏大内涵。",
-    "en": "Fifth, in fact, Confucian scholars have long connected the goals of Chinese culture with personality ideals, thus establishing the way of the gentleman, which has become the core content of Chinese culture. Complementing and coexisting with the ideal of the gentleman, there are the Buddhist ideal of the enlightened man and the Taoist ideal of the real person, which together form the grand connotation of Chinese culture.",
+    "en": "Fifth, Confucian scholars had long tethered the goal of Chinese civilization to an ideal of personality, establishing the Way of the Junzi as the centerpiece of Chinese culture. Complementing and harmonizing with the Junzi ideal were the Buddhist vision of the Awakened One and the Daoist vision of the Authentic Person, together weaving the grand tapestry of Chinese culture.",
     "zhSentences": [
       {
         "text": "第五，其实儒家学者早就把中国文化的目标与人格理想相连，因而建立了君子之道，成为中国文化的核心内容。",
@@ -1375,13 +1260,13 @@
     ],
     "enSentences": [
       {
-        "text": "Fifth, in fact, Confucian scholars have long connected the goals of Chinese culture with personality ideals, thus establishing the way of the gentleman, which has become the core content of Chinese culture.",
+        "text": "Fifth, Confucian scholars had long tethered the goal of Chinese civilization to an ideal of personality, establishing the Way of the Junzi as the centerpiece of Chinese culture.",
         "start": 784.0,
-        "end": 794.7
+        "end": 795.6
       },
       {
-        "text": "Complementing and coexisting with the ideal of the gentleman, there are the Buddhist ideal of the enlightened man and the Taoist ideal of the real person, which together form the grand connotation of Chinese culture.",
-        "start": 794.7,
+        "text": "Complementing and harmonizing with the Junzi ideal were the Buddhist vision of the Awakened One and the Daoist vision of the Authentic Person, together weaving the grand tapestry of Chinese culture.",
+        "start": 795.6,
         "end": 806.0
       }
     ]
@@ -1392,7 +1277,7 @@
     "start": 806.0,
     "end": 824.0,
     "zh": "今天的概括就这五点。文化的定义解决了，我们也就越过了恩格斯所说的布满荆棘的沼泽地，接下来就可以在平坦的开阔地上，痛痛快快地来讲述中国文化了。",
-    "en": "Today’s summary is these five points. Now that the definition of culture has been solved, we have crossed over the thorny swamp that Engels said, and then we can happily talk about Chinese culture on the flat open land.",
+    "en": "These are our five summary points for today. With the definition of culture resolved, we have crossed what Engels called the 'thorn-ridden marshland', and can now stride onto open, level ground to joyfully unfurl the grand narrative of Chinese culture.",
     "zhSentences": [
       {
         "text": "今天的概括就这五点。",
@@ -1407,13 +1292,13 @@
     ],
     "enSentences": [
       {
-        "text": "Today’s summary is these five points.",
+        "text": "These are our five summary points for today.",
         "start": 806.0,
-        "end": 809.1
+        "end": 808.6
       },
       {
-        "text": "Now that the definition of culture has been solved, we have crossed over the thorny swamp that Engels said, and then we can happily talk about Chinese culture on the flat open land.",
-        "start": 809.1,
+        "text": "With the definition of culture resolved, we have crossed what Engels called the 'thorn-ridden marshland', and can now stride onto open, level ground to joyfully unfurl the grand narrative of Chinese culture.",
+        "start": 808.6,
         "end": 824.0
       }
     ]
@@ -1424,7 +1309,7 @@
     "start": 824.0,
     "end": 840.0,
     "zh": "讲述中国文化，首先必须有全球视野，所以你明天即将听到的，是全球视野中的中国文化。这个题目比较大，所以要讲很多天，谢谢。",
-    "en": "To talk about Chinese culture, you must first have a global perspective, so what you are about to hear tomorrow is Chinese culture from a global perspective. This topic is relatively big, so it will take many days to talk about it. Thank you.",
+    "en": "To recount Chinese culture, one must above all possess a global perspective; hence tomorrow, we shall explore Chinese culture within a global perspective. This is a momentous theme that will span several days. Thank you.",
     "zhSentences": [
       {
         "text": "讲述中国文化，首先必须有全球视野，所以你明天即将听到的，是全球视野中的中国文化。",
@@ -1439,18 +1324,13 @@
     ],
     "enSentences": [
       {
-        "text": "To talk about Chinese culture, you must first have a global perspective, so what you are about to hear tomorrow is Chinese culture from a global perspective.",
+        "text": "To recount Chinese culture, one must above all possess a global perspective; hence tomorrow, we shall explore Chinese culture within a global perspective.",
         "start": 824.0,
-        "end": 834.5
+        "end": 834.8
       },
       {
-        "text": "This topic is relatively big, so it will take many days to talk about it.",
-        "start": 834.5,
-        "end": 839.4
-      },
-      {
-        "text": "Thank you.",
-        "start": 839.4,
+        "text": "This is a momentous theme that will span several days. Thank you.",
+        "start": 834.8,
         "end": 840.0
       }
     ]
