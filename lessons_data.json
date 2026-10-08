@@ -29,6 +29,134 @@
           "zh": "集体记忆与延续性：中国文化的生命力在于数千年不曾间断的生活习惯与价值传承。",
           "en": "Collective Memory & Continuity: The vitality of Chinese culture stems from thousands of years of unbroken living habits and value transmission."
         }
+      ],
+      "vocabulary": [
+        {
+          "word": "安身立命",
+          "pinyin": "ān shēn lì mìng",
+          "en": "To Establish Oneself & Find Spiritual Anchoring",
+          "explanationZh": "成语。安身指容身立足、解决生存；立命指精神有所寄托、确立人生信念与价值。余秋雨先生强调，跨国婚姻离异等现象折射出文化直指个体安身立命的精神根本，远比器物古董更关乎文化要害。",
+          "explanationEn": "Idiom: to find physical footing and establish spiritual/moral grounding. Yu Qiuyu stresses that culture fundamentally governs an individual's spiritual anchor and existential values, far deeper than relics or artifacts."
+        },
+        {
+          "word": "亲情伦理",
+          "pinyin": "qīn qíng lún lǐ",
+          "en": "Familial & Filial Ethics",
+          "explanationZh": "基于血缘亲族形成的道德准则与情感契约，强调尊祖敬宗、孝养父母、顾念手足。这是中华民族数千年沉淀出的核心精神价值之一，成为中国人最不假思索的责任本能。",
+          "explanationEn": "The moral and emotional responsibilities rooted in kinship, filial piety, and ancestral reverence—one of the foundational spiritual values deeply ingrained in the Chinese cultural psyche."
+        },
+        {
+          "word": "扫墓",
+          "pinyin": "sǎo mù",
+          "en": "Sweeping Ancestral Graves (Tomb Sweeping)",
+          "explanationZh": "清明节祭扫祖茔、缅怀先人的古老传统。它不仅是一种礼仪，更是一种深深嵌入中国人年历周期的习惯生活方式，承载着慎终追远、血脉延续的深厚文化情思。",
+          "explanationEn": "The ancient practice of sweeping ancestral graves during the Qingming Festival. It is both a solemn filial ritual and a habitual cultural way of life embodying lineage continuity and ancestral reverence."
+        },
+        {
+          "word": "主心骨",
+          "pinyin": "zhǔ xīn gǔ",
+          "en": "Core Backbone / Guiding Pillar",
+          "explanationZh": "支撑整体运转的核心支柱与内在灵魂。人类早期的生活习惯仅为求生；当人们在日常习惯中提炼出处理人与天地、家庭、同伴关系的准则时，精神价值便成为文化的坚强主心骨。",
+          "explanationEn": "The central backbone or governing core. Once spiritual values emerge from everyday survival habits, culture gains its spiritual backbone and enduring integrity."
+        },
+        {
+          "word": "生命幅度",
+          "pinyin": "shēng mìng fú dù",
+          "en": "Span of Life's Vitality / Cultural Breadth",
+          "explanationZh": "文化所涵盖的生动视野与包容范围。余秋雨批评部分文人既不探寻崇高的精神殿堂，又轻视民间的衣食住行日常，放弃了文化应有的阔大生命幅度，陷入孤芳自赏的泥潭。",
+          "explanationEn": "The comprehensive breadth of human vitality that culture should encompass—bridging the highest metaphysical ideals down to the lived realities of daily food, clothing, and shelter."
+        },
+        {
+          "word": "咬文嚼字",
+          "pinyin": "yǎo wén jiáo zì",
+          "en": "Pedantic Wordplay / Nitpicking over Diction",
+          "explanationZh": "成语。过分拘泥或卖弄词句辞藻，故作高深。作者以此警示学者不应脱离生生不息的大众实践，而应从书斋清谈走向广阔的生态之地创造活的文化。",
+          "explanationEn": "Idiom: indulging in pedantic wordplay or overly precious textual nitpicking, divorcing cultural inquiry from the pulsating realities of living human experience."
+        },
+        {
+          "word": "集体人格",
+          "pinyin": "jí tǐ rén gé",
+          "en": "Collective Personality",
+          "explanationZh": "余秋雨文化定义的核心关键词与落脚点。指一种文化历经千百年沉淀，在全体族群成员中结晶出来的共同生命格调、行为规约与潜意识默契，也是文化的最终成果。",
+          "explanationEn": "The paramount concept in Yu Qiuyu's definition: the shared disposition, moral habits, and behavioral blueprint crystallized across generations within a civilization—the ultimate fruit of culture."
+        },
+        {
+          "word": "格调",
+          "pinyin": "gé diào",
+          "en": "Moral Style / Spiritual Caliber",
+          "explanationZh": "人格的精神境界、风骨气度与审美品位。人格不仅表现为外在的行为规范，更体现为内在精神格调的高下与纯粹。",
+          "explanationEn": "Spiritual demeanor, moral poise, and aesthetic caliber governing how an individual or group carries themselves in thought and action."
+        },
+        {
+          "word": "默契",
+          "pinyin": "mò qì",
+          "en": "Tacit Understanding / Unspoken Consensus",
+          "explanationZh": "无需外在律令明文约定、却在群体间心照不宣的情感与认知共识。集体人格深入族群潜意识中，化作日常举手投足间的自然默契与本能反应。",
+          "explanationEn": "An intuitive, unspoken alignment in values and conduct that lives naturally within a people's collective subconscious without needing formal codification."
+        },
+        {
+          "word": "荣格",
+          "pinyin": "Róng gé",
+          "en": "Carl Gustav Jung",
+          "explanationZh": "瑞士著名心理学家，分析心理学创始者。他提出“集体无意识”与“文化最终成果是人格”的学说，强调各民族文化的深层积淀必然具象化为该民族的集体人格。",
+          "explanationEn": "Swiss psychiatrist and psychoanalyst who founded analytical psychology. Jung posited that the ultimate fruit of culture is personality, and that every civilization crystallizes a distinct collective psyche."
+        },
+        {
+          "word": "浮士德",
+          "pinyin": "Fú shì dé",
+          "en": "Faust (Literary Archetype)",
+          "explanationZh": "德国文豪歌德笔下的悲剧主角。荣格指出，并非歌德凭空创造了浮士德，而是德意志民族积淀的集体人格借歌德之笔将浮士德这一无尽求索的象征体具象化。",
+          "explanationEn": "The protagonist of Goethe's magnum opus. Jung famously argued that Goethe did not merely invent Faust; rather, the centuries of German cultural sediment created Faust, who in turn shaped Goethe."
+        },
+        {
+          "word": "国民性",
+          "pinyin": "guó mín xìng",
+          "en": "National Character",
+          "explanationZh": "一个国家或民族在思想意识与行为方式上的普遍特征。20世纪初鲁迅吸纳荣格等现代心理学思想，将其译为“国民性”，并以文学手术刀解剖中国传统人格的病态。",
+          "explanationEn": "The shared psychological character of a nation's people. Early 20th-century writer Lu Xun adopted this concept to diagnose and reform the deep-seated spiritual maladies in traditional Chinese society."
+        },
+        {
+          "word": "阿Q / 孔乙己",
+          "pinyin": "Ā Q / Kǒng Yǐ jǐ",
+          "en": "Ah Q & Kong Yiji (Cultural Archetypes)",
+          "explanationZh": "鲁迅塑造的标志性人物原型。阿Q以“精神胜利法”遮蔽屈辱，孔乙己以迂腐自矜掩饰无能，二者皆为旧文化沉淀出的负面集体人格结晶，体现了改造国民性的紧迫性。",
+          "explanationEn": "Archetypal characters in Lu Xun's fiction: Ah Q embodies rationalized self-delusion ('spiritual victory'), while Kong Yiji embodies tragic intellectual pedantry under decaying feudal examinations."
+        },
+        {
+          "word": "君子之道",
+          "pinyin": "jūn zǐ zhī dào",
+          "en": "The Way of the Junzi (Exemplary Person)",
+          "explanationZh": "中国儒家文化对集体人格设立的最高理想模型。君子胸怀仁德、克己复礼、胸襟坦荡，孔子将做君子视为中国文化实践的起点与终点，是中华文明的道德灵魂。",
+          "explanationEn": "The quintessential personality ideal cultivated by Confucianism: a person of moral excellence, benevolence, integrity, and social duty—the central moral pillar of Chinese civilization."
+        },
+        {
+          "word": "小人",
+          "pinyin": "xiǎo rén",
+          "en": "Petty Person / Moral Opportunist",
+          "explanationZh": "儒家语境中与“君子”对立的集体人格模型。指心胸狭隘、惟利是图、见利忘义、谄上欺下之人。孔子以“君子怀德，小人怀土；君子喻于义，小人喻于利”厘清二者界限。",
+          "explanationEn": "The antithesis of the Junzi in Confucian thought: an unprincipled, self-serving individual who prioritizes immediate gain over justice, integrity, and ethical duty."
+        },
+        {
+          "word": "觉者",
+          "pinyin": "jué zhě",
+          "en": "The Awakened One (Buddhist Ideal)",
+          "explanationZh": "中国佛家文化的理想人格模型。“觉”即明心见性、破除执念无明、彻悟宇宙生命真相。觉者超脱贪嗔痴与尘世束缚，展现大慈大悲的情怀。",
+          "explanationEn": "Buddhism's ideal personality archetype: an enlightened being who has awakened from worldly delusions, transcending suffering with profound wisdom and boundless compassion."
+        },
+        {
+          "word": "真人",
+          "pinyin": "zhēn rén",
+          "en": "The Authentic Person (Daoist Ideal)",
+          "explanationZh": "中国道家（老庄）哲学的理想人格模型。指体悟大道、顺应造化、不为世俗功利名教所拘、保持天真本色的通达超凡者，与儒家君子、佛家觉者形成互补。",
+          "explanationEn": "Daoism's ideal personality archetype: an authentic individual living in complete harmony with Nature (the Dao), free from artificial social dogma, pretension, and worldly vanity."
+        },
+        {
+          "word": "全球视野",
+          "pinyin": "quán qiú shì yě",
+          "en": "Global Perspective",
+          "explanationZh": "跨越单一文明维度的宏观审视视角。余秋雨强调讲述中国文化必须站在全人类多元文明的对照坐标系中，既领会中国君子之道的独特性，又与西方骑士、绅士等文化模型交相辉映。",
+          "explanationEn": "A broad, comparative vantage point situating Chinese civilization alongside other world cultures, evaluating ideals like the Junzi in fruitful dialogue with global archetypes like the gentleman or philosopher."
+        }
       ]
     },
     "timedTranscript": [
