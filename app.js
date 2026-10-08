@@ -278,7 +278,7 @@ document.addEventListener('DOMContentLoaded', () => {
   }
 
   // Fetch Lessons Data
-  fetch('lessons_data.json?v=7')
+  fetch('lessons_data.json?v=8')
     .then(res => res.json())
     .then(data => {
       lessons = data;
@@ -411,6 +411,40 @@ document.addEventListener('DOMContentLoaded', () => {
         `;
       });
 
+      const vocabulary = sum.vocabulary || [];
+      let vocabHtml = '';
+      if (vocabulary.length > 0) {
+        let vocabCardsHtml = '';
+        vocabulary.forEach((v, idx) => {
+          vocabCardsHtml += `
+            <div class="summary-vocab-card">
+              <div class="vocab-card-header">
+                <span class="vocab-badge">${idx + 1}</span>
+                <span class="vocab-word">${v.word}</span>
+                <span class="vocab-pinyin">${v.pinyin}</span>
+                <span class="vocab-en-tag">${v.en}</span>
+              </div>
+              <div class="vocab-card-body">
+                <div class="vocab-desc-zh">${v.explanationZh}</div>
+                <div class="vocab-desc-en">${v.explanationEn}</div>
+              </div>
+            </div>
+          `;
+        });
+
+        vocabHtml = `
+          <div class="summary-block">
+            <div class="summary-section-title">
+              <i class="ri-book-2-line"></i>
+              <span>重点词汇与文史术语 / Difficult Vocabulary & Cultural Glossary</span>
+            </div>
+            <div class="summary-vocab-grid">
+              ${vocabCardsHtml}
+            </div>
+          </div>
+        `;
+      }
+
       transcriptContentEl.innerHTML = `
         <div class="summary-wrapper">
           <div class="summary-block">
@@ -433,6 +467,8 @@ document.addEventListener('DOMContentLoaded', () => {
               ${highlightsHtml}
             </div>
           </div>
+
+          ${vocabHtml}
 
           <div class="summary-tip">
             <i class="ri-information-line"></i>

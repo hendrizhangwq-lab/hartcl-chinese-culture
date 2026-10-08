@@ -1664,6 +1664,134 @@
           "zh": "历史局限与启发：虽后期陷入八股僵化，但其「唯才是举、公平竞争」的核心精神依然是现代文官制度的基石。",
           "en": "Modern Resonance: Though later stifled by rigid formats, its core spirit of meritocracy and fair competition remains the bedrock of modern civil service."
         }
+      ],
+      "vocabulary": [
+        {
+          "word": "科举制度",
+          "pinyin": "kē jǔ zhì dù",
+          "en": "Imperial Examination System",
+          "explanationZh": "中国古代通过分科考试选拔文官的根本制度。始于隋唐，延续1300余年，以统一考试取代门阀贵族血缘世袭，是中华文化长寿的重要制度保障。",
+          "explanationEn": "The nationwide imperial civil service examination system established in the Sui and Tang dynasties and persisting for over 1,300 years. It replaced aristocratic bloodline succession with merit-based selection."
+        },
+        {
+          "word": "文官",
+          "pinyin": "wén guān",
+          "en": "Civil Official / Civil Servant",
+          "explanationZh": "掌管国家政务、礼乐、民政与司法的行政官员，与武官（执掌军旅征战）相对。科举选拔的核心在于为庞大帝国构建专业且有文化底蕴的常任文官体系。",
+          "explanationEn": "Civilian administrative officials responsible for governance, civil affairs, and state administration, as distinguished from military officers (武官). The core objective of the exams was cultivating an administrative corps."
+        },
+        {
+          "word": "保全",
+          "pinyin": "bǎo quán",
+          "en": "To Preserve / Safeguard Intact",
+          "explanationZh": "维护完整、使不受破坏。余秋雨先生指出，即使政权更替或国土受创，全国统一的文官知识分子队伍亦能保全中华文化的深厚土壤，使其历经浩劫而不散。",
+          "explanationEn": "To preserve and keep intact. The lecture underscores that even amid dynastic upheavals, a unified civil bureaucracy protected the social and intellectual soil of Chinese civilization."
+        },
+        {
+          "word": "一代雄主",
+          "pinyin": "yī dài xióng zhǔ",
+          "en": "Formidable / Heroic Monarch of an Era",
+          "explanationZh": "具有宏大魄力与雄才大略的杰出君主。早期文明往往依赖雄主的个人魅力聚合战友，但若缺乏制度化体系，雄主离世后帝国极易瓦解。",
+          "explanationEn": "A visionary, powerful monarch with exceptional leadership. Early civilizations often relied on heroic rulers, but without institutionalized succession, empires fractured upon the monarch's demise."
+        },
+        {
+          "word": "自成格局",
+          "pinyin": "zì chéng gé jú",
+          "en": "Forming an Independent Enclave",
+          "explanationZh": "地方官员在各自领地内形成封闭、自主的小天地或割据势力。古代版图辽阔，若无中央统一选拔流转机制，各地管理者便会自成格局并最终导致分裂。",
+          "explanationEn": "Developing isolated regional power bases or autonomous fiefdoms. Given China's vast geography, regional administrators naturally drifted into localized fiefdoms without a standardized civil service."
+        },
+        {
+          "word": "太守",
+          "pinyin": "tài shǒu",
+          "en": "Commandery Governor / Prefect",
+          "explanationZh": "古代郡级行政区的最高军政长官。若各郡太守依个人好恶私自任免官吏，所选官员便无法跨区域任职，导致各地政令阻隔、互不承认。",
+          "explanationEn": "The chief administrative governor of a commandery (prefecture) in ancient China. If each prefect appointed local protégés at will, governance standards would collapse across jurisdictions."
+        },
+        {
+          "word": "各自为政",
+          "pinyin": "gè zì wéi zhèng",
+          "en": "Each Pursuing Their Own Course / Fragmented Rule",
+          "explanationZh": "成语。各自按照自己的意愿和主张行事，缺乏统一部署。科举以全国统一的标准、统一的机构，彻底消除了地方官僚各自为政、互不认可的隐患。",
+          "explanationEn": "Idiom: each ruling according to their own agenda without central coordination. The unified examination dismantled this regional parochialism by establishing nationwide equivalence of credentials."
+        },
+        {
+          "word": "层层叠叠",
+          "pinyin": "céng céng dié dié",
+          "en": "Tier upon Tier / Multi-Layered",
+          "explanationZh": "形容层次丰富繁密。指古代从中央部院到道、府、州、县绵密分布的多层级行政管理结构，需要大量合格人才常年充实其中。",
+          "explanationEn": "Layer upon layer; referring to the multi-tiered administrative hierarchy stretching from imperial ministries down to prefectures and counties across a vast subcontinent."
+        },
+        {
+          "word": "源源不断",
+          "pinyin": "yuán yuán bù duàn",
+          "en": "In an Unbroken / Endless Stream",
+          "explanationZh": "成语。形容接连不断地涌来。科举制度固定每三年举行一次大考，为朝廷稳定输送取之不竭、品学兼优的年轻文官队伍。",
+          "explanationEn": "Idiom: a constant, unceasing stream. The triennial examination cycle guaranteed a regular, renewable replenishment of qualified scholar-bureaucrats across dynasties."
+        },
+        {
+          "word": "心血来潮",
+          "pinyin": "xīn xuè lái cháo",
+          "en": "On a Sudden Whim / Impulsive Caprice",
+          "explanationZh": "成语。指一时冲动、毫无定规的举措。科举制度的严格周期性杜绝了君主凭心血来潮隔十几年才临时选官的弊端，使国家管理具有可预期的稳定性。",
+          "explanationEn": "Idiom: acting on a capricious impulse. The institutional rhythm of scheduled exams prevented imperial regimes from capriciously suspending or improvising official recruitment."
+        },
+        {
+          "word": "门庭",
+          "pinyin": "mén tíng",
+          "en": "Clan Pedigree / Family Social Status",
+          "explanationZh": "指家族门第与阀阅出身。魏晋南北朝时期仕途全凭家世门第垄断；科举制度打破门庭藩篱，不分贵贱贫富，唯才华与试卷定高下。",
+          "explanationEn": "Ancestral lineage, clan pedigree, or aristocratic pedigree. The exam bypassed aristocratic gatekeeping, democratizing bureaucratic entry for ordinary commoners."
+        },
+        {
+          "word": "动员",
+          "pinyin": "dòng yuán",
+          "en": "Mobilization",
+          "explanationZh": "发动调动全体社会成员的积极性。科举促成了全社会文化生命力的大动员，使全国各阶层男性终生向学，铸就了中华文明尊师重教的深厚传统。",
+          "explanationEn": "Mobilization; rousing and activating the intellectual energies and social aspirations of the entire populace toward learning and statecraft."
+        },
+        {
+          "word": "屡败屡考",
+          "pinyin": "lǚ bài lǚ kǎo",
+          "en": "Persistently Re-Sitting Exams Despite Repeated Failures",
+          "explanationZh": "哪怕屡试不中依然矢志不渝、继续备考。科举为士人提供了终生的合法希望，将社会精英的不满与能量导向学术钻研而非破坏性暴动。",
+          "explanationEn": "Persistently re-taking the exams despite repeated failures. It provided a permanent legitimate avenue for ambition, transforming potential social rebellion into constructive scholarly discipline."
+        },
+        {
+          "word": "安全系数",
+          "pinyin": "ān quán xì shù",
+          "en": "Safety Margin / Societal Stability Factor",
+          "explanationZh": "维护社会安定秩序的保障程度。年轻男性最具躁动与叛逆倾向，科举成功将他们的大半精力引导在书卷文墨与考场竞争中，显著提升了社会稳定。",
+          "explanationEn": "Societal safety margin. By channeling restless, energetic young men into scholarly pursuit and civil service ambitions, the system neutralized destructive unrest in a cultural atmosphere."
+        },
+        {
+          "word": "进士",
+          "pinyin": "jìn shì",
+          "en": "Jinshi / Metropolitan Graduate",
+          "explanationZh": "科举殿试录取的最高等第，亦为古代知识分子的至高荣誉。余秋雨先生在著名文化散文《十万进士》中深入剖析了这一群体对中国历史与文化的深刻塑造。",
+          "explanationEn": "The highest degree awarded in the imperial civil examination system. Yu Qiuyu explored this elite intellectual group extensively in his acclaimed cultural essay 'A Hundred Thousand Jinshi'."
+        },
+        {
+          "word": "《女驸马》",
+          "pinyin": "Nǚ Fù Mǎ",
+          "en": "'The Female Imperial Son-in-Law' (Huangmei Opera)",
+          "explanationZh": "著名传统戏剧。讲述才女冯素珍为解救蒙冤未婚夫，女扮男装赴京考中状元并被选为驸马的奇闻。此剧折射出古代女性才识虽不让须眉，却被阻挡在科举门外的历史遗憾。",
+          "explanationEn": "A celebrated classic Chinese opera recounting how Feng Suzhen disguised herself as a man, topped the imperial exam, and was betrothed as the imperial son-in-law, reflecting women's exclusion from the exams."
+        },
+        {
+          "word": "提纲",
+          "pinyin": "tí gāng",
+          "en": "Thesis Outline / Structural Synopsis",
+          "explanationZh": "文章的论点脉络与框架架构。科考策论极其讲究起承转合与破题提纲，展现应试者剖析国家治理问题时的周密逻辑与行政思路。",
+          "explanationEn": "The thematic outline and structural blueprint of an essay, essential in imperial examinations for demonstrating logical rigor and administrative insight."
+        },
+        {
+          "word": "文采",
+          "pinyin": "wén cǎi",
+          "en": "Literary Flair / Ornate Stylistic Eloquence",
+          "explanationZh": "文字的辞藻与文学修辞。余秋雨先生强调，科举选拔的终极落脚点并非纯粹的诗赋文采，而是具备全局眼光、务实操盘能力的治国管理人才。",
+          "explanationEn": "Ornate poetic talent and literary rhetoric. The author underscores that the primary goal of the exam was practical administrative competence rather than pure poetry."
+        }
       ]
     }
   },
