@@ -749,7 +749,7 @@ template = """<!DOCTYPE html>
 
 final_html = template.replace('__LESSONS_JSON__', lessons_json)
 
-with open(os.path.join(base_dir, 'index.html'), 'w', encoding='utf-8') as f:
+with open(os.path.join(base_dir, 'legacy_app.html'), 'w', encoding='utf-8') as f:
     f.write(final_html)
 
-print(f"SUCCESS! Interactive Web Application generated at: {os.path.join(base_dir, 'index.html')}")
+print(f"SUCCESS! Legacy Web Application generated at: {os.path.join(base_dir, 'legacy_app.html')}")
