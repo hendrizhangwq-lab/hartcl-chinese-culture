@@ -3,12 +3,13 @@ import json
 import re
 
 base_dir = '/Users/hendrizhang/Desktop/HartCL'
-subdirs = sorted([d for d in os.listdir(base_dir) if os.path.isdir(os.path.join(base_dir, d)) and re.match(r'^\d{2}', d)])
+lessons_dir = os.path.join(base_dir, 'lessons')
+subdirs = sorted([d for d in os.listdir(lessons_dir) if os.path.isdir(os.path.join(lessons_dir, d)) and re.match(r'^\d{2}', d)])
 
 lessons = []
 
 for d in subdirs:
-    p = os.path.join(base_dir, d)
+    p = os.path.join(lessons_dir, d)
     files = os.listdir(p)
     
     audio_file = [f for f in files if f.endswith('.m4a')][0] if any(f.endswith('.m4a') for f in files) else None
@@ -33,11 +34,11 @@ for d in subdirs:
     
     lessons.append({
         'id': index_num,
-        'folder': d,
+        'folder': f'lessons/{d}',
         'title': title,
-        'audioRelPath': f'./{d}/{audio_file}' if audio_file else '',
-        'coverRelPath': f'./{d}/{cover_file}' if cover_file else '',
-        'quoteCards': [f'./{d}/{q}' for q in quote_cards],
+        'audioRelPath': f'./lessons/{d}/{audio_file}' if audio_file else '',
+        'coverRelPath': f'./lessons/{d}/{cover_file}' if cover_file else '',
+        'quoteCards': [f'./lessons/{d}/{q}' for q in quote_cards],
         'transcript': clean_body
     })
 

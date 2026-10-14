@@ -1,0 +1,53 @@
+# 文化大迁徙：在移动中活得更好的中国文化
+
+## 中文文稿
+
+大家好，我是余秋雨。我们继续讲课，讲中国文化长寿的原因之一,就是地大人多。
+地大还没有讲完，我讲到了地大和我们的心大有关，而心大不是贬义词，是个非常非常好的词汇。我们和好多其他国家的人交往的时候，经常在这个地方产生了差距，我们可以谦虚一点。但是我们不要以为我们的眼界、我们的气度大，是我们的缺陷，不要这么认为。
+空间大，除了前面所说的能够构成一种力量，在我们中国遇到艰难的时候，这种力量就会慢慢地组合起来，即使在穷乡僻壤，它也能够承担自己对于整体的伦理责任，这在其他国家是很少的。
+文化的流动
+空间大除了精神规模那么大，除了在危难时刻产生了力量，还有一个特点就是它给文化的流动提供了巨大的可能，使任何文化在任何时候都不可能一头扎在死胡同里。
+我们到世界各地去旅游的时候，经常会见到这样的一种文明，它时间很早，文明也很不错，但是完全不知道这个文明为什么突然消失了，是一种传染病吗？还是遇到了战争？但是遇到战争应该有一些战争的遗迹，应该有一些武器的残留，应该有一些尸体的遗迹，都没有。那他们到哪里去了呢？不清楚。但有一点是肯定的，这种文明灭亡了。
+不知道到了哪里，不知道怎么就陨灭了，陨灭在一个不知道在哪里的泥潭里。但是，从某种意义上只是说，它缺少可以逃避的地方，或者说它选择的路太少，所以只能一头走在一个泥潭里边就出不来了，它找不到泥潭之外的其他路了。
+中华文化由于底盘实在太大，这样的情况就比较少的发生。一个地方文化如果遇到了生存危机的时候，它转移的路很多，转移的往往是一个大地方，而且转移的地方由于体量大，本来也属于中华文化滋生的范围，所以要生根也比较容易。
+从汉代到宋代，中华文化从北方向南方迁徙过程当中，这就是一个很大的例证。中华文化重心由西北向东南迁移，有很大的原因是气候，以及和气候有关的水土流失。当然也有战乱，比如像永嘉之乱，安史之乱等等。除了这种大的由于自然原因和战乱原因之外，也有一些小规模的意图性移民，政府有意图，一种开发性的意图，还是人口条件的意图，不管哪一种迁徙都给人口众多的国家带来了新的生路。
+据统计，西汉的时候，北方和南方的人口的比例是8:2，北方是8，南方是2，到了唐代就平分秋色了；到了南宋，北方和南方的人口比例已经是3:7了，北方少，南方多。这是大迁徙所带来的大流通，而大流通使人口在新的地方发展繁荣起来了。
+文化重心的挪移
+比人口挪移范围小一点，但是在我看来也比较重要的是文化重心的挪移。人口多不一定完全是文化重心所在，但是这和人口又有关系，所以我们把人口这个概念缩小成文化人这个概念。
+在我的印象当中，西汉的时候，中国文化教育的中心是在山东；东汉的时候，到了河南；隋唐以后，有了科举制度，科举资料中留下了很多我们可以参考的一些数字。科举当然不是全部文化，但是由于全民都在为科举而努力，也能够称得上一个坐标。
+从资料来看，唐宋的时候，北方籍的状元是68名，南方籍的状元是44名，显然北强南弱。有的时候南方人说我们人杰地灵，我们历史悠久，我们文化非常强大，不是这样的。你看一看唐诗和宋词的作者们，他们的籍贯那一定是北方人多，南方人少。
+北宋的时候，进士最多的还是现在的河南省。但是到了元明清三代，情况就不一样了。北方出的状元是26名，南方出的是168名，完全跌倒过来了。这就是由于人口迁徙、由于风土的变化，人口迁徙造成了文化中心的一个变化。
+如果说，科举制度还不能说是实质性的文化变化的话，那我们来说说文学家的分布吧。情况也是这样，譬如在魏晋南北朝之前，文学家一直是北方多南方少，到了魏晋南北朝，北方南方的比例就倒了过来，南方就变得比较多了，你看王羲之等等，他们都在南方了。到了隋唐年间，由于政治中心的确立，北方文化又复苏了，比例还是倒了过来，变成北方六、南方四。
+宋代以后，文学家的比例就偏重于南方了。但是到了元代，我前面讲到过元杂剧，那是一个还看不太懂汉文的、马背上的民族所喜欢的杂剧，所以北方的比例还是压过了南方。到了清代的情况就不一样了，北方文学家的比例降低为1.5，南方升为8.5，这个差距就很大了。
+我看到有一个叫廖世红的先生，他除了文学家和科举之外，把整个社会各个领域作出杰出贡献的专家的分布，做了个统计，这也非常有意思。在唐代的排列是河南、陕西、河北、江苏；在宋代的排列是浙江、江西、河南；在明代的排序是浙江、江苏、安徽、江西；在清代的排序是江苏、浙江、安徽。在现代的排列是江苏、浙江、湖南、北京、天津、福建、四川。
+对于这个排列，平心而论，说明了中国文化迁徙的程度之高，也就是说大空间造成了大迁徙，而大迁徙造成了文化的大更新和大留存，在移动过程当中活下来了，而且在移动过程当中由于更新活得更好。
+为什么一个地方待不下去了？因为堵塞了，因为生病了。人会生病，文明也会生病，文化也会生病。生病以后，医生给病人总是有个建议叫异地疗养。但是很多病人没有这个条件，也就是说很多文化没有这个条件，他们没法异地，中国文化却充满这个条件。
+诗人的暖风，治好了高原的风寒，后代，在那就可以繁殖下去了。后代也可能感受到异地疗养以后的弊病，所以回到北方又取得另一种强悍的生命。
+好，我们下次再讲。
+
+---
+
+## English Transcript
+
+Hello everyone, my name is Yu Qiuyu. We continued the lecture and talked about one of the reasons for the longevity of Chinese culture, which is that it has a large land and many people.
+I haven’t finished talking about the earth element yet. I talked about the relationship between the earth element and our heart. Big heart is not a derogatory word, it is a very, very good word. When we interact with people from many other countries, there is often a gap in this area. We can be more modest. But we should not think that our vision and magnanimity are our shortcomings. Don't think so.
+The space is large, and in addition to the above-mentioned ability to form a force, when China encounters difficulties, this force will slowly be combined. Even in remote areas, it can also assume its own ethical responsibility for the whole, which is rare in other countries.
+flow of culture
+In addition to its spiritual scale and its power in times of crisis, a large space also provides huge possibilities for the flow of culture, making it impossible for any culture to plunge into a dead end at any time.
+When we travel around the world, we often see such a civilization. It was very early and the civilization was very good, but we have no idea why this civilization suddenly disappeared. Is it an infectious disease? Or encountered a war? But when encountering a war, there should be some relics of the war, there should be some remnants of weapons, and there should be some remnants of corpses, but there are none. So where did they go? Not sure. But one thing is certain, this civilization died.
+I don’t know where I arrived, I don’t know why I perished, I perished in a quagmire I don’t know where. However, in a sense, it just means that it lacks places to escape, or it has too few roads to choose, so it can only walk in a quagmire and cannot get out. It can't find any other way outside the quagmire.
+Because the chassis of Chinese Culture is so large, such situations rarely happen. If a local culture encounters an existential crisis, there are many ways for it to transfer, and the transfer is often to a large place. Moreover, due to its large size, the transferred place is originally within the scope of Chinese culture, so it is easier to take root.
+From the Han Dynasty to the Song Dynasty, Chinese culture migrated from the north to the south. This is a great example. The main reason for the migration of the center of Chinese culture from northwest to southeast is climate and climate-related soil erosion. Of course, there were also wars, such as the Yongjia Rebellion, the Anshi Rebellion, etc. In addition to the large-scale natural causes and wars, there are also some small-scale intentional immigrants. The government has intentions, whether it is a development intention or an intention due to population conditions. No matter which kind of migration brings new livelihood opportunities to a country with a large population.
+According to statistics, during the Western Han Dynasty, the population ratio between the north and the south was 8:2, 8 in the north and 2 in the south. By the Tang Dynasty, it was evenly divided; by the Southern Song Dynasty, the population ratio between the north and the south was already 3:7, with less in the north and more in the south. This is the great circulation brought about by the Great Migration, which allowed the population to develop and prosper in new places.
+Shifting cultural center of gravity
+A little smaller than the population shift, but also more important in my opinion is the shift of the cultural center of gravity. A large population is not necessarily the center of cultural focus, but it is related to population, so we narrowed the concept of population to the concept of cultural people.
+In my impression, during the Western Han Dynasty, the center of Chinese culture and education was in Shandong; during the Eastern Han Dynasty, it was in Henan; after the Sui and Tang Dynasties, the imperial examination system was established, and there are many numbers in the imperial examination materials that we can refer to. Of course, the imperial examination is not the entire culture, but since all the people are working hard for the imperial examination, it can also be called a coordinate.
+Judging from the data, during the Tang and Song Dynasties, there were 68 champions from the north and 44 champions from the south. Obviously, the north was strong and the south was weak. Sometimes people in the South say that we have outstanding people, a long history, and a very powerful culture. This is not the case. If you look at the authors of Tang poems and Song lyrics, their native places must be that there are more people from the north and fewer people from the south.
+During the Northern Song Dynasty, Henan Province had the largest number of Jinshi scholars. But in the Yuan, Ming and Qing dynasties, the situation was different. The number one pick from the north was 26, and the number 168 from the south was a complete fall. This is due to population migration and changes in climate, population migration has caused a change in the cultural center.
+If the imperial examination system cannot be said to be a substantial cultural change, then let’s talk about the distribution of writers. The situation is also the same. For example, before the Wei, Jin, and Southern and Northern Dynasties, there were always more writers from the north than from the south. By the Wei, Jin, and Southern and Northern Dynasties, the ratio of the north to the south was reversed, and there were more writers from the south. Look at Wang Xizhi and others, they are all in the south. During the Sui and Tang Dynasties, due to the establishment of the political center and the revival of northern culture, the proportion was reversed, becoming six in the north and four in the south.
+After the Song Dynasty, the proportion of writers became more focused on the south. But in the Yuan Dynasty, I mentioned Yuan Zaju before. It was a Zaju that was loved by people on horseback who could not understand Chinese well, so the proportion in the north still exceeded that in the south. In the Qing Dynasty, the situation was different. The proportion of writers in the north dropped to 1.5 and in the south rose to 8.5. The gap was huge.
+I saw a gentleman named Liao Shihong. In addition to writers and imperial examinations, he made statistics on the distribution of experts who have made outstanding contributions in various fields of society. This is also very interesting. In the Tang Dynasty, the order was Henan, Shaanxi, Hebei, and Jiangsu; in the Song Dynasty, the order was Zhejiang, Jiangxi, and Henan; in the Ming Dynasty, the order was Zhejiang, Jiangsu, Anhui, and Jiangxi; in the Qing Dynasty, the order was Jiangsu, Zhejiang, and Anhui. The modern arrangement is Jiangsu, Zhejiang, Hunan, Beijing, Tianjin, Fujian, and Sichuan.
+To be fair, this arrangement shows the high degree of cultural migration in China. In other words, the large space caused the Great Migration, and the Great Migration caused the great renewal and retention of culture. It survived the movement, and lived better due to the renewal during the movement.
+Why can’t I stay in one place? Because of blockage, because of illness. People will get sick, civilization will get sick, and culture will get sick. After getting sick, doctors always give patients a suggestion: to recuperate in another place. But many patients do not have this condition, which means that many cultures do not have this condition and they cannot move to another place. However, Chinese culture is full of this condition.
+The poet's warm wind has cured the wind and cold on the plateau, and the offspring can reproduce there. Future generations may also feel the ill effects of recuperation in a different place, so they return to the north and gain another powerful life.
+Okay, let’s talk about that next time.
