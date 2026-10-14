@@ -277,8 +277,8 @@ document.addEventListener('DOMContentLoaded', () => {
     });
   }
 
-  // Fetch Lessons Data
-  fetch('lessons_data.json?v=21')
+  // Fetch Lessons Data (with dynamic timestamp to prevent stale browser caching)
+  fetch('lessons_data.json?v=' + Date.now())
     .then(res => res.json())
     .then(data => {
       lessons = data;
