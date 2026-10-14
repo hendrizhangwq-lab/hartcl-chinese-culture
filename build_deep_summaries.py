@@ -184,6 +184,134 @@ LESSON_SUMMARIES = {
                 "zh": "对现代人的启示：在功利竞争激烈的社会中，庄子给中国心灵提供了一剂精神解毒剂。",
                 "en": "Relevance Today: In a hyper-competitive, utilitarian society, Zhuangzi offers a vital spiritual antidote for the human mind."
             }
+        ],
+        "vocabulary": [
+            {
+                "word": "物物者非物",
+                "pinyin": "wù wù zhě fēi wù",
+                "en": "The Creator of Things Is Not a Thing",
+                "explanationZh": "《庄子·知北游》及《秋水》中的核心命题。前一个“物”为动词（创造物、使物成其为物），后两个“物”为名词。意指让万物生成、运转的终极法则或精神力量（道与造物精神），其本身绝非受制于形器的物质。人作为能参赞化育的精神主体，不可降格为被物质奴役的器物。",
+                "explanationEn": "A foundational metaphysical proposition from Zhuangzi. The first 'wu' functions as a transitive verb ('to create things' / 'to render things as things'), while the subsequent instances are nouns. It posits that the ultimate creative force and animating consciousness behind material phenomena is not itself a material object. Humans, as spiritual creators, must not degrade themselves into mere instruments dominated by material possessions."
+            },
+            {
+                "word": "上善若水",
+                "pinyin": "shàng shàn ruò shuǐ",
+                "en": "Supreme Good Is Like Water",
+                "explanationZh": "老子《道德经》第八章名言。水滋润天下万物而与世无争，甘居于众生不愿处的低洼下流。余秋雨强调，上善若水是中国哲学最高的至善道德与处世境界，与权术阴谋截然对立，是生命最温和却最顽强的精神支柱。",
+                "explanationEn": "A core maxim from Chapter 8 of Laozi's Daodejing. Water nourishes all living things without contending, willingly resting in the lowly places that humans disfavor. Yu Qiuyu underscores that this represents the pinnacle of moral excellence and existential quietude in Chinese philosophy—the exact antithesis of calculated conspiracy."
+            },
+            {
+                "word": "迎刃而解",
+                "pinyin": "yíng rèn ér jiě",
+                "en": "To Split Effortlessly Before the Blade / Readily Solved",
+                "explanationZh": "成语，出自《晋书·杜预传》。劈竹子时只要劈开前面几节，下面就顺着刀刃破裂开来；比喻抓住了根本关键，主要问题解决了，其他许多矛盾与困惑便随之自然化解。",
+                "explanationEn": "Idiom: splitting like bamboo before the blade. When the blade cleaves the first few joints, the rest splinters open effortlessly. Metaphorically signifies that when the foundational philosophical truth is grasped, myriad confusions and life dilemmas dissolve naturally."
+            },
+            {
+                "word": "水滴石穿",
+                "pinyin": "shuǐ dī shí chuān",
+                "en": "Water Drops Piercing Stone",
+                "explanationZh": "成语。滴水不息，历经岁月终能穿透坚石。余秋雨先生在此做了独到的哲学辨析：常人误以为这是滴水向石头宣战的坚韧谋略，但老庄哲学中水从未视石头为敌人，石穿并非蓄谋设计的胜负征服，而是天体自然的道法演进。",
+                "explanationEn": "Idiom: dripping water wears away stone. Yu Qiuyu offers a profound philosophical distinction: conventional thinking views this as an adversarial siege where water conquers rock through grit. In Daoist philosophy, however, water harbors no enmity; piercing stone is not a premeditated conquest, but an effortless manifestation of natural law (Dao)."
+            },
+            {
+                "word": "行于大道",
+                "pinyin": "xíng yú dà dào",
+                "en": "Walking upon the Great Dao",
+                "explanationZh": "遵循天地自然与宇宙生灭的根本法则行事。老子倡导人应顺应规律、返璞归真，不以人为的机巧私欲去破坏万物的自然秩序。",
+                "explanationEn": "Walking in alignment with the Great Way (Dao)—the underlying celestial principle governing nature and the cosmos. It implies living in harmony with cosmic rhythms without artificial cunning or selfish contrivance."
+            },
+            {
+                "word": "相反相成",
+                "pinyin": "xiāng fǎn xiāng chéng",
+                "en": "Opposites Complement and Fulfill Each Other",
+                "explanationZh": "指矛盾对立的双方在深刻的哲理层面上互为前提、相互依存、相互促成。老子以此揭示有无相生、难易相成、长短相形、高下相倾的宇宙辩证法。",
+                "explanationEn": "The dialectical truth that contradictory opposites mutually define, rely upon, and complete each other—such as presence and absence, difficulty and ease, lightness and shadow. This forms the heart of Daoist cosmic balance."
+            },
+            {
+                "word": "无为而治",
+                "pinyin": "wú wéi ér zhì",
+                "en": "Governance Through Non-Action (Wu Wei)",
+                "explanationZh": "道家根本政治与人生哲学。“无为”并非消极不作为，而是不违背自然规律、不妄加人为苛扰与过度干预，使万物与百姓能够充分自主生长、各得其所。",
+                "explanationEn": "The classical Daoist philosophy of governance and living. 'Non-action' (Wu Wei) does not mean passive indolence; rather, it denotes avoiding arbitrary meddling, excessive coercion, and artificial disruptions against natural spontaneity, enabling society and nature to flourish self-organizingly."
+            },
+            {
+                "word": "和光同尘",
+                "pinyin": "hé guāng tóng chén",
+                "en": "Softening One's Glare and Merging with Dust",
+                "explanationZh": "出自《道德经》。和其光，同其尘。收敛刺目的锋芒与光芒，与纷扰平易的尘俗世间融为一体。形容具有极高精神修为者不矜才使气，温润含蓄，超然物外。",
+                "explanationEn": "From Chapter 56 of the Daodejing: tempering one's blinding brilliance and blending peacefully with the dust of the mundane world. It describes the enlightened sage who disdains arrogance and ostentation, living serenely with humility and inner light."
+            },
+            {
+                "word": "韬光养晦",
+                "pinyin": "tāo guāng yǎng huì",
+                "en": "Concealing One's Brilliance to Cultivate Strength",
+                "explanationZh": "比喻隐匿光芒、收束锋芒，在静默安详中积蓄修养与内力。常人常将此误读为潜伏伺机的险恶权谋，而余秋雨指出老子的本意是甘居低下、安顿性命的纯粹至善。",
+                "explanationEn": "Concealing one's brilliance to cultivate quiet inner depth. While often misunderstood in vulgar politics as tactical scheming, Yu Qiuyu explains that in Laozi's original vision, it reflects a genuine embrace of tranquility, humility, and moral integrity without aggressive rivalry."
+            },
+            {
+                "word": "大伪",
+                "pinyin": "dà wěi",
+                "en": "Supreme Hypocrisy / Great Artifice",
+                "explanationZh": "人为刻意矫饰所造成的虚伪与伪饰。《道德经》云：“智慧出，有大伪。” 余秋雨警示世人切勿将老子崇高纯粹的大善曲解附会为深藏不露的大伪或官场厚黑术。",
+                "explanationEn": "The superficial pretense and deceit born of contrived cleverness. As the Daodejing notes, 'When artificial cunning appears, great hypocrisy arises.' The lecture cautions against corrupting Laozi's sublime benevolence into hypocritical statecraft or political manipulation."
+            },
+            {
+                "word": "老滑头",
+                "pinyin": "lǎo huá tóu",
+                "en": "Sly Old Fox / Crafty Opportunist",
+                "explanationZh": "俗语，指处世油滑、善于见风使舵、不肯承担责任之人。部分近代学者将老子的玄妙隐忍曲解为世故圆滑的老滑头，余秋雨对此提出严厉驳斥，正本清源。",
+                "explanationEn": "A colloquial term for a slick, opportunistic person adept at evasion. Some modern commentators have mislabeled Laozi as a cynical, worldly schemer—a gross misunderstanding that Yu Qiuyu passionately refutes."
+            },
+            {
+                "word": "老庄哲学",
+                "pinyin": "lǎo zhuāng zhé xué",
+                "en": "Lao-Zhuang Philosophy",
+                "explanationZh": "先秦道家思想的统称，由老子奠基、庄子发扬光大。老子偏重于形而上的宇宙根本之道与治道境界，庄子则进一步转向个体精神的绝对自由、审美品味与逍遥解脱。",
+                "explanationEn": "The collective philosophy of Laozi and Zhuangzi, the foundational twin masters of Daoism. Laozi laid down the metaphysical cosmic Dao and principles of non-contention, while Zhuangzi expanded these into individual spiritual emancipation, boundless imagination, and aesthetic freedom."
+            },
+            {
+                "word": "逍遥游",
+                "pinyin": "xiāo yáo yóu",
+                "en": "Carefree Wandering (Xiaoyaoyou)",
+                "explanationZh": "《庄子》首篇兼其哲学巅峰之作。通过鲲鹏展翅九万里与小雀斥鴳的对比，阐述超越肉体受限、世俗名誉与物质束缚，达到乘天地之正、御六气之辩的终极精神自由。",
+                "explanationEn": "The opening and crowning chapter of the Zhuangzi. Through the contrast of the colossal Peng bird soaring 90,000 li against petty sparrows, Zhuangzi portrays the ultimate state of spiritual liberation—transcending physical limits, worldly accolades, and self-centered anxieties."
+            },
+            {
+                "word": "先秦诸子",
+                "pinyin": "xiān qín zhū zǐ",
+                "en": "Pre-Qin Masters / Hundred Schools of Thought",
+                "explanationZh": "春秋战国时期中国思想文化的黄金时代，以孔子、老子、庄子、孟子、墨子等为代表的百家学派。余秋雨从文学审美品味的角度将其排名为：庄子第一、孟子第二、老子第三、孔子第四。",
+                "explanationEn": "The diverse intellectual masters of the Spring and Autumn and Warring States periods (Confucianism, Daoism, Mohism, Legalism). From a literary aesthetics standpoint, Yu Qiuyu famously ranks Zhuangzi first, followed by Mencius, Laozi, and Confucius."
+            },
+            {
+                "word": "寓言",
+                "pinyin": "yù yán",
+                "en": "Allegory / Philosophical Parable",
+                "explanationZh": "寄寓哲理于具体生动故事之中的文学表现手法。《庄子》全书寓言十九，庄子如同拥有孩童般纯真清澈的眼光，不立威严说教，而是以奇幻瑰丽的神话寓言启发心灵。",
+                "explanationEn": "Literary parables embodying profound metaphysical insights. Nearly ninety percent of Zhuangzi's writings are allegories; rather than lecturing dogmatically from an ivory tower, Zhuangzi approaches the cosmos with the curious, unclouded gaze of an artist and child."
+            },
+            {
+                "word": "秋水篇",
+                "pinyin": "qiū shuǐ piān",
+                "en": "The 'Autumn Floods' Chapter (Qiu Shui)",
+                "explanationZh": "《庄子·外篇》名篇。以河伯欣然自喜顺流东行、望见无边北海而叹服的对话，论证视角的相对性，揭示跳出有限认知、以无限宏阔的“道”审视万物的哲学方法。",
+                "explanationEn": "A celebrated chapter from the Zhuangzi. Through the parable of the River God (Hebo) marveling at his own vastness until meeting the infinite Northern Sea (Beihai Ruo), it expounds epistemic humility and the necessity of viewing reality through cosmic relativism."
+            },
+            {
+                "word": "以人论物",
+                "pinyin": "yǐ rén lùn wù",
+                "en": "Appraising Things from the Human & Dao Perspective",
+                "explanationZh": "庄子关于人与物质关系的核心命题。主张从人的崇高精神尊严与天道本质来审度万物，让物质为人服务，而非让物质反客为主成为评判人类生命价值与尊严的尺度。",
+                "explanationEn": "Zhuangzi's profound criterion regarding human relationship with the material world. It insists that things must be evaluated through the lens of human spiritual dignity and the Dao, rather than allowing external objects to define a human being's worth."
+            },
+            {
+                "word": "以物论物",
+                "pinyin": "yǐ wù lùn wù",
+                "en": "Measuring Worth Purely by Material Quantity",
+                "explanationZh": "以物质多寡、财产数目或外在器物的等级来判定人的高低贵贱（如以存款三百万或四百万来衡量人）。庄子严厉批评这种见物不见人的异化现象，告诫人不要沦为物质的奴隶。",
+                "explanationEn": "The alienated practice of measuring human beings solely by their material possessions, monetary balances, or commercial assets. Zhuangzi critiques this commodification of human identity, warning that measuring humanity by material criteria reduces human beings to mere things."
+            }
         ]
     },
     3: {
@@ -812,6 +940,13 @@ def main():
             print(f"[{idx:02d}] Added deep curated summary for {l['title']}")
         else:
             print(f"[{idx:02d}] Missing summary for {l['title']}")
+
+        folder = l.get('folderName', '')
+        timed_file = os.path.join('/Users/hendrizhang/Desktop/HartCL', folder, 'timed_transcript.json')
+        if os.path.exists(timed_file):
+            with open(timed_file, 'r', encoding='utf-8') as tf:
+                l['timedTranscript'] = json.load(tf)
+            print(f"[{idx:02d}] Synced timedTranscript ({len(l['timedTranscript'])} items) from {folder}")
 
     with open(json_path, 'w', encoding='utf-8') as f:
         json.dump(lessons, f, ensure_ascii=False, indent=2)
