@@ -935,18 +935,19 @@ def main():
 
     for l in lessons:
         idx = l['index']
-        if idx in LESSON_SUMMARIES:
-            l['summary'] = LESSON_SUMMARIES[idx]
-            print(f"[{idx:02d}] Added deep curated summary for {l['title']}")
+        if idx in LESSON_SUMMARIES or (isinstance(idx, int) and idx in LESSON_SUMMARIES) or (isinstance(idx, str) and idx.isdigit() and int(idx) in LESSON_SUMMARIES):
+            summary_key = idx if idx in LESSON_SUMMARIES else (int(idx) if isinstance(idx, str) and idx.isdigit() else idx)
+            l['summary'] = LESSON_SUMMARIES[summary_key]
+            print(f"[{idx}] Added deep curated summary for {l['title']}")
         else:
-            print(f"[{idx:02d}] Missing summary for {l['title']}")
+            print(f"[{idx}] Missing summary for {l['title']}")
 
         folder = l.get('folderName', '')
         timed_file = os.path.join('/Users/hendrizhang/Desktop/HartCL', folder, 'timed_transcript.json')
         if os.path.exists(timed_file):
             with open(timed_file, 'r', encoding='utf-8') as tf:
                 l['timedTranscript'] = json.load(tf)
-            print(f"[{idx:02d}] Synced timedTranscript ({len(l['timedTranscript'])} items) from {folder}")
+            print(f"[{idx}] Synced timedTranscript ({len(l['timedTranscript'])} items) from {folder}")
 
     with open(json_path, 'w', encoding='utf-8') as f:
         json.dump(lessons, f, ensure_ascii=False, indent=2)
