@@ -3,7 +3,7 @@ import json
 import re
 
 base_dir = '/Users/hendrizhang/Desktop/HartCL'
-subdirs = sorted([d for d in os.listdir(base_dir) if os.path.isdir(os.path.join(base_dir, d)) and re.match(r'^\d{2}_', d)])
+subdirs = sorted([d for d in os.listdir(base_dir) if os.path.isdir(os.path.join(base_dir, d)) and re.match(r'^\d{2}', d)])
 
 lessons = []
 
