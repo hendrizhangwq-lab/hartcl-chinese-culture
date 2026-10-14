@@ -314,6 +314,306 @@ LESSON_SUMMARIES = {
             }
         ]
     },
+    "02-01": {
+        "gistZh": "庄子哲学以“物物者非物”揭示人与宇宙的生命法则，倡导打破以物观物的狭隘局限，通过“无待”与“无己”的超越境界，追求超越世俗束缚的绝对精神自由与“真人”的人格理想。",
+        "gistEn": "Zhuangzi's philosophy establishes that 'the creator of things is not a thing', urging humanity to transcend material-centric perception. Through 'Wu Dai' (non-dependence) and 'Wu Ji' (selflessness), it pursues absolute spiritual liberation and the ideal of the 'Zhenren' (Real Person).",
+        "highlights": [
+            {
+                "zh": "物物者非物：造物者与生命主体绝非受制于形器的物质，应以道观物而非以物观物。",
+                "en": "The Creator of Things Is Not a Thing: The creative subject is not a material object; one must view reality through the Dao rather than through materialism."
+            },
+            {
+                "zh": "超越世俗羁绊：打破分数、财富、名利等功利评价体系，追求生命本真的自由与内心的平静。",
+                "en": "Transcending Worldly Fret: Shattering utilitarian metrics like grades, wealth, and status to embrace authentic inner peace and spiritual freedom."
+            },
+            {
+                "zh": "无待与无己：“无待”即摆脱外在依赖与被迫等待，“无己”即破除自我执念与功利计较。",
+                "en": "Non-Dependence & Selflessness: 'Wu Dai' frees the soul from external dependencies, while 'Wu Ji' dismantles self-centered anxieties and competitive vanity."
+            },
+            {
+                "zh": "道家真人理想：相较于儒家“君子”、佛家“觉者”，道家“真人”顺应天道、回归天然，实现生命根气的通达。",
+                "en": "The Ideal of the Zhenren: Distinct from the Confucian 'Junzi' or Buddhist 'Awakened One', Daoism's 'Real Person' lives in effortless accord with nature."
+            }
+        ],
+        "vocabulary": [
+            {
+                "word": "物物者非物",
+                "pinyin": "wù wù zhě fēi wù",
+                "en": "The Creator of Things Is Not a Thing",
+                "explanationZh": "庄子哲学最核心的命题之一。前一个“物”为动词（创造物、支配物），后两个“物”为名词。指主导万物化育的力量与人自身的精神主体绝非形器物质本身。人若被物质与名利奴役，便丧失了创造者的神圣地位。",
+                "explanationEn": "A foundational Daoist proposition: the animating power that creates and governs objects is not itself a material object. Human consciousness must not be enslaved by the very possessions and accolades it creates."
+            },
+            {
+                "word": "以物观物",
+                "pinyin": "yǐ wù guān wù",
+                "en": "Viewing Things Through Materialism",
+                "explanationZh": "陷在物质、功利与世俗指标里相互攀比的认知方式。如比拼房产、车子、存款或名次，这种局限视角会将人的精神主体埋没于功利俗套之中。",
+                "explanationEn": "A reductionist, material-centric mindset trapped in comparing possessions, wealth, and social rankings, thereby burying human spiritual dignity under utilitarian anxieties."
+            },
+            {
+                "word": "以道观物",
+                "pinyin": "yǐ dào guān wù",
+                "en": "Viewing Things Through the Lens of the Dao",
+                "explanationZh": "站在宇宙大道与生命全局的高度审视万物的宏阔视角。如同登临山顶俯瞰纷扰红尘，能深刻洞察世俗名利的短暂与虚妄，赋予心灵超然与从容。",
+                "explanationEn": "Surveying existence from the lofty vantage point of cosmic harmony (the Dao). Like standing on a mountain peak viewing the valley below, it dissolves mundane rivalries into serene clarity."
+            },
+            {
+                "word": "逍遥游",
+                "pinyin": "xiāo yáo yóu",
+                "en": "Carefree Wandering (Xiaoyaoyou)",
+                "explanationZh": "庄子代表作与哲学巅峰境界。指心灵完全摆脱世俗功利、名誉约束与肉体困顿，在天地宇宙间获得无拘无束、纵横驰骋的绝对精神自由。",
+                "explanationEn": "Zhuangzi's hallmark concept: ultimate spiritual emancipation wherein the soul soars unimpeded across the cosmic expanse, entirely free from utilitarian coercion and social pretension."
+            },
+            {
+                "word": "无待",
+                "pinyin": "wú dài",
+                "en": "Non-Dependence / Absolute Freedom",
+                "explanationZh": "逍遥游的核心条件之一。“待”即等待、依赖与条件限制。无待意味着生命不依赖外在的风力、时势或他人脸色，摆脱被动与被控，达到自足自主的彻底自由。",
+                "explanationEn": "A prerequisite for Carefree Wandering: transcending reliance on external conditions, praise, or favorable winds, thereby attaining self-contained autonomy without passive subordination."
+            },
+            {
+                "word": "无己",
+                "pinyin": "wú jǐ",
+                "en": "Selflessness / Transcending Self-Obsession",
+                "explanationZh": "逍遥游的另一核心条件。破除以自我为中心的狭隘执念、成败得失与功利虚荣。只有放下“我”的困顿与计较，才能融于天地自然，获得无边广阔的心灵空间。",
+                "explanationEn": "Dissolving egocentric anxiety, competitive pride, and self-serving vanity. By shedding narrow self-obsession, the individual merges seamlessly with the boundless rhythm of the universe."
+            },
+            {
+                "word": "真人",
+                "pinyin": "zhēn rén",
+                "en": "The Real Person / Authentic Sage",
+                "explanationZh": "庄子及道家所立的理想人格模型。指返璞归真、体悟大道、不欺弱、不自雄、不计谋，超脱生死毁誉与外在束缚的纯粹真诚之士。",
+                "explanationEn": "Daoism's ideal personality archetype: an authentic human being who eschews deceit, arrogance, and manipulative schemes, living with spontaneous sincerity in harmony with nature."
+            },
+            {
+                "word": "君子",
+                "pinyin": "jūn zǐ",
+                "en": "The Exemplary Person (Confucian Ideal)",
+                "explanationZh": "中国儒家文化塑造的理想人格。强调修己安人、践行仁义礼智信、具有社会担当与道德自律，与道家的“真人”、佛家的“觉者”交相辉映。",
+                "explanationEn": "The Confucian personality ideal: a person of supreme moral integrity, benevolence, social responsibility, and self-cultivation who anchors ethical social order."
+            },
+            {
+                "word": "觉者",
+                "pinyin": "jué zhě",
+                "en": "The Awakened One (Buddhist Ideal)",
+                "explanationZh": "中国佛家文化的理想人格。指破除执念无明、彻悟生命真相、超脱贪嗔痴束缚并怀大慈大悲之心的觉悟者（佛陀与菩萨境界）。",
+                "explanationEn": "The Buddhist ideal: an enlightened being who has awakened from illusion and karmic suffering, embodying profound transcendent wisdom and universal compassion."
+            },
+            {
+                "word": "不逆寡",
+                "pinyin": "bù nì guǎ",
+                "en": "Not Overpowering the Vulnerable",
+                "explanationZh": "《庄子·大宗师》描述古代真人的品质。指不凭借强权去背逆或欺压弱小者，不以大欺小、不以强凌弱，体现了道家温和宽厚的生命慈悲。",
+                "explanationEn": "A virtue of the ancient Zhenren in Zhuangzi: refusing to coerce or overpower the weak and vulnerable, embodying Daoist compassion and non-aggressive gentleness."
+            },
+            {
+                "word": "不雄成",
+                "pinyin": "bù xióng chéng",
+                "en": "Not Flaunting Success",
+                "explanationZh": "古之真人的品质。指有了成功与成就也不自恃英雄、不炫耀夸耀，保持谦逊沉静，不把功名当作傲视他人的资本。",
+                "explanationEn": "A trait of the authentic sage: not boasting of personal triumphs or parading accomplishments, remaining humble and grounded amidst success."
+            },
+            {
+                "word": "不谟士",
+                "pinyin": "bù mó shì",
+                "en": "Free from Devious Schemes",
+                "explanationZh": "古之真人的品质。指不耍阴谋诡计、不上心机权术、不搞利益算计，坦荡光明，如日月朗照般自然纯粹。",
+                "explanationEn": "Refraining from manipulative contrivance, political plotting, or calculated duplicity; conducting oneself with unclouded transparency and authentic purity."
+            },
+            {
+                "word": "真人之息以踵",
+                "pinyin": "zhēn rén zhī xī yǐ zhǒng",
+                "en": "The True Person Breathes from the Heels",
+                "explanationZh": "庄子对真人生命根气与呼吸境界的深刻比喻。真人的呼吸通达深入至脚跟，代表生命能量充盈通畅；而常人浮躁浅薄，呼吸仅滞留于喉咙。",
+                "explanationEn": "Zhuangzi's visceral metaphor for spiritual vitality: the authentic sage's breath reaches deep down to the heels, while ordinary people breathe shallowly from the throat."
+            },
+            {
+                "word": "天机",
+                "pinyin": "tiān jī",
+                "en": "Heavenly Capacity / Natural Vitality",
+                "explanationZh": "生命与生俱来的天然灵性与内在根器。庄子云：“其耆欲深者，其天机浅。”如果一个人被世俗欲望与物欲深深奴役，其天赋予的灵性与智慧就会日渐枯竭。",
+                "explanationEn": "The innate spiritual capacity and wisdom granted by Nature. As Zhuangzi warns, 'He whose worldly desires are deep has shallow natural wisdom.'"
+            },
+            {
+                "word": "屈服者其嗌言若哇",
+                "pinyin": "qū fú zhě qí yì yán ruò wā",
+                "en": "Subservient Words Are Choked and Obstructed",
+                "explanationZh": "庄子警句。指一个人若屈服于他人权势或世俗欲望，说话就会委曲谄媚、吞吞吐吐，无法坦荡直言，丧失了生命的独立尊严。",
+                "explanationEn": "Zhuangzi's observation: when a person surrenders to external coercion or base desires, their speech becomes choked, timid, and servile, forfeiting authentic expression."
+            },
+            {
+                "word": "不以心捐道",
+                "pinyin": "bù yǐ xīn juān dào",
+                "en": "Not Impairing the Dao with Human Intellect",
+                "explanationZh": "真人的修为原则。“心”指人类私意、妄想与狡黠的智巧。不用人为的狭隘私心去损害、扭曲天然崇高的宇宙大道，顺应自然规律。",
+                "explanationEn": "A core principle of the Zhenren: refraining from using narrow human contrivance, artificial cleverness, or arrogant ego to distort natural cosmic truth."
+            },
+            {
+                "word": "不以人助天",
+                "pinyin": "bù yǐ rén zhù tiān",
+                "en": "Not Replacing Nature with Human Artifice",
+                "explanationZh": "真人的修为原则。不用人为强加的干预、矫饰或破坏去替加天然造化，保持事物的自然本色与生生不息的活态。",
+                "explanationEn": "Avoiding artificial over-engineering or coercive meddling with nature, allowing all beings to flourish according to their spontaneous inherent qualities."
+            },
+            {
+                "word": "解放",
+                "pinyin": "jiě fàng",
+                "en": "Spiritual Liberation",
+                "explanationZh": "余秋雨总结庄子哲学的核心功能。庄子思想是给人类心灵的一剂解毒剂，将现代人从名利竞争、焦虑比较与物质包围的牢笼中彻底解放出来。",
+                "explanationEn": "The ultimate therapeutic value of Zhuangzi's philosophy: liberating the human mind from the suffocating prisons of rat-race competition, materialism, and existential anxiety."
+            }
+        ]
+    },
+    "02-02": {
+        "gistZh": "《逍遥游》是中国思想、文学与艺术的总体概括。通过典雅畅达的现代今译，融汇经典的神韵与气韵，展示大鹏图南、至人无己、神人无功、圣人无名及无用之用等崇高意境，为现代人通往古典提供了美文跳板。",
+        "gistEn": "'Xiaoyaoyou' serves as the ultimate summary of Chinese thought, literature, and art. Through standard, beautiful modern translation preserving original spirit and vitality, it reveals cosmic allegories like the soaring Peng bird, selflessness, and the utility of uselessness.",
+        "highlights": [
+            {
+                "zh": "文学与思想的总概括：“逍遥游”三字不仅是庄子哲学的精髓，更是中国文学与艺术从内容到形式的最高概括。",
+                "en": "Overall Summary of Art & Thought: 'Xiaoyaoyou' is not only the essence of Zhuangzi's philosophy, but the supreme summary of Chinese literature and art."
+            },
+            {
+                "zh": "今译的价值与使命：今译旨在通达古今，以散文的美感与学术的严谨保留典雅气韵，成为读者通往原文的桥梁与跳板。",
+                "en": "Purpose of Modern Translation: Bridging past and present with literary elegance and scholarly precision, offering a captivating springboard to classical originals."
+            },
+            {
+                "zh": "自由与无待的崇高意境：通过大鹏与蜩鸠的对比、列子御风的局限，揭示至人无己、神人无功、圣人无名的终极境界。",
+                "en": "Sublime Realm of Unfettered Freedom: Contrasting the colossal Peng with sparrows, and Liezi's wind-reliance with absolute selflessness, meritlessness, and namelessness."
+            },
+            {
+                "zh": "无用之用的大智慧：打破世俗功利对价值的狭隘限定，让灵魂在旷野大树下获得无牵无挂的舒展与栖居。",
+                "en": "Wisdom of the Useless: Shattering pragmatic utilitarianism to allow the human soul serene rest and expansive freedom under the shade of the 'useless' tree."
+            }
+        ],
+        "vocabulary": [
+            {
+                "word": "今译",
+                "pinyin": "jīn yì",
+                "en": "Modern Literary Translation",
+                "explanationZh": "将古代文言经典忠实且富有美感地翻译为现代散文的创作过程。余秋雨强调今译既要有严格的学术准确性，又要有流畅优雅的散文气韵，唤醒古典生命力。",
+                "explanationEn": "The art of translating ancient classical texts into refined modern prose, balancing rigorous academic accuracy with fluid aesthetic elegance to revive classical vitality."
+            },
+            {
+                "word": "气韵",
+                "pinyin": "qì yùn",
+                "en": "Spiritual Rhythm and Vitality",
+                "explanationZh": "古典文学与艺术作品中贯穿始终的内在生命力与美感节奏。如果仅靠逐字繁琐注释，文章完整的“气”就会被打断，而今译能保持气韵连贯。",
+                "explanationEn": "The unified spiritual rhythm and living aesthetic pulse of a masterpiece. Modern translation preserves this living pulse, preventing it from being fractured by pedantic footnotes."
+            },
+            {
+                "word": "基础记忆与扩大记忆",
+                "pinyin": "jī chǔ jì yì yǔ kuò dà jì yì",
+                "en": "Core Canon Memory vs. Broad Memory",
+                "explanationZh": "余秋雨提出的文化阅读分类法。“基础记忆”指必须精读熟诵的核心经典（如《逍遥游》《论语》精选）；“扩大记忆”指泛读博览、耳顺了解的书目。",
+                "explanationEn": "Yu Qiuyu's canon methodology: 'Core Memory' comprises foundational texts to be deeply memorized and internalized, while 'Broad Memory' encompasses supplementary reading for broad acquaintance."
+            },
+            {
+                "word": "跳板",
+                "pinyin": "tiào bǎn",
+                "en": "Springboard / Gateway to Classics",
+                "explanationZh": "比喻今译的功能。现代翻译并非要替代古代原文，而是作为一个富有吸引力的诱惑与过渡跳板，引导现代读者满怀兴趣地走向原文阅读。",
+                "explanationEn": "Metaphor for modern translation: not a replacement for ancient texts, but an inviting springboard enabling modern readers to leap into the rich ocean of classical originals."
+            },
+            {
+                "word": "鲲鹏",
+                "pinyin": "kūn péng",
+                "en": "The Kun and the Peng (Cosmic Allegory)",
+                "explanationZh": "《逍遥游》开篇的巨型神兽意象。北海之鱼为鲲，化而为鸟为鹏，背若泰山，翼若垂天之云，象征着浩瀚无比、气势磅礴的精神格局与生命境界。",
+                "explanationEn": "The iconic cosmic creatures in Xiaoyaoyou: the giant fish Kun transforming into the colossal bird Peng, whose wings resemble storm clouds—symbolizing vast spiritual vision and grand scope."
+            },
+            {
+                "word": "野马与尘埃",
+                "pinyin": "yě mǎ yǔ chén āi",
+                "en": "Shimmering Mists and Dust Specks",
+                "explanationZh": "大鹏高空俯瞰人间所见到的景象。“野马”指游动的雾气。比喻世俗红尘中万物的生灭纷扰与渺小，在宏观宇宙视角下皆如微尘飘忽。",
+                "explanationEn": "The view from 90,000 li above: galloping mists ('ye ma') and floating dust. It symbolizes how mortal affairs and anxieties appear as fleeting specks in cosmic perspective."
+            },
+            {
+                "word": "扶摇而上九万里",
+                "pinyin": "fú yáo ér shàng jiǔ wàn lǐ",
+                "en": "Soaring Ninety Thousand Li on Whirling Winds",
+                "explanationZh": "描述大鹏乘着旋风直冲九霄雲天的壮丽诗意画面。比喻生命打破低空盘旋的束缚，跃升至极致高远的精神维度。",
+                "explanationEn": "The poetic description of the Peng soaring skyward on spiraling cyclones, metaphorically representing the human soul breaking everyday limits to attain towering spiritual height."
+            },
+            {
+                "word": "蜩与学鸠",
+                "pinyin": "tiáo yǔ xué jiū",
+                "en": "The Cicada and Little Dove (Narrow-Mindedness)",
+                "explanationZh": "在榆树檀枝间低空飞翔的小虫与小鸟，嘲笑大鹏九万里图南的壮举。比喻目光短浅、自以为是、无法理解宏大境界与崇高理想的世俗平庸者。",
+                "explanationEn": "Small creatures fluttering low among trees who mock the Peng's grand migration. They embody petty, self-satisfied narrow-mindedness incapable of comprehending noble ideals."
+            },
+            {
+                "word": "宋荣子",
+                "pinyin": "Sòng Róng zǐ",
+                "en": "Song Rongzi (Indifference to Praise and Blame)",
+                "explanationZh": "战国思想家。举世赞誉他不会加劲，举世非难他也不会沮丧，能定乎内外之分、辩乎荣辱之境。虽超脱毀誉，但庄子指出他仍未树立最崇高的立身标杆。",
+                "explanationEn": "An ancient philosopher impervious to worldly applause or condemnation. Though adept at separating praise from blame, Zhuangzi notes he still fell short of ultimate transcendent freedom."
+            },
+            {
+                "word": "列子御风",
+                "pinyin": "Liè zǐ yù fēng",
+                "en": "Liezi Riding the Wind (Conditional Freedom)",
+                "explanationZh": "道家大师列子能乘风而行，轻盈从容。但庄子指出列子“犹有所待者也”——他依然依赖风吹，无风则无法飞行，因此仍属于有条件的局限自由。",
+                "explanationEn": "The Daoist master Liezi traveling effortlessly upon the wind. However, Zhuangzi observes that Liezi remained dependent on the wind; lacking absolute autonomy, his freedom was still conditional."
+            },
+            {
+                "word": "至人无己",
+                "pinyin": "zhì rén wú jǐ",
+                "en": "The Ultimate Person Has No Self",
+                "explanationZh": "《逍遥游》核心结论之一。达到修养顶峰的“至人”彻底消解了自我执念与功利私心，不守己、不固执，与天地万物融为一体。",
+                "explanationEn": "One of Xiaoyaoyou's foundational maxims: the supreme person completely dissolves self-centered ego and personal anxiety, merging seamlessly with universal nature."
+            },
+            {
+                "word": "神人无功",
+                "pinyin": "shén rén wú gōng",
+                "en": "The Divine Person Pursues No Merit",
+                "explanationZh": "《逍遥游》核心结论。精神超凡入圣的“神人”不追求外在的世俗功绩与事业资本，不把功勋作为自我依靠的张本，获得纯粹的解脱。",
+                "explanationEn": "The spiritual sage avoids anchoring their self-worth on mundane achievements or societal merit, operating above the rat race of recognition."
+            },
+            {
+                "word": "圣人无名",
+                "pinyin": "shèng rén wú míng",
+                "en": "The Sage Seeks No Fame",
+                "explanationZh": "《逍遥游》核心结论。德合天地的“圣人”不追逐世俗名声与毁誉赞夸。“名”仅为“实”之宾客，不让名气羁绊心灵的自在。",
+                "explanationEn": "The true sage refrains from chasing earthly fame, viewing reputation as a mere secondary shadow that must never fetter inner autonomy."
+            },
+            {
+                "word": "许由让王",
+                "pinyin": "Xǔ Yóu ràng wáng",
+                "en": "Xu You Rejecting Emperor Yao's Throne",
+                "explanationZh": "高士许由拒绝尧帝禅让天下的典故。许由以“鹪鹩巢于深林，不过一枝；偃鼠饮河，不过满腹”为答，揭示人对物质名位的需求极有限，绝不作虚名的附庸。",
+                "explanationEn": "The story of hermit Xu You declining the imperial throne from Emperor Yao. Noting that a bird nesting in a forest occupies but one twig, he rejected imperial power as superfluous vanity."
+            },
+            {
+                "word": "藐姑射之山",
+                "pinyin": "miǎo gū yè zhī shān",
+                "en": "Mount Guye (Realm of Divine Spirits)",
+                "explanationZh": "庄子塑造的神话仙山。山上有神人居住，肌肤如冰雪，风姿像处女，不食五谷，吸风饮露，凝聚元神即可使万物无灾、五谷丰登，象征超尘脱俗的至纯境界。",
+                "explanationEn": "The mythical mountain in Xiaoyaoyou inhabited by divine beings with skin like snow, who ingest air and dew, embodying pristine spiritual purity and effortless harmony with cosmos."
+            },
+            {
+                "word": "形体之盲与智力之盲",
+                "pinyin": "xíng tǐ zhī máng yǔ zhì lì zhī máng",
+                "en": "Physical Blindness vs. Intellectual/Spiritual Blindness",
+                "explanationZh": "连叔开导肩吾的辩证哲理。不仅肉体有盲人聋子无法欣赏文采鼓乐，智力与心灵上亦有“盲”与“聋”，无法领悟超越世俗常理的宏大哲理。",
+                "explanationEn": "A philosophical distinction: just as physical blindness prevents seeing colors, intellectual and spiritual blindness prevents small minds from perceiving cosmic truths beyond dogmatic common sense."
+            },
+            {
+                "word": "无用之用",
+                "pinyin": "wú yòng zhī yòng",
+                "en": "The Utility of Uselessness",
+                "explanationZh": "庄子反功利主义的深邃辩证法。世人眼中的“有用”（如野猫黄鼠狼之能捕鼠）往往招致网罗祸患；而“无用”的大树（樗树）反而不受刀斧砍伐，得以终享天年。",
+                "explanationEn": "Zhuangzi's profound paradox: pragmatic 'usefulness' often invites danger and destruction, whereas apparent 'uselessness' protects life from exploitation, achieving ultimate preservation and peace."
+            },
+            {
+                "word": "无何有之乡",
+                "pinyin": "wú hé yǒu zhī xiāng",
+                "en": "The Land of Nothingness / Realm of Pure Freedom",
+                "explanationZh": "庄子设想的没有功利纷扰、没有等级压迫的精神原乡。将“无用”的大树种于广袤无垠的无何有之乡，人可逍遥自在地躺卧其下，获得心灵的终极栖居。",
+                "explanationEn": "Zhuangzi's utopian realm of absolute spiritual serenity—free from utilitarian striving—where one can wander carefree and rest peacefully beneath the branches of cosmic peace."
+            }
+        ]
+    },
     3: {
         "gistZh": "「君子人格」是中国文化独一无二的核心集体人格，不同于西方的绅士或骑士，它注重内在道德修养、社会责任感与中庸圆融。",
         "gistEn": "The 'Junzi' (Noble Person) is Chinese culture's unique core collective personality—unlike Western gentlemen or knights, it emphasizes inner moral cultivation, social responsibility, and harmonious balance.",
@@ -929,7 +1229,8 @@ LESSON_SUMMARIES = {
 }
 
 def main():
-    json_path = '/Users/hendrizhang/Desktop/HartCL/lessons_data.json'
+    base_dir = os.path.dirname(os.path.abspath(__file__))
+    json_path = os.path.join(base_dir, 'lessons_data.json')
     with open(json_path, 'r', encoding='utf-8') as f:
         lessons = json.load(f)
 
@@ -943,7 +1244,7 @@ def main():
             print(f"[{idx}] Missing summary for {l['title']}")
 
         folder = l.get('folderName', '')
-        timed_file = os.path.join('/Users/hendrizhang/Desktop/HartCL', folder, 'timed_transcript.json')
+        timed_file = os.path.join(base_dir, folder, 'timed_transcript.json')
         if os.path.exists(timed_file):
             with open(timed_file, 'r', encoding='utf-8') as tf:
                 l['timedTranscript'] = json.load(tf)
@@ -952,7 +1253,7 @@ def main():
     with open(json_path, 'w', encoding='utf-8') as f:
         json.dump(lessons, f, ensure_ascii=False, indent=2)
 
-    print("\nAll 24 deep bilingual summaries written to lessons_data.json!")
+    print("\nAll deep bilingual summaries written to lessons_data.json!")
 
 if __name__ == '__main__':
     main()
