@@ -634,8 +634,137 @@ LESSON_SUMMARIES = {
                 "zh": "文化的避风港：即便历史遭遇劫难，只要君子人格尚存，中国文明的火种就不会熄灭。",
                 "en": "Cultural Sanctuary: Even during historical catastrophes, as long as the Junzi ideal endures, the embers of Chinese civilization remain alive."
             }
+        ],
+        "vocabulary": [
+            {
+                "word": "君子人格",
+                "pinyin": "jūn zǐ rén gé",
+                "en": "Junzi (Noble Person) Collective Personality",
+                "explanationZh": "中国文化独一无二的核心集体人格。不同于西方的骑士或绅士，君子注重内在道德修养、社会担当与中庸圆融，是中国文明延续数千年的理想人格标杆。",
+                "explanationEn": "The core collective personality unique to Chinese civilization. Unlike Western knights or gentlemen, the Junzi emphasizes inner moral refinement, social duty, and harmonious moderation—serving as the ideal benchmark of Chinese humanity."
+            },
+            {
+                "word": "集体无意识",
+                "pinyin": "jí tǐ wú yì shí",
+                "en": "Collective Unconscious",
+                "explanationZh": "心理学概念，由瑞士心理学家荣格提出。指不依赖于个人经验而由遗传继承下来的群体精神结构，深藏于文化族群的潜意识之中，塑造着群体的心理本能与行为习惯。",
+                "explanationEn": "A psychological concept introduced by Carl Jung. It refers to the inherited mental structures shared across a culture, residing deep within the subconscious and shaping collective instincts and behavioral patterns."
+            },
+            {
+                "word": "暗礁与海床",
+                "pinyin": "àn jiāo yǔ hǎi chuáng",
+                "en": "Reefs & the Seabed",
+                "explanationZh": "学术界对心理学大师理论的生动比喻：弗洛伊德找到了人类心理海浪波涛下的「暗礁」（个体潜意识），而荣格找到了暗礁底下的「海床」（集体无意识）。余秋雨借此说明君子人格是深沉稳固的文化海床。",
+                "explanationEn": "A vivid psychological metaphor: Freud discovered the 'reefs' beneath the ocean waves (individual subconscious), while Jung uncovered the deeper 'seabed' (collective unconscious). Yu Qiuyu highlights Junzi personality as this deep, rock-solid cultural seabed."
+            },
+            {
+                "word": "心理故乡",
+                "pinyin": "xīn lǐ gù xiāng",
+                "en": "Psychological Homeland / Soul Sanctuary",
+                "explanationZh": "一个民族文化心理与灵魂依托的源头。由远古神话、原始意象与历史记忆共同构筑，即便历经岁月变迁，依然是全体族群成员心灵归宿与精神依恋的深层故乡。",
+                "explanationEn": "The foundational spiritual sanctuary of a nation, forged by primordial myths and archetype memories that provide an enduring emotional refuge and sense of belonging for a people."
+            },
+            {
+                "word": "原始意象",
+                "pinyin": "yuán shǐ yì xiàng",
+                "en": "Primordial Archetype / Archetypal Images",
+                "explanationZh": "荣格心理学核心词。远古时代遗留下来并深植于人类群体潜意识中的象征性心理构件（如女娲补天、夸父逐日），跨越时空反复出现在民族的文化梦境与艺术创作中。",
+                "explanationEn": "A central Jungian term denoting symbolic psychological constructs embedded in a culture's collective unconscious from ancient mythologies, resurfacing endlessly in national art, literature, and dreams."
+            },
+            {
+                "word": "自画像",
+                "pinyin": "zì huà xiàng",
+                "en": "National Self-Portrait",
+                "explanationZh": "指一个民族在千百年集体心理活动中组合构建出的自我象征画像。中国人深层的自我画像即是包含仁爱、重义、坚韧与温良的「君子」形象。",
+                "explanationEn": "The symbolic self-image forged across centuries of collective psychological life. The deep self-portrait embedded within the Chinese psyche is the image of the Junzi—embodying benevolence, integrity, and quiet fortitude."
+            },
+            {
+                "word": "因果律",
+                "pinyin": "yīn guǒ lǜ",
+                "en": "Law of Causality",
+                "explanationZh": "西方现代科学与机械唯物主义的基础逻辑，强调原因与结果之间的确定性因果链条。荣格指出，相比西方依赖统计学的因果律，中国古代智慧（如《易经》）展示了更高维度的整体联系与变化法则。",
+                "explanationEn": "The foundational logic of modern Western science emphasizing deterministic cause-and-effect chains. Jung noted that ancient Chinese wisdom (such as the I Ching) offers a higher holistic paradigm beyond linear statistical causality."
+            },
+            {
+                "word": "物极必反",
+                "pinyin": "wù jí bì fǎn",
+                "en": "Things Bound to Turn Around at Extremes",
+                "explanationZh": "成语。指事物发展到极点就会向相反的方向转化。《易经》与道家哲学的重要法则，展示了辩证包容的动态平衡智慧，超越了以自我为中心、单向固执的西方人格结构。",
+                "explanationEn": "Idiom: When things reach an extreme, they inevitably reverse direction. A core principle in I Ching and Daoist philosophy, offering a dynamic dialectical balance that transcends rigid, self-centered individualistic mindsets."
+            },
+            {
+                "word": "王道与霸道",
+                "pinyin": "wáng dào yǔ bà dào",
+                "en": "Kingly Way (Benevolence) vs. Hegemonic Way (Force)",
+                "explanationZh": "中国传统政治伦理的一对核心范畴。王道指以道德感化、仁政与礼义治理天下；霸道指以武力威慑、权谋与功利扩张秩序。孙中山曾劝告邻国警惕霸道，恪守东方的王道文化。",
+                "explanationEn": "Two contrasting governance paradigms in Chinese philosophy: the 'Kingly Way' rules through moral example, benevolence, and ethics; the 'Hegemonic Way' relies on coercion, power politics, and force."
+            },
+            {
+                "word": "和而不同",
+                "pinyin": "hé ér bù tóng",
+                "en": "Harmony Without Uniformity",
+                "explanationZh": "出自《论语》。君子在人际交往与社会治理中追求内在秩序与多元包容的和谐（和），而不盲目苟同或强求一律（不同）；反之，「小人同而不和」，追求形式上的结党苟同却破坏内在和谐。",
+                "explanationEn": "From the Analects: The Junzi seeks deep organic harmony while respecting diverse perspectives ('harmony without uniformity'), whereas the petty person demands rigid conformity while breeding underlying friction."
+            },
+            {
+                "word": "择善而固执",
+                "pinyin": "zé shàn ér gù zhí",
+                "en": "Choosing the Good & Holding Fast to It",
+                "explanationZh": "出自《礼记·中庸》。指通过理性辨析选择正确的道德善道，然后坚守信念、矢志不渝。这是君子人格在复杂变局与道义关头展现出的独立人格与精神定力。",
+                "explanationEn": "From the Doctrine of the Mean: Discriminating the moral good with wisdom and steadfastly holding to it with unwavering conviction—the hallmark of moral resolve in a noble character."
+            },
+            {
+                "word": "文质彬彬",
+                "pinyin": "wén zhì bīn bīn",
+                "en": "Cultured Elegance Balanced with Inner Substance",
+                "explanationZh": "出自《论语》。「文」指外在礼仪、学识与文化教养；「质」指内在朴实、真诚的道德质朴。外在文化修养与内在道德质朴达到完美平衡，方为真正的君子。",
+                "explanationEn": "From the Analects: 'Wen' represents refined culture and demeanor; 'Zhi' denotes inner moral substance. True nobility requires a harmonious balance where external refinement matches internal integrity."
+            },
+            {
+                "word": "重义轻利",
+                "pinyin": "zhòng yì qīng lì",
+                "en": "Valuing Righteousness Over Personal Profit",
+                "explanationZh": "儒家理想人格的核心价值取向。「君子喻于义，小人喻于利」。在面临道德公义与个人私利的抉择时，君子坚持恪守道义尊严，不为一时功利而违背良知底线。",
+                "explanationEn": "A defining value of Confucian ethics: 'The noble person comprehends righteousness; the petty person comprehends profit.' When faced with choices, the Junzi upholds moral integrity over self-serving gain."
+            },
+            {
+                "word": "修己安人",
+                "pinyin": "xiū jǐ ān rén",
+                "en": "Self-Cultivation for the Peace of Others",
+                "explanationZh": "出自《论语》。君子修养道德人格不单是为了自我超脱，更是为了造福他人、安定社会。将个人的内在道德修养与天下苍生的社会责任紧密相连。",
+                "explanationEn": "From the Analects: Cultivating one's character not for selfish enlightenment, but to bring peace, order, and well-being to society—connecting personal ethics directly with broader human duty."
+            },
+            {
+                "word": "君子之道",
+                "pinyin": "jūn zǐ zhī dào",
+                "en": "The Way of the Junzi",
+                "explanationZh": "中华文化千百年来提炼出的理想人格生活准则与实践路径。涵盖仁爱、忠恕、知耻、尊礼等范畴，是儒家思想归结出的最高生命实践学问。",
+                "explanationEn": "The practical spiritual path and ethical code refined over millennia in China, encompassing benevolence, empathy, integrity, and propriety—the ultimate fruit of Confucian life philosophy."
+            },
+            {
+                "word": "夸父逐日",
+                "pinyin": "kuā fù zhú rì",
+                "en": "Kuafu Chasing the Sun (Mythic Archetype)",
+                "explanationZh": "中国远古神话代表。表达了古代先民对于光明与真理不屈不挠、死而后已的宏大追求，化作中华民族精神深处英勇执着、义无反顾的心理基因。",
+                "explanationEn": "A classic Chinese myth embodying humanity's heroic, relentless pursuit of light, truth, and greatness—embedded deep within the national subconscious as an archetype of persistent courage."
+            },
+            {
+                "word": "女娲补天",
+                "pinyin": "nǚ wā bǔ tiān",
+                "en": "Nuwa Mending the Heavens (Mythic Resilience)",
+                "explanationZh": "中国远古上古创世神话。象征着中华文明在面对天塌地陷级的巨灾劫难时，所展现出的强大拯救意志、母性慈爱与重建秩序的文明抗逆力。",
+                "explanationEn": "An ancient creation myth symbolizing Chinese civilization's maternal compassion, heroic agency, and invincible resilience in repairing societal order after apocalyptic catastrophes."
+            },
+            {
+                "word": "德行第一",
+                "pinyin": "dé xíng dì yī",
+                "en": "Virtue & Moral Integrity Above All",
+                "explanationZh": "君子人格的首要评判标准。在中国文化中，才干、学问与财富皆位居次席，唯有道德操守与良知品格是衡量一个人高下与尊严的根本准则。",
+                "explanationEn": "The primary criterion for the Junzi. In Chinese tradition, intellect, wealth, and status remain secondary to moral integrity, which serves as the supreme measure of human dignity."
+            }
         ]
     },
+
     4: {
         "gistZh": "「中庸之道」并非平庸妥协，而是数千年来中华民族在复杂历史环境下的集体生存智慧——寻找极致与偏激之间的黄金平衡点。",
         "gistEn": "The 'Doctrine of the Mean' (Zhongyong) is not mediocre compromise, but thousands of years of collective survival wisdom—seeking the golden balance between extremes and radicalism.",

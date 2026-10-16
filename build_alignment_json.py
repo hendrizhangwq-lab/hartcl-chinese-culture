@@ -197,3 +197,5 @@ def build_lesson_alignment(lesson_dir):
 
 build_lesson_alignment("./lessons/02-01_逍遥游：中国艺术的最高理想")
 build_lesson_alignment("./lessons/02-02_《逍遥游》今译：中国文学和中国艺术的总体概括")
+build_lesson_alignment("./lessons/03_君子人格：理想化的人格结构")
+
