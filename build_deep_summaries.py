@@ -764,6 +764,156 @@ LESSON_SUMMARIES = {
             }
         ]
     },
+    "03-01": {
+        "gistZh": "余秋雨从孔子对君子与小人的对比思维切入，提出“研究小人是为了更好地认识君子”的核心论点。深刻剖析了小人琢磨不定、善于伪装、消解历史与正义的特殊本质，揭示了直面文化负面人格对完善君子修养的重大意义。",
+        "gistEn": "Yu Qiuyu explores the Confucian dichotomy between Junzi and Xiaoren, establishing that 'studying the petty person is essential to fully understanding the exemplary person.' He dissects the elusive, camouflaged, and corrosive nature of Xiaoren, illustrating why confronting this dark side of cultural character is vital for authentic virtue.",
+        "highlights": [
+            {
+                "zh": "反面映衬法：“想知道君子是什么样的吗？看小人就知道了。”通过划清与小人的界限，反向确立君子的人格高标。",
+                "en": "Contrastive Definition: 'Want to know what a Junzi is like? Just look at a Xiaoren.' By defining boundaries against Xiaoren, the lofty benchmark of Junzi is clearly delineated."
+            },
+            {
+                "zh": "小人的特质：不是元凶巨恶，却琢磨不定；没有明确政见，却能让鲜明形象瘫软、祥和关系险恶、响亮命题荒唐。",
+                "en": "Traits of the Xiaoren: Not overt monsters, but elusive and shifting; lacking clear convictions, yet paralyzing noble figures, poisoning relationships, and debasing grand ideals."
+            },
+            {
+                "zh": "伪装与消解：小人最擅长伪装成君子，甚至在面临问责时与愤怒的大众站在一起，使正义失去攻击的目标。",
+                "en": "Disguise and Dissolution: Xiaoren disguise themselves as Junzi and even echo righteous fury when challenged, effectively depriving justice of a clear target."
+            },
+            {
+                "zh": "文化批判的勇气：克服君子对泥潭的回避，敢于探究中华文化深层的负面人格结构（《历史的暗角》/《大地小人》）。",
+                "en": "Courage for Cultural Critique: Overcoming the instinct to avoid murky subjects, daring to probe the subterranean negative personality of Chinese culture."
+            }
+        ],
+        "vocabulary": [
+            {
+                "word": "君子与小人",
+                "pinyin": "jūn zǐ yǔ xiǎo rén",
+                "en": "Junzi and Xiaoren (Exemplary Person vs. Petty Person)",
+                "explanationZh": "中国传统伦理中最核心的一对二元对立人格范畴。孔子与儒家几乎每条关于君子的论述都以小人作对比，确立道德与人品的正反两极标尺。",
+                "explanationEn": "The foundational dualistic archetype in traditional Chinese ethics. Confucius contrasted Junzi with Xiaoren in almost every teaching, establishing positive and negative moral benchmarks."
+            },
+            {
+                "word": "对立面",
+                "pinyin": "duì lì miàn",
+                "en": "Antithesis / Opposing Counterpart",
+                "explanationZh": "事物发展中相互排斥又互为映衬的相反方面。余秋雨指出讲完君子之道的九项要点与四大难点后，必须直面其对立面小人，整个君子学问才算完整闭环。",
+                "explanationEn": "The diametrical counterpart essential for systemic understanding. Studying the Xiaoren as the antithesis completes the intellectual and moral portrait of the Junzi."
+            },
+            {
+                "word": "小人天地",
+                "pinyin": "xiǎo rén tiān dì",
+                "en": "The Realm of Xiaoren (The Petty Domain)",
+                "explanationZh": "余秋雨对中华文化负面人格生态的概括性称谓。指由无原则、善伪装、利己害群的各种小人行为构成的隐蔽而庞大的社会心理网络。",
+                "explanationEn": "Yu Qiuyu's collective term for the cultural pathology of negative archetypes: a pervasive social and psychological undercurrent woven by unprincipled, parasitic opportunists."
+            },
+            {
+                "word": "边际修剪",
+                "pinyin": "biān jì xiū jiǎn",
+                "en": "Marginal Trimming (Definition via Negation)",
+                "explanationZh": "哲学与逻辑学上的“排除法”定义方式。在正面难以穷尽描述高尚理想时，通过剔除所有非君子、反道德的污浊杂质，让君子的纯粹形象自然凸显。",
+                "explanationEn": "A philosophical definition method through negation: when a sublime ideal defies easy positive specification, trimming away negative traits brings the noble form into sharp relief."
+            },
+            {
+                "word": "琢磨不定",
+                "pinyin": "zuó mo bù dìng",
+                "en": "Elusive, Indeterminate, and Shifting",
+                "explanationZh": "小人群体最致命的特征之一。无明确立场、无固定形态，如同空气与流水般四处渗透，使得学者难以研究、正派人士难以防范与正面交锋。",
+                "explanationEn": "The most dangerous hallmark of the Xiaoren: devoid of rigid convictions or identifiable stances, fluidly infiltrating social fabrics, evading both academic capture and moral accountability."
+            },
+            {
+                "word": "伪装",
+                "pinyin": "wěi zhuāng",
+                "en": "Camouflage / Moral Disguise",
+                "explanationZh": "小人借用君子的道德话语与崇高言辞包装自己的手段。结果导致圣贤的名言警句反而常从小人口中说出，使大众真伪难辨。",
+                "explanationEn": "The art of co-opting virtuous rhetoric to mask insidious intentions, resulting in classic moral aphorisms ironically flowing from the lips of hypocrites to confuse the public."
+            },
+            {
+                "word": "群众眼睛未必雪亮",
+                "pinyin": "qún zhòng yǎn jing wèi bì xuě liàng",
+                "en": "The Public Eye Is Not Infallible",
+                "explanationZh": "余秋雨对传统“众人无可欺”观念的清醒反思。由于小人擅长伪装与煽动，普通大众在多数历史时期极易被表象蒙蔽，无法迅速辨清大忠大奸。",
+                "explanationEn": "A sober critique of the naive belief that the masses are invariably discerning. Master manipulators frequently bamboozle public sentiment, confounding moral clarity."
+            },
+            {
+                "word": "历史的暗角",
+                "pinyin": "lì shǐ de àn jiǎo",
+                "en": "Dark Corners of History",
+                "explanationZh": "余秋雨收录于《山居笔记》的著名文化散文篇名。首次系统性地从文化学与心理学角度剖析中国历史上小人的生成机制与巨大破坏力，引发华人世界极大轰动。",
+                "explanationEn": "The title of Yu Qiuyu's celebrated essay in 'Notes from Mountain Dwelling', which pioneered the cultural-psychological dissection of Xiaoren in Chinese dynastic history."
+            },
+            {
+                "word": "大地小人",
+                "pinyin": "dà dì xiǎo rén",
+                "en": "Xiaoren Across the Earth",
+                "explanationZh": "《历史的暗角》扩充后的文章名称。“大地”与“小人”形成宏阔空间与猥琐人格的强烈对仗，揭示小人群体在广袤国土上普遍滋生、阴魂不散的普遍性。",
+                "explanationEn": "The expanded title contrasting the vast earth with petty humans, highlighting how the scourge of unprincipled opportunism has populated every corner of civilization."
+            },
+            {
+                "word": "元凶巨恶",
+                "pinyin": "yuán xiōng jù è",
+                "en": "Arch-Criminals and Heinous Villains",
+                "explanationZh": "公开作恶、罪行昭彰的首要恶徒。小人不同于元凶巨恶，他们往往没有滔天罪行或鲜明暴行，而是以微小而持续的侵蚀瓦解道德与事业。",
+                "explanationEn": "Notorious, overt master villains. Xiaoren differ fundamentally from blatant criminals in that they operate through stealthy, incremental rot rather than conspicuous monstrosity."
+            },
+            {
+                "word": "混沌暧昧",
+                "pinyin": "hùn dùn ài mèi",
+                "en": "Chaotic, Ambiguous, and Sordid",
+                "explanationZh": "小人对清晰历史事件的消解效应。由于他们的挑拨、曲解与谣言，原本黑白分明的事理慢慢变得浑浊不清、是非难分、龌龊肮脏。",
+                "explanationEn": "The muddying effect of petty politics: sowing rumor and malice until originally transparent truths become ambiguous, sordid, and indecipherable."
+            },
+            {
+                "word": "腐浊之气",
+                "pinyin": "fǔ zhuó zhī qì",
+                "en": "A Murky, Putrid Atmosphere / Corrosive Influence",
+                "explanationZh": "余秋雨对小人氛围的通感比喻。小人如同一团驱之不散、不见痕迹的腐臭浊气，让人心生厌恶却又抓不到实体，时刻侵蚀着周遭的清爽与宁静。",
+                "explanationEn": "A sensory metaphor for toxic micro-politics: an inescapable, shapeless smog of corruption that asphyxiates moral integrity without leaving tangible fingerprints."
+            },
+            {
+                "word": "飘忽不定",
+                "pinyin": "piāo hū bù dìng",
+                "en": "Evanescent and Flickering / Mercurial",
+                "explanationZh": "形容小人的言谈与神态变化莫测。他们没有原则，见风使舵，随环境与利益的变动而随意切换面孔，使人防不胜防。",
+                "explanationEn": "Mercurial shifts in demeanor and tone: altering smiles, glances, and loyalties at a moment's notice to align with shifting winds of convenience."
+            },
+            {
+                "word": "万钧雷霆",
+                "pinyin": "wàn jūn léi tíng",
+                "en": "Thunderous Might / Crushing Retribution",
+                "explanationZh": "比喻正义之士积聚的强大怒火与打击力量。当正义之士准备雷霆出击时，小人往往早已换上一副同样愤怒的面具混在阵营中，使正义打击落空。",
+                "explanationEn": "Overwhelming righteous wrath. When poised to strike down malice with crushing force, the pursuer finds the Xiaoren masquerading amidst the angry crowd."
+            },
+            {
+                "word": "不绝如缕",
+                "pinyin": "bù jué rú lǚ",
+                "en": "Lingering Inescapably / Tenacious Continuity",
+                "explanationZh": "原指声音或气息微弱而连绵不断。此处指即使你掉过头去不理会小人，那股阴暗猥琐的气息依然像细丝一样紧紧缠绕、挥之不去。",
+                "explanationEn": "Lingering persistently like an unbroken thread: describing the insidious tenacity of petty slander and toxicity that clings despite attempts to ignore it."
+            },
+            {
+                "word": "钢铸铁浇",
+                "pinyin": "gāng zhù tiě jiāo",
+                "en": "Forged of Iron and Steel / Unyielding Titans",
+                "explanationZh": "形容历史上那些意志坚如钢铁、经受过无数风浪考验的杰出政治家与军事家。他们能战胜千军万马，却往往被身边微小的小人暗算致死。",
+                "explanationEn": "Metaphor for iron-willed historical titans and generals who conquered formidable battlefields, yet ultimately succumbed to the covert poisoning of petty courtiers."
+            },
+            {
+                "word": "和颜悦色",
+                "pinyin": "hé yán yuè sè",
+                "en": "Genial Smiles and Courteous Countenances",
+                "explanationZh": "形容和蔼喜悦的神色。小人在依附强者时往往展现出最无可挑剔的温顺和颜，而这种甜蜜的表象下往往隐藏着最致命的见风使舵与背刺背叛。",
+                "explanationEn": "Amiable expressions and courteous veneer: the deceptive mask worn by sycophants to ingratiate themselves with power before delivering the fatal betrayal."
+            },
+            {
+                "word": "弥留之际",
+                "pinyin": "mí liú zhī jì",
+                "en": "On One's Deathbed / Dying Breath",
+                "explanationZh": "生命垂危、行将离世的最后时刻。余秋雨描写钢铁般的领袖在临终弥留之际，最刻骨铭心的遗恨不是敌人，而是颤抖着吐出的两个字——“小人”。",
+                "explanationEn": "The threshold of final expiration. Historical commanders on their deathbeds carry lingering trauma not toward worthy rivals, but toward the elusive Xiaoren."
+            }
+        ]
+    },
 
     4: {
         "gistZh": "「中庸之道」并非平庸妥协，而是数千年来中华民族在复杂历史环境下的集体生存智慧——寻找极致与偏激之间的黄金平衡点。",
@@ -1363,6 +1513,38 @@ def main():
     with open(json_path, 'r', encoding='utf-8') as f:
         lessons = json.load(f)
 
+    # Check if 03-01 is present; if not, insert it after 03
+    has_03_01 = any(l.get('index') == '03-01' for l in lessons)
+    if not has_03_01:
+        folder_03_01 = "lessons/03-01_君子的反面：研究小人是为了更好地认识君子"
+        zh_path = os.path.join(base_dir, folder_03_01, "transcript.md")
+        en_path = os.path.join(base_dir, folder_03_01, "english_transcript.md")
+        zh_txt = open(zh_path, encoding='utf-8').read() if os.path.exists(zh_path) else ""
+        en_txt = open(en_path, encoding='utf-8').read() if os.path.exists(en_path) else ""
+        
+        lesson_03_01 = {
+            "index": "03-01",
+            "title": "君子的反面：研究小人是为了更好地认识君子",
+            "trackId": 139794735,
+            "folderName": folder_03_01,
+            "audioPath": f"./{folder_03_01}/audio.m4a",
+            "quoteCardPath": f"./{folder_03_01}/quote_card_1.jpg",
+            "transcriptZh": zh_txt,
+            "transcriptEn": en_txt,
+            "duration": 685.71
+        }
+        # Find position after 03
+        pos = -1
+        for i, l in enumerate(lessons):
+            if str(l.get('index')) in ['3', '03']:
+                pos = i + 1
+                break
+        if pos != -1:
+            lessons.insert(pos, lesson_03_01)
+        else:
+            lessons.append(lesson_03_01)
+        print("Inserted lesson 03-01 into lessons list")
+
     for l in lessons:
         idx = l['index']
         if idx in LESSON_SUMMARIES or (isinstance(idx, int) and idx in LESSON_SUMMARIES) or (isinstance(idx, str) and idx.isdigit() and int(idx) in LESSON_SUMMARIES):
@@ -1378,6 +1560,15 @@ def main():
             with open(timed_file, 'r', encoding='utf-8') as tf:
                 l['timedTranscript'] = json.load(tf)
             print(f"[{idx}] Synced timedTranscript ({len(l['timedTranscript'])} items) from {folder}")
+
+        # Ensure transcriptZh and transcriptEn are populated
+        if not l.get('transcriptZh') or not l.get('transcriptEn'):
+            zh_f = os.path.join(base_dir, folder, 'transcript.md')
+            en_f = os.path.join(base_dir, folder, 'english_transcript.md')
+            if os.path.exists(zh_f):
+                l['transcriptZh'] = open(zh_f, encoding='utf-8').read()
+            if os.path.exists(en_f):
+                l['transcriptEn'] = open(en_f, encoding='utf-8').read()
 
     with open(json_path, 'w', encoding='utf-8') as f:
         json.dump(lessons, f, ensure_ascii=False, indent=2)

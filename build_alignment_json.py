@@ -51,7 +51,10 @@ def build_lesson_alignment(lesson_dir):
         # Check if heading (subheading)
         is_heading = False
         clean_zh_heading = zh_line.replace("&nbsp;", "").strip()
-        if clean_zh_heading in ["无待、无己", "道家的人格理想", "诸子散文的基础记忆和扩大记忆", "今译的重要性", "《逍遥游》今译", "无所依靠"]:
+        if clean_zh_heading in [
+            "无待、无己", "道家的人格理想", "诸子散文的基础记忆和扩大记忆", "今译的重要性", "《逍遥游》今译", "无所依靠",
+            "君子的反面群体：小人", "研究小人是为了更好地研究君子"
+        ]:
             is_heading = True
 
         clean_p_zh = clean_str(zh_line)
@@ -197,5 +200,5 @@ def build_lesson_alignment(lesson_dir):
 
 build_lesson_alignment("./lessons/02-01_逍遥游：中国艺术的最高理想")
 build_lesson_alignment("./lessons/02-02_《逍遥游》今译：中国文学和中国艺术的总体概括")
-build_lesson_alignment("./lessons/03_君子人格：理想化的人格结构")
+build_lesson_alignment("./lessons/03-01_君子的反面：研究小人是为了更好地认识君子")
 
