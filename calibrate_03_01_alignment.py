@@ -1,0 +1,424 @@
+import os
+import json
+
+lesson_dir = "lessons/03-01_君子的反面：研究小人是为了更好地认识君子"
+
+aligned = [
+  {
+    "id": 1,
+    "isHeading": False,
+    "start": 31.0,
+    "end": 56.0,
+    "zh": "大家好，我是余秋雨，我们继续开课。我们现在要进入一个非常有趣又很艰难的课题，我们在讲君子之道以后，必须要讲他的对立面，小人。从现在开始，这个课如果要有个总标题的话，叫小人天地。",
+    "en": "Hello everyone, I am Yu Qiuyu, and let us resume our lecture. We are now about to embark on a topic that is exceptionally intriguing yet profoundly challenging: having explored the Way of the Junzi, we must now address its antithesis—the Xiaoren (petty person). From this moment onward, if this course were to have an overarching title, it would be 'The Realm of the Petty Person.'"
+  },
+  {
+    "id": 2,
+    "isHeading": False,
+    "start": 56.0,
+    "end": 101.0,
+    "zh": "我在讲中国文化人格结构的时候，讲到儒家的人格结构是君子，君子之道里边我讲了九项要点，四个难点。九项要点，我还再讲一讲，比如我讲到君子怀德，君子之德风，君子成人之美，君子周而不比，君子坦荡荡，君子中庸，君子有礼，君子不器，君子知耻。我讲到四大难点的时候，讲到君子之交，君子之名，君子之伪，君子之难。",
+    "en": "When I discussed the personality structure of Chinese culture earlier, I pointed out that the personality structure of Confucianism is the Junzi. Within the Way of the Junzi, I outlined nine core essentials and four difficulties. As for the nine essentials, let me recap them briefly: Junzi cherishes virtue; the virtue of the Junzi is like wind; Junzi brings out the best in others; Junzi is harmonious without colluding; Junzi is serene and open-hearted; Junzi holds to the Golden Mean; Junzi observes propriety; Junzi is not a mere utensil; and Junzi knows shame. When discussing the four difficulties, I covered the friendships of the Junzi, the fame of the Junzi, the hypocrisy confronting the Junzi, and the tribulations of the Junzi."
+  },
+  {
+    "id": 3,
+    "isHeading": True,
+    "start": 101.0,
+    "end": 101.0,
+    "zh": "君子的反面群体：小人",
+    "en": "The Antithesis of the Junzi: The Xiaoren"
+  },
+  {
+    "id": 4,
+    "isHeading": False,
+    "start": 101.0,
+    "end": 148.0,
+    "zh": "当这个九项要点和四项难点讲完，按照一般意义上，我把君子之道就讲完了。但是，毫无疑问我们都必须要面对他的一个反面的群体叫做小人，小人天地。如果不了解他，我们君子之道没有完成。孔子他在论述君子的时候，几乎每一条都要把小人拿来作对比，我们怎么能够逃开我们的圣人很早就立下的这个对立面。",
+    "en": "Once these nine essentials and four difficulties have been covered, in the conventional sense, my discourse on the Way of the Junzi would be complete. However, we undoubtedly must face its antithetical group known as the Xiaoren—the realm of the petty person. If we do not understand them, our study of the Way of the Junzi remains incomplete. In Confucius's discourse on the Junzi, virtually every principle is drawn in contrast with the Xiaoren; how could we possibly evade this very opposition established by our sage so long ago?"
+  },
+  {
+    "id": 5,
+    "isHeading": False,
+    "start": 148.0,
+    "end": 188.0,
+    "zh": "在论述君子之道的整个过程当中，我们眼前总会隐隐约约地出现着一批一批的小人。每次出现的时候，我们都会重新钦佩孔子和他的朋友们，他们的设计，用我们现在一句通俗的话来说叫做，想知道君子是什么样的吗？看小人就知道了。从反面来看正面，君子用一系列的对比句式，把君子和小人之间的界限划得很清楚。",
+    "en": "Throughout the process of discussing the Way of the Junzi, groups of Xiaoren invariably emerge dimly before our eyes. Each time they appear, we gain renewed admiration for Confucius and his companions for their deliberate design. To put it in modern colloquial terms: Want to know what a Junzi is like? Just look at a Xiaoren and you will know. By examining the positive from the negative, the Junzi uses a series of comparative formulations to draw an unmistakably clear boundary between the Junzi and the Xiaoren."
+  },
+  {
+    "id": 6,
+    "isHeading": False,
+    "start": 188.0,
+    "end": 236.0,
+    "zh": "面对这种划分，小人他会采取什么办法？他很简单，把自己伪装成君子，然后，把君子推到小人一边。结果，孔子的那些名言，居然经常从小人的嘴当中吐出来，这大概是大君子孔子当时没有想到的。孔子也许已经有点顾及，但是他觉得众人无可欺，按照我们说法叫群众眼睛是雪亮的；所以，众人总能辨得出君子和小人。但是，他不知道众人太有可能被欺骗了，群众的眼睛多数时间不是雪亮的。",
+    "en": "Confronted with such a demarcation, what tactic would the Xiaoren adopt? It is very simple: they disguise themselves as Junzi, and then shove the true Junzi into the camp of the Xiaoren. As a consequence, those celebrated aphorisms of Confucius are ironically often uttered by the mouths of Xiaoren—something that the great Junzi Confucius likely never anticipated at the time. Confucius may have had some inkling of concern, but he believed that \"the masses cannot be deceived,\" or as we say today, \"the public's eyes are sharp and discerning\"; therefore, the collective crowd would always distinguish Junzi from Xiaoren. However, what he did not realize was that the masses are all too easily deceived, and the eyes of the crowd are, for the most part, far from sharp."
+  },
+  {
+    "id": 7,
+    "isHeading": False,
+    "start": 236.0,
+    "end": 297.0,
+    "zh": "在孔子之后，我们在中国历史上一直活跃着大批非常奇特的人物，他们是以君子的面目出现的小人，他们的作用很大，很难被辨识，很难被清除。造成这样一个结果，也有个学术原因，小人虽然被一次次对比性地提及，却几乎没有被系统地研究。为什么？因为这是一个琢磨不定的群体，研究起来很困难。我们搞所有学术研究的人知道，最难研究的就是你的研究对象是琢磨不定的，小人就是这样。而且，很多君子也不愿意长久地陷入这个既琢磨不定，又心里感到不痛快的那个泥潭当中去。",
+    "en": "After Confucius, throughout Chinese history there has continuously flourished a large contingent of very peculiar individuals: they are Xiaoren appearing in the guise of Junzi. Their influence is immense, yet they are exceptionally hard to identify and virtually impossible to purge. This outcome also stems from an academic reason: although Xiaoren were repeatedly mentioned by way of comparison, they were almost never studied systematically. Why? Because this is an elusive and indeterminate group, making research extraordinarily difficult. Anyone engaged in scholarly research knows that the hardest subject to investigate is one that is elusive and shifting, which is precisely the nature of Xiaoren. Moreover, many Junzi are reluctant to plunge themselves for long into a quagmire that is both elusive and profoundly unsettling to the spirit."
+  },
+  {
+    "id": 8,
+    "isHeading": False,
+    "start": 297.0,
+    "end": 337.0,
+    "zh": "这个东西总要解决，所以我就壮着胆子皱着眉头来弥补一下这个历史的缺憾。我在好多年以前写了一篇专研究小人的文章，最早出来的时候，起的名字叫《历史的暗角》，作为《山居笔记》的最后一篇。后来这篇文章扩充以后，改成叫《大地小人》，大地、小人这是对仗的。大地上出现的这种小人的群体，到处都有，这文章影响确实很大，很多地方转载。",
+    "en": "Yet this issue must be addressed, and so I summoned up my courage and knitted my brows to make up for this historical void. Many years ago, I wrote an essay specifically investigating Xiaoren; when it first appeared, it was titled \"Dark Corners of History,\" serving as the final piece of \"Notes from Mountain Dwelling.\" Later, after being expanded, the essay was retitled \"Xiaoren of the Earth\"—earth and petty persons forming a paired antithesis. Such groups of Xiaoren appearing across the land exist everywhere, and this essay exerted a profound influence, being reprinted in numerous venues."
+  },
+  {
+    "id": 9,
+    "isHeading": False,
+    "start": 337.0,
+    "end": 387.0,
+    "zh": "有趣的是，我到台湾去的时候，遇到慈济功德会的证严法师，这个著名的佛教领袖，他是经常在华人世界里边救灾治病，做很多很多好事，他跟我讲，你写《小人》这篇文章，台湾的报纸转载以后，我把它剪下来贴在我的笔记本上了。一个专门在研究善良、研究人间的最高道德的这么一位佛教法师，他对这个负面现象也很重视。有人说，这是第一篇研究中华文化负面人格的文章，这个评价当然很高。",
+    "en": "Interestingly, when I visited Taiwan, I met Master Cheng Yen of the Buddhist Compassion Relief Tzu Chi Foundation, that renowned Buddhist leader who frequently coordinates disaster relief and medical charity across the global Chinese community. She told me: \"After your essay on Xiaoren was reprinted in Taiwanese newspapers, I clipped it out and pasted it into my notebook.\" Here was a Buddhist master whose life is dedicated to exploring benevolence and human virtue, yet she placed great weight on this negative phenomenon. Some commented that this was the very first essay to systematically investigate the negative personality archetypes in Chinese culture, which is indeed high praise."
+  },
+  {
+    "id": 10,
+    "isHeading": True,
+    "start": 390.0,
+    "end": 390.0,
+    "zh": "研究小人是为了更好地研究君子",
+    "en": "Studying Xiaoren to Better Understand Junzi"
+  },
+  {
+    "id": 11,
+    "isHeading": False,
+    "start": 390.0,
+    "end": 461.0,
+    "zh": "但是，我必须给大家说，我研究小人的目的是为了更好地认识君子，小人只是一个我们跳上去的一个台阶，跳到哪里？跳到君子那儿。小人应该被否定的，我们应该在研究小人的问题过程当中，逐步地成为君子。可能历史上的很多研究者都这么潇洒的态度，小人没有很好地被认真研究；所以，我这次改变了，我一定要跳下去，认真研究一下，在研究的过程当中，把他的一系列的问题揭发出来，让大家仔细地看一看。这个研究虽然听起来有一点奇怪，因为你要进入到一个需要获得古今社会批评的领域了，但是你只要研究君子之道，你就躲不开的这个对立面。所以，我们还是认真研究。",
+    "en": "However, I must make clear to everyone that my purpose in studying Xiaoren is to better recognize and understand the Junzi. The Xiaoren is merely a stepping stone for us to climb upon—to jump where? To ascend toward the Junzi. The Xiaoren ought to be negated, and through the process of examining the problem of Xiaoren, we should gradually cultivate ourselves into Junzi. Perhaps many historical scholars took an aloof stance, leaving Xiaoren without rigorous and systematic inquiry; therefore, I have decided to change course. I resolved to dive in and investigate thoroughly, exposing the series of issues surrounding them throughout this inquiry so that everyone can examine them closely. Although this study might sound somewhat peculiar—because you are entering a territory destined to draw historical and social controversy—as long as you study the Way of the Junzi, you cannot avoid this opposite side. Hence, we must study it conscientiously."
+  },
+  {
+    "id": 12,
+    "isHeading": False,
+    "start": 461.0,
+    "end": 490.0,
+    "zh": "一讲到小人的时候，我们首先前面讲到了他的琢磨不定，他们是谁。这群人不是英雄豪杰，但是也未必是元凶巨恶。他的社会地位可能很低，也可能很高。就文化程度而论，他们可能是文盲，也可能是学者。",
+    "en": "When speaking of Xiaoren, we first noted their indeterminate and elusive nature: who exactly are they? This group does not consist of heroes, nor are they necessarily heinous monsters or arch-villains. Their social status might be very humble, or it might be very prominent. In terms of educational background, they might be illiterate, or they could well be erudite scholars."
+  },
+  {
+    "id": 13,
+    "isHeading": False,
+    "start": 490.0,
+    "end": 558.0,
+    "zh": "很难说他们是好人还是坏人，但是由于他们的存在，许多鲜明的历史形象渐渐地变得瘫软，变得模糊，变得暴躁，许多简单的历史事件，一一变得混沌、暧昧、肮脏，许多祥和的人际关系慢慢地变得紧张、尴尬、凶险，许多响亮的历史命题足够的变得黯淡、纷乱、荒唐。他们起到如此巨大的作用，但是，你如果问他们有没有明确的政治主张，他们没有，他们的全部所作所为并没有留下清楚的行为印记，他们绝不想对谁负什么责任，而且确实也无法让他们负责。他们是一团驱之不散又不见痕迹的腐浊之气，他们是一堆飘忽不定的声音和眉眼。",
+    "en": "It is difficult to label them simply as good or bad people. Yet because of their existence, many vivid historical figures gradually became paralyzed, blurred, and irritable; many straightforward historical events turned chaotic, ambiguous, and sordid; many harmonious human relationships progressively became tense, awkward, and perilous; and many resonant historical propositions deteriorated into dimness, turmoil, and absurdity. They wield such colossal impact, yet if you ask whether they possess any clear political doctrine, they have none; none of their actions leave behind clear, accountable footprints; they never intend to bear responsibility toward anyone, and indeed it is impossible to hold them accountable. They are a cloud of foul and murky air that cannot be dispersed yet leaves no trace; they are an indeterminate flutter of whispers, glances, and grimaces."
+  },
+  {
+    "id": 14,
+    "isHeading": False,
+    "start": 558.0,
+    "end": 614.0,
+    "zh": "你终于愤怒了，聚集起万钧雷霆，准备对他们发动袭击，但没想到这些声音和眉眼，居然和你站在一起，和你一起愤怒，你突然发现失去了攻击的对象。你想不去理会他们，掉过头去，那股腐浊的空气又袅袅地不绝如缕地飘在你的身边。大家能够想象我所描述的这样的人吗？他们没有观点，他们没有立场，但是他们能够把一切事情做坏，他们将要受到攻击的时候，他居然在攻击者的一边了，但是他们一直环绕着你，你要发火也不知道给谁发。",
+    "en": "When you finally become enraged and gather thunderous force to launch an assault against them, you find to your astonishment that these whispers and grimaces are actually standing right alongside you, expressing anger alongside you, and you suddenly discover that your target of attack has vanished. If you decide to ignore them and turn away, that murky current of foul air once again curls continuously and inescapably around you. Can you imagine the kind of people I am describing? They possess no conviction and no stance, yet they can ruin everything; when they are about to face attack, they are suddenly found standing on the attacker's side; yet they persistently surround you, leaving you with boundless fury and no one to direct it toward."
+  },
+  {
+    "id": 15,
+    "isHeading": False,
+    "start": 614.0,
+    "end": 669.0,
+    "zh": "我相信历史上许多钢铸铁浇般的政治家、军事家，最终要离开世界的时候，最痛恨的未必是自己明确的敌手，而是曾经给过自己许多非常漂亮的句子和非常和颜悦色的表情的人，最终还是说不清他们究竟是敌人还是朋友的那些脸。处于弥留之际的政治家和军事家，颤动的嘴唇很艰难地吐出一个字，小人。对，小人，这就是我们从今天开始要认真研究的一个主角。今天讲到这儿。",
+    "en": "I believe that throughout history, when many iron-willed politicians and military commanders were finally on the verge of departing this world, what they hated most was not necessarily their overt, declared adversaries, but rather those faces that had once offered them countless splendid phrases and genial smiles—faces of whom one could never ultimately decipher whether they were friends or foes. In their dying moments, the trembling lips of those statesmen and generals struggled to utter a single word: Xiaoren. Yes, Xiaoren—that is the very protagonist we begin to examine in depth today. That concludes our lecture for today."
+  }
+]
+
+timed = [
+  {
+    "id": 1,
+    "isHeading": False,
+    "start": 31.0,
+    "end": 56.0,
+    "zh": "大家好，我是余秋雨，我们继续开课。我们现在要进入一个非常有趣又很艰难的课题，我们在讲君子之道以后，必须要讲他的对立面，小人。从现在开始，这个课如果要有个总标题的话，叫小人天地。",
+    "en": "Hello everyone, I am Yu Qiuyu, and let us resume our lecture. We are now about to embark on a topic that is exceptionally intriguing yet profoundly challenging: having explored the Way of the Junzi, we must now address its antithesis—the Xiaoren (petty person). From this moment onward, if this course were to have an overarching title, it would be 'The Realm of the Petty Person.'",
+    "zhSentences": [
+      {"text": "大家好，我是余秋雨，我们继续开课。", "start": 31.0, "end": 36.5},
+      {"text": "我们现在要进入一个非常有趣又很艰难的课题，我们在讲君子之道以后，必须要讲他的对立面，小人。", "start": 36.5, "end": 48.0},
+      {"text": "从现在开始，这个课如果要有个总标题的话，叫小人天地。", "start": 48.0, "end": 56.0}
+    ],
+    "enSentences": [
+      {"text": "Hello everyone, I am Yu Qiuyu, and let us resume our lecture.", "start": 31.0, "end": 36.5},
+      {"text": "We are now about to embark on a topic that is exceptionally intriguing yet profoundly challenging: having explored the Way of the Junzi, we must now address its antithesis—the Xiaoren (petty person).", "start": 36.5, "end": 48.0},
+      {"text": "From this moment onward, if this course were to have an overarching title, it would be 'The Realm of the Petty Person.'", "start": 48.0, "end": 56.0}
+    ]
+  },
+  {
+    "id": 2,
+    "isHeading": False,
+    "start": 56.0,
+    "end": 101.0,
+    "zh": "我在讲中国文化人格结构的时候，讲到儒家的人格结构是君子，君子之道里边我讲了九项要点，四个难点。九项要点，我还再讲一讲，比如我讲到君子怀德，君子之德风，君子成人之美，君子周而不比，君子坦荡荡，君子中庸，君子有礼，君子不器，君子知耻。我讲到四大难点的时候，讲到君子之交，君子之名，君子之伪，君子之难。",
+    "en": "When I discussed the personality structure of Chinese culture earlier, I pointed out that the personality structure of Confucianism is the Junzi. Within the Way of the Junzi, I outlined nine core essentials and four difficulties. As for the nine essentials, let me recap them briefly: Junzi cherishes virtue; the virtue of the Junzi is like wind; Junzi brings out the best in others; Junzi is harmonious without colluding; Junzi is serene and open-hearted; Junzi holds to the Golden Mean; Junzi observes propriety; Junzi is not a mere utensil; and Junzi knows shame. When discussing the four difficulties, I covered the friendships of the Junzi, the fame of the Junzi, the hypocrisy confronting the Junzi, and the tribulations of the Junzi.",
+    "zhSentences": [
+      {"text": "我在讲中国文化人格结构的时候，讲到儒家的人格结构是君子，君子之道里边我讲了九项要点，四个难点。", "start": 56.0, "end": 74.0},
+      {"text": "九项要点，我还再讲一讲，比如我讲到君子怀德，君子之德风，君子成人之美，君子周而不比，君子坦荡荡，君子中庸，君子有礼，君子不器，君子知耻。", "start": 74.0, "end": 92.0},
+      {"text": "我讲到四大难点的时候，讲到君子之交，君子之名，君子之伪，君子之难。", "start": 92.0, "end": 101.0}
+    ],
+    "enSentences": [
+      {"text": "When I discussed the personality structure of Chinese culture earlier, I pointed out that the personality structure of Confucianism is the Junzi.", "start": 56.0, "end": 67.0},
+      {"text": "Within the Way of the Junzi, I outlined nine core essentials and four difficulties.", "start": 67.0, "end": 74.0},
+      {"text": "As for the nine essentials, let me recap them briefly: Junzi cherishes virtue; the virtue of the Junzi is like wind; Junzi brings out the best in others; Junzi is harmonious without colluding; Junzi is serene and open-hearted; Junzi holds to the Golden Mean; Junzi observes propriety; Junzi is not a mere utensil; and Junzi knows shame.", "start": 74.0, "end": 92.0},
+      {"text": "When discussing the four difficulties, I covered the friendships of the Junzi, the fame of the Junzi, the hypocrisy confronting the Junzi, and the tribulations of the Junzi.", "start": 92.0, "end": 101.0}
+    ]
+  },
+  {
+    "id": 3,
+    "isHeading": True,
+    "start": 101.0,
+    "end": 101.0,
+    "zh": "君子的反面群体：小人",
+    "en": "The Antithesis of the Junzi: The Xiaoren"
+  },
+  {
+    "id": 4,
+    "isHeading": False,
+    "start": 101.0,
+    "end": 148.0,
+    "zh": "当这个九项要点和四项难点讲完，按照一般意义上，我把君子之道就讲完了。但是，毫无疑问我们都必须要面对他的一个反面的群体叫做小人，小人天地。如果不了解他，我们君子之道没有完成。孔子他在论述君子的时候，几乎每一条都要把小人拿来作对比，我们怎么能够逃开我们的圣人很早就立下的这个对立面。",
+    "en": "Once these nine essentials and four difficulties have been covered, in the conventional sense, my discourse on the Way of the Junzi would be complete. However, we undoubtedly must face its antithetical group known as the Xiaoren—the realm of the petty person. If we do not understand them, our study of the Way of the Junzi remains incomplete. In Confucius's discourse on the Junzi, virtually every principle is drawn in contrast with the Xiaoren; how could we possibly evade this very opposition established by our sage so long ago?",
+    "zhSentences": [
+      {"text": "当这个九项要点和四项难点讲完，按照一般意义上，我把君子之道就讲完了。", "start": 101.0, "end": 116.0},
+      {"text": "但是，毫无疑问我们都必须要面对他的一个反面的群体叫做小人，小人天地。", "start": 116.0, "end": 125.0},
+      {"text": "如果不了解他，我们君子之道没有完成。", "start": 125.0, "end": 132.0},
+      {"text": "孔子他在论述君子的时候，几乎每一条都要把小人拿来作对比，我们怎么能够逃开我们的圣人很早就立下的这个对立面。", "start": 132.0, "end": 148.0}
+    ],
+    "enSentences": [
+      {"text": "Once these nine essentials and four difficulties have been covered, in the conventional sense, my discourse on the Way of the Junzi would be complete.", "start": 101.0, "end": 116.0},
+      {"text": "However, we undoubtedly must face its antithetical group known as the Xiaoren—the realm of the petty person.", "start": 116.0, "end": 125.0},
+      {"text": "If we do not understand them, our study of the Way of the Junzi remains incomplete.", "start": 125.0, "end": 132.0},
+      {"text": "In Confucius's discourse on the Junzi, virtually every principle is drawn in contrast with the Xiaoren; how could we possibly evade this very opposition established by our sage so long ago?", "start": 132.0, "end": 148.0}
+    ]
+  },
+  {
+    "id": 5,
+    "isHeading": False,
+    "start": 148.0,
+    "end": 188.0,
+    "zh": "在论述君子之道的整个过程当中，我们眼前总会隐隐约约地出现着一批一批的小人。每次出现的时候，我们都会重新钦佩孔子和他的朋友们，他们的设计，用我们现在一句通俗的话来说叫做，想知道君子是什么样的吗？看小人就知道了。从反面来看正面，君子用一系列的对比句式，把君子和小人之间的界限划得很清楚。",
+    "en": "Throughout the process of discussing the Way of the Junzi, groups of Xiaoren invariably emerge dimly before our eyes. Each time they appear, we gain renewed admiration for Confucius and his companions for their deliberate design. To put it in modern colloquial terms: Want to know what a Junzi is like? Just look at a Xiaoren and you will know. By examining the positive from the negative, the Junzi uses a series of comparative formulations to draw an unmistakably clear boundary between the Junzi and the Xiaoren.",
+    "zhSentences": [
+      {"text": "在论述君子之道的整个过程当中，我们眼前总会隐隐约约地出现着一批一批的小人。", "start": 148.0, "end": 160.0},
+      {"text": "每次出现的时候，我们都会重新钦佩孔子和他的朋友们，他们的设计，用我们现在一句通俗的话来说叫做，想知道君子是什么样的吗？", "start": 160.0, "end": 174.0},
+      {"text": "看小人就知道了。", "start": 174.0, "end": 177.0},
+      {"text": "从反面来看正面，君子用一系列的对比句式，把君子和小人之间的界限划得很清楚。", "start": 177.0, "end": 188.0}
+    ],
+    "enSentences": [
+      {"text": "Throughout the process of discussing the Way of the Junzi, groups of Xiaoren invariably emerge dimly before our eyes.", "start": 148.0, "end": 160.0},
+      {"text": "Each time they appear, we gain renewed admiration for Confucius and his companions for their deliberate design.", "start": 160.0, "end": 168.0},
+      {"text": "To put it in modern colloquial terms: Want to know what a Junzi is like?", "start": 168.0, "end": 174.0},
+      {"text": "Just look at a Xiaoren and you will know.", "start": 174.0, "end": 177.0},
+      {"text": "By examining the positive from the negative, the Junzi uses a series of comparative formulations to draw an unmistakably clear boundary between the Junzi and the Xiaoren.", "start": 177.0, "end": 188.0}
+    ]
+  },
+  {
+    "id": 6,
+    "isHeading": False,
+    "start": 188.0,
+    "end": 236.0,
+    "zh": "面对这种划分，小人他会采取什么办法？他很简单，把自己伪装成君子，然后，把君子推到小人一边。结果，孔子的那些名言，居然经常从小人的嘴当中吐出来，这大概是大君子孔子当时没有想到的。孔子也许已经有点顾及，但是他觉得众人无可欺，按照我们说法叫群众眼睛是雪亮的；所以，众人总能辨得出君子和小人。但是，他不知道众人太有可能被欺骗了，群众的眼睛多数时间不是雪亮的。",
+    "en": "Confronted with such a demarcation, what tactic would the Xiaoren adopt? It is very simple: they disguise themselves as Junzi, and then shove the true Junzi into the camp of the Xiaoren. As a consequence, those celebrated aphorisms of Confucius are ironically often uttered by the mouths of Xiaoren—something that the great Junzi Confucius likely never anticipated at the time. Confucius may have had some inkling of concern, but he believed that \"the masses cannot be deceived,\" or as we say today, \"the public's eyes are sharp and discerning\"; therefore, the collective crowd would always distinguish Junzi from Xiaoren. However, what he did not realize was that the masses are all too easily deceived, and the eyes of the crowd are, for the most part, far from sharp.",
+    "zhSentences": [
+      {"text": "面对这种划分，小人他会采取什么办法？", "start": 188.0, "end": 193.5},
+      {"text": "他很简单，把自己伪装成君子，然后，把君子推到小人一边。", "start": 193.5, "end": 201.0},
+      {"text": "结果，孔子的那些名言，居然经常从小人的嘴当中吐出来，这大概是大君子孔子当时没有想到的。", "start": 201.0, "end": 214.0},
+      {"text": "孔子也许已经有点顾及，但是他觉得众人无可欺，按照我们说法叫群众眼睛是雪亮的；所以，众人总能辨得出君子和小人。", "start": 214.0, "end": 226.5},
+      {"text": "但是，他不知道众人太有可能被欺骗了，群众的眼睛多数时间不是雪亮的。", "start": 226.5, "end": 236.0}
+    ],
+    "enSentences": [
+      {"text": "Confronted with such a demarcation, what tactic would the Xiaoren adopt?", "start": 188.0, "end": 193.5},
+      {"text": "It is very simple: they disguise themselves as Junzi, and then shove the true Junzi into the camp of the Xiaoren.", "start": 193.5, "end": 201.0},
+      {"text": "As a consequence, those celebrated aphorisms of Confucius are ironically often uttered by the mouths of Xiaoren—something that the great Junzi Confucius likely never anticipated at the time.", "start": 201.0, "end": 214.0},
+      {"text": "Confucius may have had some inkling of concern, but he believed that \"the masses cannot be deceived,\" or as we say today, \"the public's eyes are sharp and discerning\"; therefore, the collective crowd would always distinguish Junzi from Xiaoren.", "start": 214.0, "end": 226.5},
+      {"text": "However, what he did not realize was that the masses are all too easily deceived, and the eyes of the crowd are, for the most part, far from sharp.", "start": 226.5, "end": 236.0}
+    ]
+  },
+  {
+    "id": 7,
+    "isHeading": False,
+    "start": 236.0,
+    "end": 297.0,
+    "zh": "在孔子之后，我们在中国历史上一直活跃着大批非常奇特的人物，他们是以君子的面目出现的小人，他们的作用很大，很难被辨识，很难被清除。造成这样一个结果，也有个学术原因，小人虽然被一次次对比性地提及，却几乎没有被系统地研究。为什么？因为这是一个琢磨不定的群体，研究起来很困难。我们搞所有学术研究的人知道，最难研究的就是你的研究对象是琢磨不定的，小人就是这样。而且，很多君子也不愿意长久地陷入这个既琢磨不定，又心里感到不痛快的那个泥潭当中去。",
+    "en": "After Confucius, throughout Chinese history there has continuously flourished a large contingent of very peculiar individuals: they are Xiaoren appearing in the guise of Junzi. Their influence is immense, yet they are exceptionally hard to identify and virtually impossible to purge. This outcome also stems from an academic reason: although Xiaoren were repeatedly mentioned by way of comparison, they were almost never studied systematically. Why? Because this is an elusive and indeterminate group, making research extraordinarily difficult. Anyone engaged in scholarly research knows that the hardest subject to investigate is one that is elusive and shifting, which is precisely the nature of Xiaoren. Moreover, many Junzi are reluctant to plunge themselves for long into a quagmire that is both elusive and profoundly unsettling to the spirit.",
+    "zhSentences": [
+      {"text": "在孔子之后，我们在中国历史上一直活跃着大批非常奇特的人物，他们是以君子的面目出现的小人，他们的作用很大，很难被辨识，很难被清除。", "start": 236.0, "end": 260.0},
+      {"text": "造成这样一个结果，也有个学术原因，小人虽然被一次次对比性地提及，却几乎没有被系统地研究。", "start": 260.0, "end": 272.0},
+      {"text": "为什么？", "start": 272.0, "end": 274.0},
+      {"text": "因为这是一个琢磨不定的群体，研究起来很困难。", "start": 274.0, "end": 279.0},
+      {"text": "我们搞所有学术研究的人知道，最难研究的就是你的研究对象是琢磨不定的，小人就是这样。", "start": 279.0, "end": 287.0},
+      {"text": "而且，很多君子也不愿意长久地陷入这个既琢磨不定，又心里感到不痛快的那个泥潭当中去。", "start": 287.0, "end": 297.0}
+    ],
+    "enSentences": [
+      {"text": "After Confucius, throughout Chinese history there has continuously flourished a large contingent of very peculiar individuals: they are Xiaoren appearing in the guise of Junzi.", "start": 236.0, "end": 251.0},
+      {"text": "Their influence is immense, yet they are exceptionally hard to identify and virtually impossible to purge.", "start": 251.0, "end": 260.0},
+      {"text": "This outcome also stems from an academic reason: although Xiaoren were repeatedly mentioned by way of comparison, they were almost never studied systematically.", "start": 260.0, "end": 272.0},
+      {"text": "Why?", "start": 272.0, "end": 274.0},
+      {"text": "Because this is an elusive and indeterminate group, making research extraordinarily difficult.", "start": 274.0, "end": 279.0},
+      {"text": "Anyone engaged in scholarly research knows that the hardest subject to investigate is one that is elusive and shifting, which is precisely the nature of Xiaoren.", "start": 279.0, "end": 287.0},
+      {"text": "Moreover, many Junzi are reluctant to plunge themselves for long into a quagmire that is both elusive and profoundly unsettling to the spirit.", "start": 287.0, "end": 297.0}
+    ]
+  },
+  {
+    "id": 8,
+    "isHeading": False,
+    "start": 297.0,
+    "end": 337.0,
+    "zh": "这个东西总要解决，所以我就壮着胆子皱着眉头来弥补一下这个历史的缺憾。我在好多年以前写了一篇专研究小人的文章，最早出来的时候，起的名字叫《历史的暗角》，作为《山居笔记》的最后一篇。后来这篇文章扩充以后，改成叫《大地小人》，大地、小人这是对仗的。大地上出现的这种小人的群体，到处都有，这文章影响确实很大，很多地方转载。",
+    "en": "Yet this issue must be addressed, and so I summoned up my courage and knitted my brows to make up for this historical void. Many years ago, I wrote an essay specifically investigating Xiaoren; when it first appeared, it was titled \"Dark Corners of History,\" serving as the final piece of \"Notes from Mountain Dwelling.\" Later, after being expanded, the essay was retitled \"Xiaoren of the Earth\"—earth and petty persons forming a paired antithesis. Such groups of Xiaoren appearing across the land exist everywhere, and this essay exerted a profound influence, being reprinted in numerous venues.",
+    "zhSentences": [
+      {"text": "这个东西总要解决，所以我就壮着胆子皱着眉头来弥补一下这个历史的缺憾。", "start": 297.0, "end": 306.0},
+      {"text": "我在好多年以前写了一篇专研究小人的文章，最早出来的时候，起的名字叫《历史的暗角》，作为《山居笔记》的最后一篇。", "start": 306.0, "end": 319.0},
+      {"text": "后来这篇文章扩充以后，改成叫《大地小人》，大地、小人这是对仗的。", "start": 319.0, "end": 328.0},
+      {"text": "大地上出现的这种小人的群体，到处都有，这文章影响确实很大，很多地方转载。", "start": 328.0, "end": 337.0}
+    ],
+    "enSentences": [
+      {"text": "Yet this issue must be addressed, and so I summoned up my courage and knitted my brows to make up for this historical void.", "start": 297.0, "end": 306.0},
+      {"text": "Many years ago, I wrote an essay specifically investigating Xiaoren; when it first appeared, it was titled \"Dark Corners of History,\" serving as the final piece of \"Notes from Mountain Dwelling.\" Later, after being expanded, the essay was retitled \"Xiaoren of the Earth\"—earth and petty persons forming a paired antithesis.", "start": 306.0, "end": 328.0},
+      {"text": "Such groups of Xiaoren appearing across the land exist everywhere, and this essay exerted a profound influence, being reprinted in numerous venues.", "start": 328.0, "end": 337.0}
+    ]
+  },
+  {
+    "id": 9,
+    "isHeading": False,
+    "start": 337.0,
+    "end": 387.0,
+    "zh": "有趣的是，我到台湾去的时候，遇到慈济功德会的证严法师，这个著名的佛教领袖，他是经常在华人世界里边救灾治病，做很多很多好事，他跟我讲，你写《小人》这篇文章，台湾的报纸转载以后，我把它剪下来贴在我的笔记本上了。一个专门在研究善良、研究人间的最高道德的这么一位佛教法师，他对这个负面现象也很重视。有人说，这是第一篇研究中华文化负面人格的文章，这个评价当然很高。",
+    "en": "Interestingly, when I visited Taiwan, I met Master Cheng Yen of the Buddhist Compassion Relief Tzu Chi Foundation, that renowned Buddhist leader who frequently coordinates disaster relief and medical charity across the global Chinese community. She told me: \"After your essay on Xiaoren was reprinted in Taiwanese newspapers, I clipped it out and pasted it into my notebook.\" Here was a Buddhist master whose life is dedicated to exploring benevolence and human virtue, yet she placed great weight on this negative phenomenon. Some commented that this was the very first essay to systematically investigate the negative personality archetypes in Chinese culture, which is indeed high praise.",
+    "zhSentences": [
+      {"text": "有趣的是，我到台湾去的时候，遇到慈济功德会的证严法师，这个著名的佛教领袖，他是经常在华人世界里边救灾治病，做很多很多好事，他跟我讲，你写《小人》这篇文章，台湾的报纸转载以后，我把它剪下来贴在我的笔记本上了。", "start": 337.0, "end": 364.0},
+      {"text": "一个专门在研究善良、研究人间的最高道德的这么一位佛教法师，他对这个负面现象也很重视。", "start": 364.0, "end": 378.0},
+      {"text": "有人说，这是第一篇研究中华文化负面人格的文章，这个评价当然很高。", "start": 378.0, "end": 387.0}
+    ],
+    "enSentences": [
+      {"text": "Interestingly, when I visited Taiwan, I met Master Cheng Yen of the Buddhist Compassion Relief Tzu Chi Foundation, that renowned Buddhist leader who frequently coordinates disaster relief and medical charity across the global Chinese community.", "start": 337.0, "end": 354.0},
+      {"text": "She told me: \"After your essay on Xiaoren was reprinted in Taiwanese newspapers, I clipped it out and pasted it into my notebook.\" Here was a Buddhist master whose life is dedicated to exploring benevolence and human virtue, yet she placed great weight on this negative phenomenon.", "start": 354.0, "end": 378.0},
+      {"text": "Some commented that this was the very first essay to systematically investigate the negative personality archetypes in Chinese culture, which is indeed high praise.", "start": 378.0, "end": 387.0}
+    ]
+  },
+  {
+    "id": 10,
+    "isHeading": True,
+    "start": 390.0,
+    "end": 390.0,
+    "zh": "研究小人是为了更好地研究君子",
+    "en": "Studying Xiaoren to Better Understand Junzi"
+  },
+  {
+    "id": 11,
+    "isHeading": False,
+    "start": 390.0,
+    "end": 461.0,
+    "zh": "但是，我必须给大家说，我研究小人的目的是为了更好地认识君子，小人只是一个我们跳上去的一个台阶，跳到哪里？跳到君子那儿。小人应该被否定的，我们应该在研究小人的问题过程当中，逐步地成为君子。可能历史上的很多研究者都这么潇洒的态度，小人没有很好地被认真研究；所以，我这次改变了，我一定要跳下去，认真研究一下，在研究的过程当中，把他的一系列的问题揭发出来，让大家仔细地看一看。这个研究虽然听起来有一点奇怪，因为你要进入到一个需要获得古今社会批评的领域了，但是你只要研究君子之道，你就躲不开的这个对立面。所以，我们还是认真研究。",
+    "en": "However, I must make clear to everyone that my purpose in studying Xiaoren is to better recognize and understand the Junzi. The Xiaoren is merely a stepping stone for us to climb upon—to jump where? To ascend toward the Junzi. The Xiaoren ought to be negated, and through the process of examining the problem of Xiaoren, we should gradually cultivate ourselves into Junzi. Perhaps many historical scholars took an aloof stance, leaving Xiaoren without rigorous and systematic inquiry; therefore, I have decided to change course. I resolved to dive in and investigate thoroughly, exposing the series of issues surrounding them throughout this inquiry so that everyone can examine them closely. Although this study might sound somewhat peculiar—because you are entering a territory destined to draw historical and social controversy—as long as you study the Way of the Junzi, you cannot avoid this opposite side. Hence, we must study it conscientiously.",
+    "zhSentences": [
+      {"text": "但是，我必须给大家说，我研究小人的目的是为了更好地认识君子，小人只是一个我们跳上去的一个台阶，跳到哪里？", "start": 390.0, "end": 405.5},
+      {"text": "跳到君子那儿。", "start": 405.5, "end": 407.0},
+      {"text": "小人应该被否定的，我们应该在研究小人的问题过程当中，逐步地成为君子。", "start": 407.0, "end": 416.0},
+      {"text": "可能历史上的很多研究者都这么潇洒的态度，小人没有很好地被认真研究；所以，我这次改变了，我一定要跳下去，认真研究一下，在研究的过程当中，把他的一系列的问题揭发出来，让大家仔细地看一看。", "start": 416.0, "end": 439.0},
+      {"text": "这个研究虽然听起来有一点奇怪，因为你要进入到一个需要获得古今社会批评的领域了，但是你只要研究君子之道，你就躲不开的这个对立面。", "start": 439.0, "end": 457.0},
+      {"text": "所以，我们还是认真研究。", "start": 457.0, "end": 461.0}
+    ],
+    "enSentences": [
+      {"text": "However, I must make clear to everyone that my purpose in studying Xiaoren is to better recognize and understand the Junzi.", "start": 390.0, "end": 400.0},
+      {"text": "The Xiaoren is merely a stepping stone for us to climb upon—to jump where?", "start": 400.0, "end": 405.5},
+      {"text": "To ascend toward the Junzi.", "start": 405.5, "end": 407.0},
+      {"text": "The Xiaoren ought to be negated, and through the process of examining the problem of Xiaoren, we should gradually cultivate ourselves into Junzi.", "start": 407.0, "end": 416.0},
+      {"text": "Perhaps many historical scholars took an aloof stance, leaving Xiaoren without rigorous and systematic inquiry; therefore, I have decided to change course.", "start": 416.0, "end": 427.0},
+      {"text": "I resolved to dive in and investigate thoroughly, exposing the series of issues surrounding them throughout this inquiry so that everyone can examine them closely.", "start": 427.0, "end": 439.0},
+      {"text": "Although this study might sound somewhat peculiar—because you are entering a territory destined to draw historical and social controversy—as long as you study the Way of the Junzi, you cannot avoid this opposite side.", "start": 439.0, "end": 457.0},
+      {"text": "Hence, we must study it conscientiously.", "start": 457.0, "end": 461.0}
+    ]
+  },
+  {
+    "id": 12,
+    "isHeading": False,
+    "start": 461.0,
+    "end": 490.0,
+    "zh": "一讲到小人的时候，我们首先前面讲到了他的琢磨不定，他们是谁。这群人不是英雄豪杰，但是也未必是元凶巨恶。他的社会地位可能很低，也可能很高。就文化程度而论，他们可能是文盲，也可能是学者。",
+    "en": "When speaking of Xiaoren, we first noted their indeterminate and elusive nature: who exactly are they? This group does not consist of heroes, nor are they necessarily heinous monsters or arch-villains. Their social status might be very humble, or it might be very prominent. In terms of educational background, they might be illiterate, or they could well be erudite scholars.",
+    "zhSentences": [
+      {"text": "一讲到小人的时候，我们首先前面讲到了他的琢磨不定，他们是谁。", "start": 461.0, "end": 471.0},
+      {"text": "这群人不是英雄豪杰，但是也未必是元凶巨恶。", "start": 471.0, "end": 478.0},
+      {"text": "他的社会地位可能很低，也可能很高。", "start": 478.0, "end": 483.0},
+      {"text": "就文化程度而论，他们可能是文盲，也可能是学者。", "start": 483.0, "end": 490.0}
+    ],
+    "enSentences": [
+      {"text": "When speaking of Xiaoren, we first noted their indeterminate and elusive nature: who exactly are they?", "start": 461.0, "end": 471.0},
+      {"text": "This group does not consist of heroes, nor are they necessarily heinous monsters or arch-villains.", "start": 471.0, "end": 478.0},
+      {"text": "Their social status might be very humble, or it might be very prominent.", "start": 478.0, "end": 483.0},
+      {"text": "In terms of educational background, they might be illiterate, or they could well be erudite scholars.", "start": 483.0, "end": 490.0}
+    ]
+  },
+  {
+    "id": 13,
+    "isHeading": False,
+    "start": 490.0,
+    "end": 558.0,
+    "zh": "很难说他们是好人还是坏人，但是由于他们的存在，许多鲜明的历史形象渐渐地变得瘫软，变得模糊，变得暴躁，许多简单的历史事件，一一变得混沌、暧昧、肮脏，许多祥和的人际关系慢慢地变得紧张、尴尬、凶险，许多响亮的历史命题足够的变得黯淡、纷乱、荒唐。他们起到如此巨大的作用，但是，你如果问他们有没有明确的政治主张，他们没有，他们的全部所作所为并没有留下清楚的行为印记，他们绝不想对谁负什么责任，而且确实也无法让他们负责。他们是一团驱之不散又不见痕迹的腐浊之气，他们是一堆飘忽不定的声音和眉眼。",
+    "en": "It is difficult to label them simply as good or bad people. Yet because of their existence, many vivid historical figures gradually became paralyzed, blurred, and irritable; many straightforward historical events turned chaotic, ambiguous, and sordid; many harmonious human relationships progressively became tense, awkward, and perilous; and many resonant historical propositions deteriorated into dimness, turmoil, and absurdity. They wield such colossal impact, yet if you ask whether they possess any clear political doctrine, they have none; none of their actions leave behind clear, accountable footprints; they never intend to bear responsibility toward anyone, and indeed it is impossible to hold them accountable. They are a cloud of foul and murky air that cannot be dispersed yet leaves no trace; they are an indeterminate flutter of whispers, glances, and grimaces.",
+    "zhSentences": [
+      {"text": "很难说他们是好人还是坏人，但是由于他们的存在，许多鲜明的历史形象渐渐地变得瘫软，变得模糊，变得暴躁，许多简单的历史事件，一一变得混沌、暧昧、肮脏，许多祥和的人际关系慢慢地变得紧张、尴尬、凶险，许多响亮的历史命题足够的变得黯淡、纷乱、荒唐。", "start": 490.0, "end": 522.0},
+      {"text": "他们起到如此巨大的作用，但是，你如果问他们有没有明确的政治主张，他们没有，他们的全部所作所为并没有留下清楚的行为印记，他们绝不想对谁负什么责任，而且确实也无法让他们负责。", "start": 522.0, "end": 546.0},
+      {"text": "他们是一团驱之不散又不见痕迹的腐浊之气，他们是一堆飘忽不定的声音和眉眼。", "start": 546.0, "end": 558.0}
+    ],
+    "enSentences": [
+      {"text": "It is difficult to label them simply as good or bad people.", "start": 490.0, "end": 493.5},
+      {"text": "Yet because of their existence, many vivid historical figures gradually became paralyzed, blurred, and irritable; many straightforward historical events turned chaotic, ambiguous, and sordid; many harmonious human relationships progressively became tense, awkward, and perilous; and many resonant historical propositions deteriorated into dimness, turmoil, and absurdity.", "start": 493.5, "end": 522.0},
+      {"text": "They wield such colossal impact, yet if you ask whether they possess any clear political doctrine, they have none; none of their actions leave behind clear, accountable footprints; they never intend to bear responsibility toward anyone, and indeed it is impossible to hold them accountable.", "start": 522.0, "end": 546.0},
+      {"text": "They are a cloud of foul and murky air that cannot be dispersed yet leaves no trace; they are an indeterminate flutter of whispers, glances, and grimaces.", "start": 546.0, "end": 558.0}
+    ]
+  },
+  {
+    "id": 14,
+    "isHeading": False,
+    "start": 558.0,
+    "end": 614.0,
+    "zh": "你终于愤怒了，聚集起万钧雷霆，准备对他们发动袭击，但没想到这些声音和眉眼，居然和你站在一起，和你一起愤怒，你突然发现失去了攻击的对象。你想不去理会他们，掉过头去，那股腐浊的空气又袅袅地不绝如缕地飘在你的身边。大家能够想象我所描述的这样的人吗？他们没有观点，他们没有立场，但是他们能够把一切事情做坏，他们将要受到攻击的时候，他居然在攻击者的一边了，但是他们一直环绕着你，你要发火也不知道给谁发。",
+    "en": "When you finally become enraged and gather thunderous force to launch an assault against them, you find to your astonishment that these whispers and grimaces are actually standing right alongside you, expressing anger alongside you, and you suddenly discover that your target of attack has vanished. If you decide to ignore them and turn away, that murky current of foul air once again curls continuously and inescapably around you. Can you imagine the kind of people I am describing? They possess no conviction and no stance, yet they can ruin everything; when they are about to face attack, they are suddenly found standing on the attacker's side; yet they persistently surround you, leaving you with boundless fury and no one to direct it toward.",
+    "zhSentences": [
+      {"text": "你终于愤怒了，聚集起万钧雷霆，准备对他们发动袭击，但没想到这些声音和眉眼，居然和你站在一起，和你一起愤怒，你突然发现失去了攻击的对象。", "start": 558.0, "end": 575.0},
+      {"text": "你想不去理会他们，掉过头去，那股腐浊的空气又袅袅地不绝如缕地飘在你的身边。", "start": 575.0, "end": 589.0},
+      {"text": "大家能够想象我所描述的这样的人吗？", "start": 589.0, "end": 595.0},
+      {"text": "他们没有观点，他们没有立场，但是他们能够把一切事情做坏，他们将要受到攻击的时候，他居然在攻击者的一边了，但是他们一直环绕着你，你要发火也不知道给谁发。", "start": 595.0, "end": 614.0}
+    ],
+    "enSentences": [
+      {"text": "When you finally become enraged and gather thunderous force to launch an assault against them, you find to your astonishment that these whispers and grimaces are actually standing right alongside you, expressing anger alongside you, and you suddenly discover that your target of attack has vanished.", "start": 558.0, "end": 575.0},
+      {"text": "If you decide to ignore them and turn away, that murky current of foul air once again curls continuously and inescapably around you.", "start": 575.0, "end": 589.0},
+      {"text": "Can you imagine the kind of people I am describing?", "start": 589.0, "end": 595.0},
+      {"text": "They possess no conviction and no stance, yet they can ruin everything; when they are about to face attack, they are suddenly found standing on the attacker's side; yet they persistently surround you, leaving you with boundless fury and no one to direct it toward.", "start": 595.0, "end": 614.0}
+    ]
+  },
+  {
+    "id": 15,
+    "isHeading": False,
+    "start": 614.0,
+    "end": 669.0,
+    "zh": "我相信历史上许多钢铸铁浇般的政治家、军事家，最终要离开世界的时候，最痛恨的未必是自己明确的敌手，而是曾经给过自己许多非常漂亮的句子和非常和颜悦色的表情的人，最终还是说不清他们究竟是敌人还是朋友的那些脸。处于弥留之际的政治家和军事家，颤动的嘴唇很艰难地吐出一个字，小人。对，小人，这就是我们从今天开始要认真研究的一个主角。今天讲到这儿。",
+    "en": "I believe that throughout history, when many iron-willed politicians and military commanders were finally on the verge of departing this world, what they hated most was not necessarily their overt, declared adversaries, but rather those faces that had once offered them countless splendid phrases and genial smiles—faces of whom one could never ultimately decipher whether they were friends or foes. In their dying moments, the trembling lips of those statesmen and generals struggled to utter a single word: Xiaoren. Yes, Xiaoren—that is the very protagonist we begin to examine in depth today. That concludes our lecture for today.",
+    "zhSentences": [
+      {"text": "我相信历史上许多钢铸铁浇般的政治家、军事家，最终要离开世界的时候，最痛恨的未必是自己明确的敌手，而是曾经给过自己许多非常漂亮的句子和非常和颜悦色的表情的人，最终还是说不清他们究竟是敌人还是朋友的那些脸。", "start": 614.0, "end": 645.0},
+      {"text": "处于弥留之际的政治家和军事家，颤动的嘴唇很艰难地吐出一个字，小人。", "start": 645.0, "end": 656.0},
+      {"text": "对，小人，这就是我们从今天开始要认真研究的一个主角。", "start": 656.0, "end": 664.0},
+      {"text": "今天讲到这儿。", "start": 664.0, "end": 669.0}
+    ],
+    "enSentences": [
+      {"text": "I believe that throughout history, when many iron-willed politicians and military commanders were finally on the verge of departing this world, what they hated most was not necessarily their overt, declared adversaries, but rather those faces that had once offered them countless splendid phrases and genial smiles—faces of whom one could never ultimately decipher whether they were friends or foes.", "start": 614.0, "end": 645.0},
+      {"text": "In their dying moments, the trembling lips of those statesmen and generals struggled to utter a single word: Xiaoren.", "start": 645.0, "end": 656.0},
+      {"text": "Yes, Xiaoren—that is the very protagonist we begin to examine in depth today.", "start": 656.0, "end": 664.0},
+      {"text": "That concludes our lecture for today.", "start": 664.0, "end": 669.0}
+    ]
+  }
+]
+
+out_aligned = os.path.join(lesson_dir, "aligned_paragraphs.json")
+out_timed = os.path.join(lesson_dir, "timed_transcript.json")
+
+with open(out_aligned, "w", encoding="utf-8") as f:
+    json.dump(aligned, f, ensure_ascii=False, indent=2)
+
+with open(out_timed, "w", encoding="utf-8") as f:
+    json.dump(timed, f, ensure_ascii=False, indent=2)
+
+print(f"Successfully wrote calibrated alignment to {out_aligned} and {out_timed}")
