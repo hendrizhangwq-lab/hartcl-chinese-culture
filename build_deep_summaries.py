@@ -915,6 +915,115 @@ LESSON_SUMMARIES = {
         ]
     },
 
+    "03-02": {
+        "gistZh": "面对小人的纠缠，争吵只会让小人借势膨胀，研究与冷落才能使其失重瓦解；真正的君子不仅要以制度与整体漠视将其边缘化，更要在文化健全后以博大情怀实现社会的最终超越与救赎。",
+        "gistEn": "Confronting petty exploiters (Xiaoren) through direct quarreling only grants them illicit leverage, while academic dissection and cold detachment rob them of social gravity; true Junzi marginalize malice through cultural health and systemic indifference, ultimately transcending petty strife with boundless magnanimity.",
+        "highlights": [
+            {
+                "zh": "冷落与搁置：争吵使小人加重，研究使小人失重。小人的能量源自被关注，唯有彻底冷落才能瓦解其话语权。",
+                "en": "Cold Detachment & Disregard: Friction empowers malice, analysis dissolves it. Sidelining opportunists strips them of leverage."
+            },
+            {
+                "zh": "扩大君子队伍：抵御小人最根本的路径，是不断通过自我修养与教育扩大君子队伍，压缩恶的寄生空间。",
+                "en": "Cultivating the Junzi Community: Expanding the noble ranks through self-cultivation creates a dominant culture that compresses malevolence."
+            },
+            {
+                "zh": "问鼎伟大的时代：一个健康的社会并非完全没有小人，而是全社会充满创造力，谁也不把小人放在眼里。",
+                "en": "A Truly Great Era: A confident, thriving civilization is engrossed in noble creation, rendering malicious antics powerless and ignored."
+            },
+            {
+                "zh": "终极超越与救赎：君子之道最终抱持“大雄”气魄，在筑牢防御之后，反思小人根源，给予文化救赎与人格唤醒。",
+                "en": "Ultimate Transcendence & Redemption: Possessing 'Da Xiong' magnanimity, the Junzi seeks systemic healing and cultural redemption for collective trauma."
+            }
+        ],
+        "vocabulary": [
+            {
+                "word": "大雄",
+                "pinyin": "dà xióng",
+                "en": "Supreme Heroism / Da Xiong",
+                "explanationZh": "佛家语，意指具备大力量、大智慧、能降伏一切烦恼与邪恶的至高人格（常用于佛陀尊号，如“大雄宝殿”）。余秋雨借此形容能以浩瀚包容的胸襟去拯救与化解小人恶意的最高精神境界。",
+                "explanationEn": "Buddhist concept denoting 'Supreme Heroism' or moral strength capable of subjugating all afflictions (as in 'Mahavira'). Used here to portray the highest spiritual summit capable of embracing and redeeming petty antagonists."
+            },
+            {
+                "word": "众口铄金",
+                "pinyin": "zhòng kǒu shuò jīn",
+                "en": "Clamorous Slander Melts Metal",
+                "explanationZh": "众人的言论能够熔化金属。比喻舆论力量强大，也形容小人们集体造谣中伤足以颠倒黑白、毁灭一个人。",
+                "explanationEn": "Literally 'public clamor can melt metal': an idiom warning that collective slander and fabricated gossip have the terrifying power to dissolve reputations and destroy innocent lives."
+            },
+            {
+                "word": "招腥惹臭",
+                "pinyin": "zhāo xīng rě chòu",
+                "en": "Attracting Putrid Stench and Foul Parasites",
+                "explanationZh": "比喻因为不慎介入污浊纷争或与品格卑劣者纠缠，从而惹火上身、沾染满身恶名与污秽。",
+                "explanationEn": "Metaphor for courting reputational ruin and foul toxicity by foolishly wading into dirty disputes with disreputable individuals."
+            },
+            {
+                "word": "群蝇成阵",
+                "pinyin": "qún yíng chéng zhèn",
+                "en": "Swarming Flies Massing in Formation",
+                "explanationZh": "形容卑劣丑陋的小人群体像苍蝇般聚集结阵，喧嚣刺耳、逐臭而生。",
+                "explanationEn": "Vivid imagery depicting petty opportunists swarming together like a battalion of blowflies, driven by an appetite for decay and mutual validation."
+            },
+            {
+                "word": "大而无当",
+                "pinyin": "dà ér wú dàng",
+                "en": "Ostentatious but Devoid of Substance",
+                "explanationZh": "出自《庄子》，指言辞或事物表面宏大却脱离实际、不着边际。余秋雨借以提醒探讨文化与对策时不可沦为空洞大话，而要切实落地。",
+                "explanationEn": "Originating from Zhuangzi, meaning grand and sweeping in appearance but impractical and empty in reality; hollow pretentiousness."
+            },
+            {
+                "word": "问鼎伟大",
+                "pinyin": "wèn dǐng wěi dà",
+                "en": "Ascending to the Pinnacle of Historical Greatness",
+                "explanationZh": "“问鼎”原指图谋夺取天下王权，后泛指攀登至最高殿堂。此处指一个文明在精神和制度上达到成熟从容、无视低劣杂音的崇高境界。",
+                "explanationEn": "'Wen Ding' originally signified aspiring to imperial sovereignty; here it denotes a civilization ascending to its highest historical summit, immune to petty sabotage."
+            },
+            {
+                "word": "双向冷落",
+                "pinyin": "shuāng xiàng lěng luò",
+                "en": "Reciprocal Alienation / Mutual Sidelining",
+                "explanationZh": "指双方互不搭理、完全断绝关注的状态。在对付小人时，唯有全社会主动实施冷落，才能打碎其以碰瓷君子为荣的单向吸血链条。",
+                "explanationEn": "A mutual severing of interaction. Against petty agitators, society's deliberate, universal disregard severs the parasite's lifeblood of unreciprocated provocations."
+            },
+            {
+                "word": "喝了“狼奶”",
+                "pinyin": "hē le láng nǎi",
+                "en": "Weaned on Wolves' Milk / Conditioned to Brutality",
+                "explanationZh": "文化批评常用语，指在特殊极端历史或家庭环境中长大，从小浸染斗争哲学、仇恨思维与残忍心性的人格扭曲现象。",
+                "explanationEn": "A critical metaphor for individuals nurtured in extreme social pathology or cruelty, whose early psychological conditioning steeped them in ruthlessness, paranoia, and spite."
+            },
+            {
+                "word": "文痞",
+                "pinyin": "wén pǐ",
+                "en": "Cultural Ruffians / Pseudo-Intellectual Hooligans",
+                "explanationZh": "指那些掌握文字与舆论工具，却丧失道德底线，依附权贵、罗织罪名、构陷良善的文化流氓。",
+                "explanationEn": "Literary thugs or pseudo-intellectual opportunists who weaponize pens and media platforms to fabricate charges, flatter patrons, and assassinate characters."
+            },
+            {
+                "word": "失重",
+                "pinyin": "shī zhòng",
+                "en": "Loss of Social Weight / Gravitational Deprivation",
+                "explanationZh": "借物理学概念，指小人一旦被剥夺了争论和注意力的平台，失去了道德争端作为支撑，其言行便毫无社会价值，在公众视野中彻底失去分量。",
+                "explanationEn": "Borrowed from physics: once petty agitators are denied the platform of argument and spotlight, their provocations collapse into total societal insignificance."
+            },
+            {
+                "word": "冷落与搁置",
+                "pinyin": "lěng luò yǔ gē zhì",
+                "en": "Cold Indifference and Shelving / Deliberate Marginalization",
+                "explanationZh": "余秋雨提出的应对小人的核心策略：不给关注、不与论辩，将其行为永久搁置在边缘角落，令其自生自灭。",
+                "explanationEn": "Yu Qiuyu's strategic prescription: granting zero reaction or validation, decisively shelving malicious antics into social irrelevance."
+            },
+            {
+                "word": "拯救与关爱",
+                "pinyin": "zhěng jiù yǔ guān ài",
+                "en": "Transcendental Redemption and Compassion",
+                "explanationZh": "历经波折后文化主体对劣质人性的终极关怀。在筑牢防御之后，从悲剧根源上理解并拯救被异化的人格，彰显文明的终极温度。",
+                "explanationEn": "The ultimate ethical summit where, having erected systemic boundaries, the noble mind perceives the tragic pathology of the fallen and seeks holistic societal healing."
+            }
+        ]
+    },
+
     4: {
         "gistZh": "「中庸之道」并非平庸妥协，而是数千年来中华民族在复杂历史环境下的集体生存智慧——寻找极致与偏激之间的黄金平衡点。",
         "gistEn": "The 'Doctrine of the Mean' (Zhongyong) is not mediocre compromise, but thousands of years of collective survival wisdom—seeking the golden balance between extremes and radicalism.",
@@ -1544,6 +1653,47 @@ def main():
         else:
             lessons.append(lesson_03_01)
         print("Inserted lesson 03-01 into lessons list")
+
+    # Ensure 03-02 exists and is properly configured
+    folder_03_02 = "lessons/03-02_如何应对小人？冷落、搁置并最终拯救他们"
+    zh_path_02 = os.path.join(base_dir, folder_03_02, "transcript.md")
+    en_path_02 = os.path.join(base_dir, folder_03_02, "english_transcript.md")
+    zh_txt_02 = open(zh_path_02, encoding='utf-8').read() if os.path.exists(zh_path_02) else ""
+    en_txt_02 = open(en_path_02, encoding='utf-8').read() if os.path.exists(en_path_02) else ""
+
+    existing_03_02 = next((l for l in lessons if l.get('index') == '03-02'), None)
+    if existing_03_02:
+        existing_03_02['folderName'] = folder_03_02
+        existing_03_02['audioPath'] = f"./{folder_03_02}/audio.m4a"
+        existing_03_02['quoteCardPath'] = f"./{folder_03_02}/quote_card_1.jpg"
+        existing_03_02['transcriptZh'] = zh_txt_02
+        existing_03_02['transcriptEn'] = en_txt_02
+        existing_03_02['duration'] = 953.55
+        existing_03_02['title'] = "如何应对小人？冷落、搁置并最终拯救他们"
+        existing_03_02['trackId'] = 143426937
+    else:
+        lesson_03_02 = {
+            "index": "03-02",
+            "title": "如何应对小人？冷落、搁置并最终拯救他们",
+            "trackId": 143426937,
+            "folderName": folder_03_02,
+            "audioPath": f"./{folder_03_02}/audio.m4a",
+            "quoteCardPath": f"./{folder_03_02}/quote_card_1.jpg",
+            "transcriptZh": zh_txt_02,
+            "transcriptEn": en_txt_02,
+            "duration": 953.55
+        }
+        # Find position after 03-01
+        pos = -1
+        for i, l in enumerate(lessons):
+            if str(l.get('index')) == '03-01':
+                pos = i + 1
+                break
+        if pos != -1:
+            lessons.insert(pos, lesson_03_02)
+        else:
+            lessons.append(lesson_03_02)
+        print("Inserted lesson 03-02 into lessons list")
 
     for l in lessons:
         idx = l['index']
