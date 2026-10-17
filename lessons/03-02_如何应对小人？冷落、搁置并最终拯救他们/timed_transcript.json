@@ -4,32 +4,37 @@
     "isHeading": false,
     "start": 31.0,
     "end": 77.0,
-    "zh": "大家好，我是余秋雨，我们继续讲课。我前面讲到，小人如此嚣张，我们对他没有办法，有我们自己的原因，我们有五个原因，使我们面对小人总是无可奈何。这五个原因归结起来其实是一个原因，就是我们自己身上也有小人的痕迹，我们自己还没有真正成为一个君子，所以，我们就会受到小人的折磨，受到小人的威胁。我们没有把自己和小人完全区别开来，因此，也就不可能把小人彻底驳倒。这是我们前面讲到的主要内容。",
-    "en": "Hello everyone, I am Yu Qiuyu, and let us continue our lecture. Earlier, I discussed why Xiaoren (petty persons) are so rampant and why we often feel helpless against them. There are five internal reasons on our part that make us utterly powerless when confronting them. These five reasons ultimately boil down to a single cause: traces of the Xiaoren still remain within ourselves, and we have not yet truly become Junzi (exemplary persons). Consequently, we suffer from their torment and succumb to their intimidation. Because we haven't thoroughly differentiated ourselves from them, it is impossible for us to decisively refute them. This was the core content of our previous discussion.",
+    "zh": "大家好，我是余秋雨，我们继续讲课。我前面讲到，小人如此嚣张，我们对他没有办法，有我们自己的原因。我们有五个原因，使我们面对他们显得很软弱。到底该怎么办呢？他们的历史作用和现实作用都那么坏，他们的类型又是那么的繁多，他们却让真正的君子和广大的老百姓如此害怕、如此躲避，那我们对他们是毫无办法了吗？我在长期的研究当中确实得出一个结论：我们显然没有消解小人的良方。",
+    "en": "Hello everyone, I am Yu Qiuyu, and let us continue our lecture. Earlier, I explained that the reason petty opportunists (Xiaoren) act so rampant and leave us feeling helpless lies partly within ourselves. There are five reasons that make us appear quite vulnerable in the face of them. What on earth should be done? Their historical and real-world impacts have been so destructive, and their types are so diverse, causing true gentlemen and ordinary people alike to fear and avoid them to such a degree. Are we truly left without any recourse against them? Through my long-term research, I have indeed reached a conclusion: we clearly possess no miraculous prescription for eradicating petty exploiters.",
     "zhSentences": [
       {
         "text": "大家好，我是余秋雨，我们继续讲课。",
         "start": 31.0,
-        "end": 35.1
+        "end": 35.4
       },
       {
-        "text": "我前面讲到，小人如此嚣张，我们对他没有办法，有我们自己的原因，我们有五个原因，使我们面对小人总是无可奈何。",
-        "start": 35.1,
-        "end": 48.0
+        "text": "我前面讲到，小人如此嚣张，我们对他没有办法，有我们自己的原因。",
+        "start": 35.4,
+        "end": 43.4
       },
       {
-        "text": "这五个原因归结起来其实是一个原因，就是我们自己身上也有小人的痕迹，我们自己还没有真正成为一个君子，所以，我们就会受到小人的折磨，受到小人的威胁。",
-        "start": 48.0,
-        "end": 65.5
+        "text": "我们有五个原因，使我们面对他们显得很软弱。",
+        "start": 43.4,
+        "end": 48.8
       },
       {
-        "text": "我们没有把自己和小人完全区别开来，因此，也就不可能把小人彻底驳倒。",
-        "start": 65.5,
-        "end": 73.5
+        "text": "到底该怎么办呢？",
+        "start": 48.8,
+        "end": 50.9
       },
       {
-        "text": "这是我们前面讲到的主要内容。",
-        "start": 73.5,
+        "text": "他们的历史作用和现实作用都那么坏，他们的类型又是那么的繁多，他们却让真正的君子和广大的老百姓如此害怕、如此躲避，那我们对他们是毫无办法了吗？",
+        "start": 50.9,
+        "end": 68.9
+      },
+      {
+        "text": "我在长期的研究当中确实得出一个结论：我们显然没有消解小人的良方。",
+        "start": 68.9,
         "end": 77.0
       }
     ],
@@ -40,33 +45,33 @@
         "end": 35.2
       },
       {
-        "text": "Earlier, I discussed why Xiaoren (petty persons) are so rampant and why we often feel helpless against them.",
+        "text": "Earlier, I explained that the reason petty opportunists (Xiaoren) act so rampant and leave us feeling helpless lies partly within ourselves.",
         "start": 35.2,
-        "end": 42.5
+        "end": 44.4
       },
       {
-        "text": "There are five internal reasons on our part that make us utterly powerless when confronting them.",
-        "start": 42.5,
-        "end": 49.0
+        "text": "There are five reasons that make us appear quite vulnerable in the face of them.",
+        "start": 44.4,
+        "end": 49.7
       },
       {
-        "text": "These five reasons ultimately boil down to a single cause: traces of the Xiaoren still remain within ourselves, and we have not yet truly become Junzi (exemplary persons).",
-        "start": 49.0,
-        "end": 60.5
+        "text": "What on earth should be done?",
+        "start": 49.7,
+        "end": 51.6
       },
       {
-        "text": "Consequently, we suffer from their torment and succumb to their intimidation.",
-        "start": 60.5,
-        "end": 65.7
+        "text": "Their historical and real-world impacts have been so destructive, and their types are so diverse, causing true gentlemen and ordinary people alike to fear and avoid them to such a degree.",
+        "start": 51.6,
+        "end": 63.9
       },
       {
-        "text": "Because we haven't thoroughly differentiated ourselves from them, it is impossible for us to decisively refute them.",
-        "start": 65.7,
-        "end": 73.5
+        "text": "Are we truly left without any recourse against them?",
+        "start": 63.9,
+        "end": 67.3
       },
       {
-        "text": "This was the core content of our previous discussion.",
-        "start": 73.5,
+        "text": "Through my long-term research, I have indeed reached a conclusion: we clearly possess no miraculous prescription for eradicating petty exploiters.",
+        "start": 67.3,
         "end": 77.0
       }
     ]
@@ -98,39 +103,59 @@
     "isHeading": false,
     "start": 80.0,
     "end": 135.0,
-    "zh": "在这个问题上，我们能做的事情不太多。在这个问题上，我们首先能做的，就是要不断地扩大君子的队伍，改变君子和小人在数量上的对比。通过我们自己的修行，不断地使自己真正成为一个纯粹的君子，使我们周围的朋友也成为君子，这需要我们大家共同努力。",
-    "en": "On this issue, there are not many things we can do. The very first thing we can do is to continuously expand the ranks of Junzi, thereby shifting the numerical balance between Junzi and Xiaoren. Through our own self-cultivation, we must persistently transform ourselves into genuine, pure Junzi, while inspiring friends around us to become Junzi as well—this requires our concerted effort.",
+    "zh": "在这个问题上，我们能做的事情不太多。我们首先能做的，就是要不断地扩大君子的队伍，改变君子和小人在数量上的对比。一定还需要有一批比较纯粹的君子，不受任何小人生态的诱惑，这点很重要。连我们的朋友们，如果你们心底都有小人心态的话，那么我们努力地通过我们的修行，把小人心态慢慢地驱除掉，让我们自己变成一个比较纯粹的君子，由我们再来影响他人。当我们君子的队伍慢慢地扩大以后，君子和小人的力量对比就产生了重大的差异。",
+    "en": "On this matter, the practical actions we can take are rather limited. What we can do first is to steadily expand the ranks of the Junzi, shifting the quantitative balance between noble gentlemen and petty individuals. Crucially, there must be a cohort of relatively pure Junzi who remain impervious to any temptations of the toxic petty ecology; this is vital. Even if our friends harbor petty mentalities deep in their hearts, we can strive through conscious self-cultivation to purge those petty impulses, transforming ourselves into relatively authentic Junzi, who can in turn inspire and influence others. As the Junzi community gradually expands, the comparative power balance between Junzi and Xiaoren undergoes a profound transformation.",
     "zhSentences": [
       {
         "text": "在这个问题上，我们能做的事情不太多。",
         "start": 80.0,
-        "end": 88.5
+        "end": 84.9
       },
       {
-        "text": "在这个问题上，我们首先能做的，就是要不断地扩大君子的队伍，改变君子和小人在数量上的对比。",
-        "start": 88.5,
-        "end": 109.4
+        "text": "我们首先能做的，就是要不断地扩大君子的队伍，改变君子和小人在数量上的对比。",
+        "start": 84.9,
+        "end": 95.0
       },
       {
-        "text": "通过我们自己的修行，不断地使自己真正成为一个纯粹的君子，使我们周围的朋友也成为君子，这需要我们大家共同努力。",
-        "start": 109.4,
+        "text": "一定还需要有一批比较纯粹的君子，不受任何小人生态的诱惑，这点很重要。",
+        "start": 95.0,
+        "end": 104.3
+      },
+      {
+        "text": "连我们的朋友们，如果你们心底都有小人心态的话，那么我们努力地通过我们的修行，把小人心态慢慢地驱除掉，让我们自己变成一个比较纯粹的君子，由我们再来影响他人。",
+        "start": 104.3,
+        "end": 125.3
+      },
+      {
+        "text": "当我们君子的队伍慢慢地扩大以后，君子和小人的力量对比就产生了重大的差异。",
+        "start": 125.3,
         "end": 135.0
       }
     ],
     "enSentences": [
       {
-        "text": "On this issue, there are not many things we can do.",
+        "text": "On this matter, the practical actions we can take are rather limited.",
         "start": 80.0,
-        "end": 87.2
+        "end": 85.1
       },
       {
-        "text": "The very first thing we can do is to continuously expand the ranks of Junzi, thereby shifting the numerical balance between Junzi and Xiaoren.",
-        "start": 87.2,
-        "end": 107.4
+        "text": "What we can do first is to steadily expand the ranks of the Junzi, shifting the quantitative balance between noble gentlemen and petty individuals.",
+        "start": 85.1,
+        "end": 96.0
       },
       {
-        "text": "Through our own self-cultivation, we must persistently transform ourselves into genuine, pure Junzi, while inspiring friends around us to become Junzi as well—this requires our concerted effort.",
-        "start": 107.4,
+        "text": "Crucially, there must be a cohort of relatively pure Junzi who remain impervious to any temptations of the toxic petty ecology; this is vital.",
+        "start": 96.0,
+        "end": 106.6
+      },
+      {
+        "text": "Even if our friends harbor petty mentalities deep in their hearts, we can strive through conscious self-cultivation to purge those petty impulses, transforming ourselves into relatively authentic Junzi, who can in turn inspire and influence others.",
+        "start": 106.6,
+        "end": 125.0
+      },
+      {
+        "text": "As the Junzi community gradually expands, the comparative power balance between Junzi and Xiaoren undergoes a profound transformation.",
+        "start": 125.0,
         "end": 135.0
       }
     ]
@@ -140,39 +165,39 @@
     "isHeading": false,
     "start": 135.0,
     "end": 162.0,
-    "zh": "我们要用同样的逻辑让君子去驳倒小人，那是不可能的。我们只能靠我们自己的行为方式，让社会获得一种正义欣赏的依赖，慢慢地对比出小人的丑陋。只要社会上有了君子，大家就会觉得，还有更好的人格模式，还有更美好的人生境界，小人的市场就会越来越小。",
-    "en": "It is simply impossible to expect a Junzi to refute a Xiaoren using their own twisted logic. We can only rely on our own conduct to nurture society's reliance on and appreciation of justice, gradually bringing into stark relief the sheer ugliness of the Xiaoren. As long as genuine Junzi exist in society, people will realize that a far superior personality model and a more beautiful realm of life exist, and the market for Xiaoren will steadily shrink.",
+    "zh": "我们要用同样的逻辑让君子去驳倒小人，那是不可能的。我们只能靠我们自己的行为方式，让社会获得一种正义欣赏的依赖，慢慢地对比出小人的无聊、小人的无耻。所以在这个意义上，我们从自己的修行开始。",
+    "en": "Attempting to employ reciprocal logic for Junzi to debate and defeat Xiaoren is an impossible endeavor. We can only rely on our own patterns of conduct to provide society with a standard of justice and noble beauty to lean on, gradually exposing through sheer contrast the pettiness, boredom, and shamelessness of opportunists. In this sense, we must begin with our own personal cultivation.",
     "zhSentences": [
       {
         "text": "我们要用同样的逻辑让君子去驳倒小人，那是不可能的。",
         "start": 135.0,
-        "end": 140.8
+        "end": 142.3
       },
       {
-        "text": "我们只能靠我们自己的行为方式，让社会获得一种正义欣赏的依赖，慢慢地对比出小人的丑陋。",
-        "start": 140.8,
-        "end": 150.5
+        "text": "我们只能靠我们自己的行为方式，让社会获得一种正义欣赏的依赖，慢慢地对比出小人的无聊、小人的无耻。",
+        "start": 142.3,
+        "end": 156.2
       },
       {
-        "text": "只要社会上有了君子，大家就会觉得，还有更好的人格模式，还有更美好的人生境界，小人的市场就会越来越小。",
-        "start": 150.5,
+        "text": "所以在这个意义上，我们从自己的修行开始。",
+        "start": 156.2,
         "end": 162.0
       }
     ],
     "enSentences": [
       {
-        "text": "It is simply impossible to expect a Junzi to refute a Xiaoren using their own twisted logic.",
+        "text": "Attempting to employ reciprocal logic for Junzi to debate and defeat Xiaoren is an impossible endeavor.",
         "start": 135.0,
-        "end": 140.5
+        "end": 142.1
       },
       {
-        "text": "We can only rely on our own conduct to nurture society's reliance on and appreciation of justice, gradually bringing into stark relief the sheer ugliness of the Xiaoren.",
-        "start": 140.5,
-        "end": 150.6
+        "text": "We can only rely on our own patterns of conduct to provide society with a standard of justice and noble beauty to lean on, gradually exposing through sheer contrast the pettiness, boredom, and shamelessness of opportunists.",
+        "start": 142.1,
+        "end": 157.6
       },
       {
-        "text": "As long as genuine Junzi exist in society, people will realize that a far superior personality model and a more beautiful realm of life exist, and the market for Xiaoren will steadily shrink.",
-        "start": 150.6,
+        "text": "In this sense, we must begin with our own personal cultivation.",
+        "start": 157.6,
         "end": 162.0
       }
     ]
@@ -182,29 +207,74 @@
     "isHeading": false,
     "start": 162.0,
     "end": 245.0,
-    "zh": "君子的古代标准，也就是他们和小人的原始区别，比如君子怀德，君子坦荡荡，君子求诸己，君子成人之美，君子和而不同，君子周而不比，君子中庸，君子有礼，君子不器，君子知耻。这九项要点，我们只要认真去践行，只要做到了，我们就是一个堂堂正正的君子。",
-    "en": "The ancient criteria for the Junzi represent their foundational distinction from the Xiaoren: for example, the Junzi cherishes virtue; the Junzi is serene and open-hearted; the Junzi seeks within himself; the Junzi brings out the best in others; the Junzi seeks harmony without uniformity; the Junzi is inclusive without colluding; the Junzi abides by the Golden Mean; the Junzi observes propriety; the Junzi is not a mere utensil; and the Junzi knows shame. If we conscientiously put these nine essentials into practice and truly live them, we will stand as dignified, upright Junzi.",
+    "zh": "君子的古代标准，也就是他们和小人的原始区别，比如君子怀德、君子坦荡荡、君子求诸己、君子成人之美、君子和而不同、君子周而不比等等，这些教导对君子的风范、目标和生态做了经典的描述。但是我们还要想到，君子还有现代标准。我们不能光是古代标准，因为社会发生了很大的变化，我们的社会大大地开放了。在这个基础上，我们应该增加一系列全人类公认的价值标准，比如人权、人道、民主、自由、互助、慈善、环保等等。由此展现出更加开阔、长远、牺牲自我、温和坚毅、光明磊落的风范。当这样的风范能够更多地建立起来了，既有我们传统的标准，又有我们现代的标准，既有我们中国的君子标准，又有我们现代世界公认的价值标准加在一起，我们就会形成一个小人很难突破的坚强团队。",
+    "en": "The ancient criteria of the Junzi represent the original distinction between noble gentlemen and petty individuals—such as cherishing moral virtue (huai de), maintaining open-hearted equanimity (tan dang dang), seeking blame within oneself (qiu zhu ji), facilitating the beauty in others (cheng ren zhi mei), pursuing harmony without blind conformity (he er bu tong), and fostering inclusive fellowship without cliquish bias (zhou er bu bi). These teachings provide a classic portrait of the Junzi's demeanor, aspirations, and moral ecology. However, we must also recognize that the Junzi possesses modern standards. We cannot rely solely on antiquity, for society has transformed dramatically into an open civilization. On this foundation, we should incorporate a series of universally recognized global values—such as human rights, humanitarianism, democracy, liberty, mutual aid, philanthropy, and environmental stewardship. This demonstrates a demeanor that is broader, longer-sighted, self-sacrificing, gently resilient, and transparently upright. When such a character is broadly established, combining our traditional roots with modern standards, and blending Chinese Junzi ethics with universal values, we will forge a resilient collective shield that petty opportunists cannot breach.",
     "zhSentences": [
       {
-        "text": "君子的古代标准，也就是他们和小人的原始区别，比如君子怀德，君子坦荡荡，君子求诸己，君子成人之美，君子和而不同，君子周而不比，君子中庸，君子有礼，君子不器，君子知耻。",
+        "text": "君子的古代标准，也就是他们和小人的原始区别，比如君子怀德、君子坦荡荡、君子求诸己、君子成人之美、君子和而不同、君子周而不比等等，这些教导对君子的风范、目标和生态做了经典的描述。",
         "start": 162.0,
-        "end": 219.7
+        "end": 185.3
       },
       {
-        "text": "这九项要点，我们只要认真去践行，只要做到了，我们就是一个堂堂正正的君子。",
-        "start": 219.7,
+        "text": "但是我们还要想到，君子还有现代标准。",
+        "start": 185.3,
+        "end": 190.1
+      },
+      {
+        "text": "我们不能光是古代标准，因为社会发生了很大的变化，我们的社会大大地开放了。",
+        "start": 190.1,
+        "end": 199.6
+      },
+      {
+        "text": "在这个基础上，我们应该增加一系列全人类公认的价值标准，比如人权、人道、民主、自由、互助、慈善、环保等等。",
+        "start": 199.6,
+        "end": 213.3
+      },
+      {
+        "text": "由此展现出更加开阔、长远、牺牲自我、温和坚毅、光明磊落的风范。",
+        "start": 213.3,
+        "end": 221.5
+      },
+      {
+        "text": "当这样的风范能够更多地建立起来了，既有我们传统的标准，又有我们现代的标准，既有我们中国的君子标准，又有我们现代世界公认的价值标准加在一起，我们就会形成一个小人很难突破的坚强团队。",
+        "start": 221.5,
         "end": 245.0
       }
     ],
     "enSentences": [
       {
-        "text": "The ancient criteria for the Junzi represent their foundational distinction from the Xiaoren: for example, the Junzi cherishes virtue; the Junzi is serene and open-hearted; the Junzi seeks within himself; the Junzi brings out the best in others; the Junzi seeks harmony without uniformity; the Junzi is inclusive without colluding; the Junzi abides by the Golden Mean; the Junzi observes propriety; the Junzi is not a mere utensil; and the Junzi knows shame.",
+        "text": "The ancient criteria of the Junzi represent the original distinction between noble gentlemen and petty individuals—such as cherishing moral virtue (huai de), maintaining open-hearted equanimity (tan dang dang), seeking blame within oneself (qiu zhu ji), facilitating the beauty in others (cheng ren zhi mei), pursuing harmony without blind conformity (he er bu tong), and fostering inclusive fellowship without cliquish bias (zhou er bu bi).",
         "start": 162.0,
-        "end": 227.2
+        "end": 190.4
       },
       {
-        "text": "If we conscientiously put these nine essentials into practice and truly live them, we will stand as dignified, upright Junzi.",
-        "start": 227.2,
+        "text": "These teachings provide a classic portrait of the Junzi's demeanor, aspirations, and moral ecology.",
+        "start": 190.4,
+        "end": 196.8
+      },
+      {
+        "text": "However, we must also recognize that the Junzi possesses modern standards.",
+        "start": 196.8,
+        "end": 201.6
+      },
+      {
+        "text": "We cannot rely solely on antiquity, for society has transformed dramatically into an open civilization.",
+        "start": 201.6,
+        "end": 208.2
+      },
+      {
+        "text": "On this foundation, we should incorporate a series of universally recognized global values—such as human rights, humanitarianism, democracy, liberty, mutual aid, philanthropy, and environmental stewardship.",
+        "start": 208.2,
+        "end": 221.5
+      },
+      {
+        "text": "This demonstrates a demeanor that is broader, longer-sighted, self-sacrificing, gently resilient, and transparently upright.",
+        "start": 221.5,
+        "end": 229.5
+      },
+      {
+        "text": "When such a character is broadly established, combining our traditional roots with modern standards, and blending Chinese Junzi ethics with universal values, we will forge a resilient collective shield that petty opportunists cannot breach.",
+        "start": 229.5,
         "end": 245.0
       }
     ]
