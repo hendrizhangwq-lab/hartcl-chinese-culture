@@ -27,7 +27,7 @@ HartCL provides a modern web interface for reading, listening to, and studying 2
    - Audio playback synchronizes in real time with transcript text using Whisper-aligned timestamps (`timed_transcript.json`).
    - Clicking any sentence jumps audio playback directly to that timestamp.
 2. **Three Interactive View Modes**:
-   - **Deep Summary (深度精读)**: Core takeaway (`gist`), 4 key highlights (bilingual), and 18 structured vocabulary entries (with Pinyin, Chinese definitions, and English explanations).
+   - **Deep Summary (深度精读)**: Core takeaway (`gist`), 4 key highlights (bilingual), and a structured vocabulary & cultural glossary (with Pinyin, Chinese definitions, and English explanations, curated flexibly according to text difficulty rather than a rigid quota).
    - **Chinese Transcript (中文原文)**: Clean full text in Chinese.
    - **English Translation (英文对照)**: Line-by-line English translation.
 3. **Audio Control Panel**:
@@ -136,13 +136,18 @@ python3 build_deep_summaries.py
 
 ---
 
+### 📖 Vocabulary & Cultural Glossary Guideline
+- **Content-Driven, Flexible Entry Count**: Difficult vocabulary and cultural glossary terms are **not strictly limited to or required to reach 18 entries**. Entries should be selected or excluded organically based on the actual lexical, philosophical, and cultural difficulty of the lesson's text.
+
+---
+
 ## 📌 Project Status & Roadmap
 
 - **Completed**:
-  - Full structural setup and asset organization for all 24 units.
-  - Deep summaries and 18 structured vocabulary entries for **Unit 1**, **Unit 2**, and **Unit 10**.
-  - Ground-truth Whisper speech timing synchronization tuned for **Unit 1** and **Unit 2**.
+  - Full structural setup and asset organization for all units.
+  - Deep summaries and structured vocabulary glossaries for core units (including Unit 1, 2, 02-01, 02-02, 03, 03-01, 10).
+  - Ground-truth Whisper speech timing synchronization tuned for Units 01, 02, 02-01, 02-02, 03, and 03-01.
   - Fully functional responsive Web UI with dark/light mode and search.
-- **Future Work**:
-  - Extend deep summaries & 18 vocabulary glossaries to remaining units (Units 3–9, 11–24).
-  - Fine-tune speech-to-text timing alignment (`timed_transcript.json`) for remaining units.
+- **Ongoing & Future Work**:
+  - Extend deep summaries & text-difficulty-calibrated vocabulary glossaries to remaining units.
+  - Fine-tune speech-to-text timing alignment (`timed_transcript.json`) across remaining units.
