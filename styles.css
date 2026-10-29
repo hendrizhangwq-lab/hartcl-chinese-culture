@@ -1206,6 +1206,122 @@ body.light-theme .dark-icon { display: block; }
   }
 }
 
+/* Antithesis Table (Junzi vs Xiaoren) */
+.summary-table-container {
+  width: 100%;
+  overflow-x: auto;
+  border-radius: var(--radius-md);
+  border: 1px solid var(--border-color);
+  background: var(--bg-card);
+  margin-top: 12px;
+  -webkit-overflow-scrolling: touch;
+}
+
+.antithesis-table {
+  width: 100%;
+  border-collapse: collapse;
+  text-align: left;
+  font-size: 13.5px;
+}
+
+.antithesis-table thead tr {
+  background: rgba(245, 158, 11, 0.08);
+  border-bottom: 2px solid var(--border-color);
+}
+
+.antithesis-table th {
+  padding: 14px 16px;
+  font-family: var(--font-serif);
+  font-weight: 700;
+  color: var(--accent-gold);
+  white-space: nowrap;
+}
+
+.antithesis-table th .th-sub {
+  display: block;
+  font-family: var(--font-sans);
+  font-size: 11.5px;
+  font-weight: 500;
+  color: var(--text-muted);
+  margin-top: 2px;
+}
+
+.antithesis-table tbody tr {
+  border-bottom: 1px solid var(--border-color);
+  transition: background-color 0.15s ease;
+}
+
+.antithesis-table tbody tr:last-child {
+  border-bottom: none;
+}
+
+.antithesis-table tbody tr:hover {
+  background: rgba(255, 255, 255, 0.02);
+}
+
+.antithesis-table td {
+  padding: 14px 16px;
+  vertical-align: top;
+}
+
+.antithesis-table .col-junzi {
+  width: 25%;
+  min-width: 160px;
+}
+
+.antithesis-table .col-xiaoren {
+  width: 28%;
+  min-width: 180px;
+}
+
+.antithesis-table .col-essence {
+  width: 47%;
+  min-width: 260px;
+}
+
+.antithesis-table .col-junzi .table-zh {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: 15px;
+  color: #38bdf8;
+  margin-bottom: 3px;
+}
+
+.antithesis-table .col-junzi .table-en {
+  font-family: var(--font-sans);
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.antithesis-table .col-xiaoren .table-zh {
+  font-family: var(--font-serif);
+  font-weight: 700;
+  font-size: 15px;
+  color: #f87171;
+  margin-bottom: 3px;
+}
+
+.antithesis-table .col-xiaoren .table-en {
+  font-family: var(--font-sans);
+  font-size: 12px;
+  color: var(--text-muted);
+}
+
+.antithesis-table .col-essence .table-zh {
+  font-family: var(--font-serif);
+  font-size: 13.5px;
+  line-height: 1.6;
+  color: var(--text-primary);
+  margin-bottom: 4px;
+}
+
+.antithesis-table .col-essence .table-en {
+  font-family: var(--font-sans);
+  font-size: 12.5px;
+  line-height: 1.5;
+  color: var(--text-secondary);
+}
+
 .summary-tip {
   margin-top: 8px;
   padding: 12px 16px;

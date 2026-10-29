@@ -986,7 +986,90 @@ LESSON_SUMMARIES = {
                 "descZh": "耻和不耻是君子人格最低的阀门与底线。中国文化是典型的“耻感文化”，真正的勇敢不是匹夫之勇，而是敢于正视自身的过失与丑陋（“知耻近乎勇”）。知耻意味着内在拥有清晰的良知标尺，坚守道德红线；一旦丧失耻感，人便会堕入肆无忌惮的小人深渊。",
                 "descEn": "Shame as the essential bottom threshold of human character. Citing 'Conducting oneself with a sense of shame' (行己有耻) and 'To know shame is close to courage' (知耻近乎勇), Yu Qiuyu explains that an acute sense of shame serves as the bottom safety valve of Confucian personality. Real courage begins with confronting one's moral flaws; an acute sense of shame anchors moral self-discipline and prevents humanity from descending into uninhibited depravity."
             }
-        ]
+        ],
+        "antithesisTable": {
+            "titleZh": "与“君子九项要点”的正反对称信条",
+            "titleEn": "Antithetical Tenets: Junzi vs. Xiaoren",
+            "columns": {
+                "junzi": {"zh": "君子九项要点", "en": "Nine Tenets of Junzi"},
+                "xiaoren": {"zh": "小人对应信条", "en": "Antithetical Tenets of Xiaoren"},
+                "essence": {"zh": "核心本质与表现", "en": "Core Essence & Manifestation"}
+            },
+            "rows": [
+                {
+                    "junziZh": "君子怀德",
+                    "junziEn": "Junzi Cherishes Virtue",
+                    "xiaorenZh": "小人怀土 / 怀惠",
+                    "xiaorenEn": "Xiaoren Cherishes Land & Gain",
+                    "descZh": "唯利是图，利己至上：目光局限于田宅、钱财与即时实惠，无超越性的精神追求。",
+                    "descEn": "Self-Interest Above All: Fixated on property and immediate gain without spiritual aspirations."
+                },
+                {
+                    "junziZh": "君子之德风",
+                    "junziEn": "Virtue Like the Wind",
+                    "xiaorenZh": "小人德草 / 随波逐流",
+                    "xiaorenEn": "Xiaoren Bends with Trends / Servile",
+                    "descZh": "见风使舵，推波助澜：无改良社会担当，哪有特权利益就倒向哪边，充当恶势力的帮凶。",
+                    "descEn": "Following the Wind: Abdicating moral leadership to flatter power and abet corruption."
+                },
+                {
+                    "junziZh": "君子成人之美",
+                    "junziEn": "Fostering Good in Others",
+                    "xiaorenZh": "小人成人之恶 / 嫉贤妒能",
+                    "xiaorenEn": "Sabotaging the Good / Envy",
+                    "descZh": "见不得别人好，暗中拆台：他人有所成则心生怨毒，热衷围观并促成他人身败名裂。",
+                    "descEn": "Envious Sabotage: Resenting others' achievements, actively orchestrating their downfall."
+                },
+                {
+                    "junziZh": "君子周而不比",
+                    "junziEn": "Unity Without Collusion",
+                    "xiaorenZh": "小人比而不周 / 结党营私",
+                    "xiaorenEn": "Factional Cabals & Conspiracy",
+                    "descZh": "拉小圈子，排斥异己：出于私人利益结成勾结同盟，顺我者朋、逆我者谤，毫无公理道义。",
+                    "descEn": "Cabal & Intrigue: Forming conspiratorial cliques driven by nepotism, persecuting outsiders."
+                },
+                {
+                    "junziZh": "君子坦荡荡",
+                    "junziEn": "Serene & Open-Hearted",
+                    "xiaorenZh": "小人长戚戚 / 患得患失",
+                    "xiaorenEn": "Perpetually Anxious & Paranoid",
+                    "descZh": "阴暗算计，战战兢兢：终日盘算私利与担忧败露，心怀鬼胎，终生处于猜忌焦虑中。",
+                    "descEn": "Dark Paranoia: Scheming endlessly, haunted by fear of discovery and loss of advantage."
+                },
+                {
+                    "junziZh": "君子中庸",
+                    "junziEn": "Holding the Golden Mean",
+                    "xiaorenZh": "小人反中庸 / 走极端",
+                    "xiaorenEn": "Polarized Fanaticism / Extremes",
+                    "descZh": "偏狭狂热，肆无忌惮：要么谄媚求生，要么极端残暴；在社会动荡中往往表现得最极端。",
+                    "descEn": "Fanatical Extremism: Lacking balance; swinging wildly between servility and ruthlessness."
+                },
+                {
+                    "junziZh": "君子有礼",
+                    "junziEn": "Cultivating Propriety & Respect",
+                    "xiaorenZh": "小人谄上骄下 / 僭越无度",
+                    "xiaorenEn": "Fawning on Tops, Bullying Bottoms",
+                    "descZh": "对上奴颜婢膝，对下飞扬跋扈：对权贵极尽逢迎，对弱者极尽凌辱，毫无内在敬畏。",
+                    "descEn": "Servile Above, Cruel Below: Flattering tyrants while oppressing the vulnerable."
+                },
+                {
+                    "junziZh": "君子不器",
+                    "junziEn": "Refusing Utilitarian Reduction",
+                    "xiaorenZh": "小人甘为器 / 权谋奴仆",
+                    "xiaorenEn": "Willing Instrumental Pawns",
+                    "descZh": "主动工具化，甘当鹰犬：无独立人格，主动充当权力清算与诬告构陷的冷酷打手。",
+                    "descEn": "Machiavellian Pawns: Willingly reducing oneself to a disposable tool of persecution."
+                },
+                {
+                    "junziZh": "君子知耻",
+                    "junziEn": "Possessing a Sense of Shame",
+                    "xiaorenZh": "小人不知耻 / 恬不知耻",
+                    "xiaorenEn": "Shameless Depravity",
+                    "descZh": "突破底线，毫无内疚：丧失羞耻底线，谎言败露毫不惭愧，甚至反咬一口。",
+                    "descEn": "Total Shamelessness: Eradicating moral inhibition; feeling no guilt even when unmasked."
+                }
+            ]
+        }
     },
 
     "03-02": {

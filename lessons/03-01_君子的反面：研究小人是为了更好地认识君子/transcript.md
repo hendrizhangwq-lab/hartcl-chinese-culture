@@ -51,3 +51,19 @@
 7. **君子有礼**：礼是敬意的生命形式，礼与美融为一体。《论语》云：“不学礼，无以立。”礼节不是虚伪的外在繁文缛节，而是将内在对生命、他人与文明的敬畏，化为优雅得体、有界限感的仪轨风度，维系人伦文明的尊严。
 8. **君子不器**：不做功利工具与权力的奴仆。《论语》云：“君子不器。”器物只有单一固定的实用功能，君子坚决反对将自我降格为冰冷的机械零件或工具人，始终保持博大的人文情怀、独立自由的灵魂与终极关怀。
 9. **君子知耻**：知耻是君子人格最低的阀门与底线。《中庸》云：“知耻近乎勇。”中国文化是耻感文化，真正的勇气始于敢于正视自身的丑陋与过失。知耻者心存敬畏、坚守道德红线；一旦丧失耻感，人便会堕入无恶不作的小人渊薮。
+
+---
+
+### 与“君子九项要点”的正反对称信条 / Antithetical Tenets: Junzi vs. Xiaoren
+
+| 君子九项要点 (Junzi) | 小人的对应信条 (Xiaoren) | 核心本质与表现 (Essence & Manifestation) |
+| :--- | :--- | :--- |
+| **君子怀德**<br>Junzi Cherishes Virtue | **小人怀土 / 怀惠**<br>Xiaoren Cherishes Land & Gain | **唯利是图，利己至上**：目光局限于田宅、钱财与即时实惠，无超越性的精神追求。<br>*Self-Interest Above All: Fixated on property and immediate gain without spiritual aspirations.* |
+| **君子之德风**<br>Virtue Like the Wind | **小人德草 / 随波逐流**<br>Xiaoren Bends with Trends / Servile | **见风使舵，推波助澜**：无改良社会担当，哪有特权利益就倒向哪边，充当恶势力的帮凶。<br>*Following the Wind: Abdicating moral leadership to flatter power and abet corruption.* |
+| **君子成人之美**<br>Fostering Good in Others | **小人成人之恶 / 嫉贤妒能**<br>Sabotaging the Good / Envy | **见不得别人好，暗中拆台**：他人有所成则心生怨毒，热衷围观并促成他人身败名裂。<br>*Envious Sabotage: Resenting others' achievements, actively orchestrating their downfall.* |
+| **君子周而不比**<br>Unity Without Collusion | **小人比而不周 / 结党营私**<br>Factional Cabals & Conspiracy | **拉小圈子，排斥异己**：出于私人利益结成勾结同盟，顺我者朋、逆我者谤，毫无公理道义。<br>*Cabal & Intrigue: Forming conspiratorial cliques driven by nepotism, persecuting outsiders.* |
+| **君子坦荡荡**<br>Serene & Open-Hearted | **小人长戚戚 / 患得患失**<br>Perpetually Anxious & Paranoid | **阴暗算计，战战兢兢**：终日盘算私利与担忧败露，心怀鬼胎，终生处于猜忌焦虑中。<br>*Dark Paranoia: Scheming endlessly, haunted by fear of discovery and loss of advantage.* |
+| **君子中庸**<br>Holding the Golden Mean | **小人反中庸 / 走极端**<br>Polarized Fanaticism / Extremes | **偏狭狂热，肆无忌惮**：要么谄媚求生，要么极端残暴；在社会动荡中往往表现得最极端。<br>*Fanatical Extremism: Lacking balance; swinging wildly between servility and ruthlessness.* |
+| **君子有礼**<br>Cultivating Propriety & Respect | **小人谄上骄下 / 僭越无度**<br>Fawning on Tops, Bullying Bottoms | **对上奴颜婢膝，对下飞扬跋扈**：对权贵极尽逢迎，对弱者极尽凌辱，毫无内在敬畏。<br>*Servile Above, Cruel Below: Flattering tyrants while oppressing the vulnerable.* |
+| **君子不器**<br>Refusing Utilitarian Reduction | **小人甘为器 / 权谋奴仆**<br>Willing Instrumental Pawns | **主动工具化，甘当鹰犬**：无独立人格，主动充当权力清算与诬告构陷的冷酷打手。<br>*Machiavellian Pawns: Willingly reducing oneself to a disposable tool of persecution.* |
+| **君子知耻**<br>Possessing a Sense of Shame | **小人不知耻 / 恬不知耻**<br>Shameless Depravity | **突破底线，毫无内疚**：丧失羞耻底线，谎言败露毫不惭愧，甚至反咬一口。<br>*Total Shamelessness: Eradicating moral inhibition; feeling no guilt even when unmasked.* |

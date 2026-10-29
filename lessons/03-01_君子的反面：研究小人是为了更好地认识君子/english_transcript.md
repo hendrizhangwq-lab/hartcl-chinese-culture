@@ -51,3 +51,19 @@ Before delving into the "Realm of Xiaoren," Professor Yu Qiuyu systematically de
 7. **Junzi Cultivates Propriety (君子有礼)**: Reverence as a living form, uniting ritual with aesthetic grace. Confucius taught: "Without mastering propriety, one cannot establish oneself." Propriety (Li) is not superficial formalism, but the dignified, external expression of deep inner reverence for life, boundaries, and civilization.
 8. **Junzi is Not a Mere Utensil (君子不器)**: Refusing utilitarian reduction and instrumental servitude. The Analects famously proclaims: "The Junzi is not a utensil." Tools serve singular, fixed mechanical functions. The Junzi steadfastly refuses to become a disposable cog or a slave to utilitarian greed, maintaining an expansive humanistic outlook and a sovereign, free soul.
 9. **Junzi Possesses a Sense of Shame (君子知耻)**: Shame as the essential bottom threshold of human character. The Doctrine of the Mean states: "To know shame is close to courage." In a culture rooted in moral consciousness, true courage begins with the capacity to confront one's own transgressions. Knowing shame safeguards moral boundaries; when shame is abandoned, one descends directly into shameless depravity.
+
+---
+
+### 1. Antithetical Tenets: Junzi vs. Xiaoren / 与“君子九项要点”的正反对称信条
+
+| Nine Tenets of Junzi (君子九项要点) | Antithetical Tenets of Xiaoren (小人对应信条) | Core Essence & Manifestation (核心本质与表现) |
+| :--- | :--- | :--- |
+| **Junzi Cherishes Virtue**<br>君子怀德 | **Xiaoren Cherishes Land & Gain**<br>小人怀土 / 怀惠 | **Self-Interest Above All**: Fixated on property and immediate gain without spiritual aspirations.<br>*唯利是图，利己至上：目光局限于田宅、钱财与即时实惠，无超越性的精神追求。* |
+| **Virtue Like the Wind**<br>君子之德风 | **Xiaoren Bends with Trends / Servile**<br>小人德草 / 随波逐流 | **Following the Wind**: Abdicating moral leadership to flatter power and abet corruption.<br>*见风使舵，推波助澜：无改良社会担当，哪有特权利益就倒向哪边，充当恶势力的帮凶。* |
+| **Fostering Good in Others**<br>君子成人之美 | **Sabotaging the Good / Envy**<br>小人成人之恶 / 嫉贤妒能 | **Envious Sabotage**: Resenting others' achievements, actively orchestrating their downfall.<br>*见不得别人好，暗中拆台：他人有所成则心生怨毒，热衷围观并促成他人身败名裂。* |
+| **Unity Without Collusion**<br>君子周而不比 | **Factional Cabals & Conspiracy**<br>小人比而不周 / 结党营私 | **Cabal & Intrigue**: Forming conspiratorial cliques driven by nepotism, persecuting outsiders.<br>*拉小圈子，排斥异己：出于私人利益结成勾结同盟，顺我者朋、逆我者谤，毫无公理道义。* |
+| **Serene & Open-Hearted**<br>君子坦荡荡 | **Perpetually Anxious & Paranoid**<br>小人长戚戚 / 患得患失 | **Dark Paranoia**: Scheming endlessly, haunted by fear of discovery and loss of advantage.<br>*阴暗算计，战战兢兢：终日盘算私利与担忧败露，心怀鬼胎，终生处于猜忌焦虑中。* |
+| **Holding the Golden Mean**<br>君子中庸 | **Polarized Fanaticism / Extremes**<br>小人反中庸 / 走极端 | **Fanatical Extremism**: Lacking balance; swinging wildly between servility and ruthlessness.<br>*偏狭狂热，肆无忌惮：要么谄媚求生，要么极端残暴；在社会动荡中往往表现得最极端。* |
+| **Cultivating Propriety & Respect**<br>君子有礼 | **Fawning on Tops, Bullying Bottoms**<br>小人谄上骄下 / 僭越无度 | **Servile Above, Cruel Below**: Flattering tyrants while oppressing the vulnerable.<br>*对上奴颜婢膝，对下飞扬跋扈：对权贵极尽逢迎，对弱者极尽凌辱，毫无内在敬畏。* |
+| **Refusing Utilitarian Reduction**<br>君子不器 | **Willing Instrumental Pawns**<br>小人甘为器 / 权谋奴仆 | **Machiavellian Pawns**: Willingly reducing oneself to a disposable tool of persecution.<br>*主动工具化，甘当鹰犬：无独立人格，主动充当权力清算与诬告构陷的冷酷打手。* |
+| **Possessing a Sense of Shame**<br>君子知耻 | **Shameless Depravity**<br>小人不知耻 / 恬不知耻 | **Total Shamelessness**: Eradicating moral inhibition; feeling no guilt even when unmasked.<br>*突破底线，毫无内疚：丧失羞耻底线，谎言败露毫不惭愧，甚至反咬一口。* |

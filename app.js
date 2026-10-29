@@ -446,6 +446,53 @@ document.addEventListener('DOMContentLoaded', () => {
         `;
       }
 
+      const antiTable = sum.antithesisTable;
+      let antiTableHtml = '';
+      if (antiTable && antiTable.rows && antiTable.rows.length > 0) {
+        let rowsHtml = '';
+        antiTable.rows.forEach(r => {
+          rowsHtml += `
+            <tr>
+              <td class="col-junzi">
+                <div class="table-zh">${r.junziZh}</div>
+                <div class="table-en">${r.junziEn}</div>
+              </td>
+              <td class="col-xiaoren">
+                <div class="table-zh">${r.xiaorenZh}</div>
+                <div class="table-en">${r.xiaorenEn}</div>
+              </td>
+              <td class="col-essence">
+                <div class="table-zh">${r.descZh}</div>
+                <div class="table-en">${r.descEn}</div>
+              </td>
+            </tr>
+          `;
+        });
+
+        antiTableHtml = `
+          <div class="summary-block">
+            <div class="summary-section-title">
+              <i class="ri-scales-3-line"></i>
+              <span>${antiTable.titleZh} / ${antiTable.titleEn}</span>
+            </div>
+            <div class="summary-table-container">
+              <table class="antithesis-table">
+                <thead>
+                  <tr>
+                    <th>${antiTable.columns?.junzi?.zh || '君子九项要点'} <span class="th-sub">${antiTable.columns?.junzi?.en || 'Nine Tenets of Junzi'}</span></th>
+                    <th>${antiTable.columns?.xiaoren?.zh || '小人对应信条'} <span class="th-sub">${antiTable.columns?.xiaoren?.en || 'Antithetical Tenets of Xiaoren'}</span></th>
+                    <th>${antiTable.columns?.essence?.zh || '核心本质与表现'} <span class="th-sub">${antiTable.columns?.essence?.en || 'Core Essence & Manifestation'}</span></th>
+                  </tr>
+                </thead>
+                <tbody>
+                  ${rowsHtml}
+                </tbody>
+              </table>
+            </div>
+          </div>
+        `;
+      }
+
       const vocabulary = sum.vocabulary || [];
       let vocabHtml = '';
       if (vocabulary.length > 0) {
@@ -504,6 +551,8 @@ document.addEventListener('DOMContentLoaded', () => {
           </div>
 
           ${ninePointsHtml}
+
+          ${antiTableHtml}
 
           ${vocabHtml}
 
@@ -618,6 +667,51 @@ document.addEventListener('DOMContentLoaded', () => {
             ${itemsHtml}
           </div>
         `;
+
+        if (lesson.summary.antithesisTable && lesson.summary.antithesisTable.rows) {
+          const at = lesson.summary.antithesisTable;
+          let tableRows = '';
+          at.rows.forEach(r => {
+            tableRows += `
+              <tr>
+                <td class="col-junzi">
+                  <div class="table-zh">${r.junziZh}</div>
+                  <div class="table-en">${r.junziEn}</div>
+                </td>
+                <td class="col-xiaoren">
+                  <div class="table-zh">${r.xiaorenZh}</div>
+                  <div class="table-en">${r.xiaorenEn}</div>
+                </td>
+                <td class="col-essence">
+                  <div class="table-zh">${r.descZh}</div>
+                  <div class="table-en">${r.descEn}</div>
+                </td>
+              </tr>
+            `;
+          });
+          appendixBlock.innerHTML += `
+            <div class="appendix-table-section">
+              <div class="appendix-header" style="margin-top: 28px;">
+                <h3><i class="ri-scales-3-line"></i> ${isZh ? at.titleZh : at.titleEn}</h3>
+              </div>
+              <div class="summary-table-container">
+                <table class="antithesis-table">
+                  <thead>
+                    <tr>
+                      <th>${at.columns?.junzi?.zh || '君子九项要点'} <span class="th-sub">${at.columns?.junzi?.en || 'Nine Tenets of Junzi'}</span></th>
+                      <th>${at.columns?.xiaoren?.zh || '小人对应信条'} <span class="th-sub">${at.columns?.xiaoren?.en || 'Antithetical Tenets of Xiaoren'}</span></th>
+                      <th>${at.columns?.essence?.zh || '核心本质与表现'} <span class="th-sub">${at.columns?.essence?.en || 'Core Essence & Manifestation'}</span></th>
+                    </tr>
+                  </thead>
+                  <tbody>
+                    ${tableRows}
+                  </tbody>
+                </table>
+              </div>
+            </div>
+          `;
+        }
+
         transcriptContentEl.appendChild(appendixBlock);
       }
 
