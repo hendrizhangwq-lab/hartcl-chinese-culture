@@ -411,6 +411,41 @@ document.addEventListener('DOMContentLoaded', () => {
         `;
       });
 
+      const ninePoints = sum.ninePoints || [];
+      let ninePointsHtml = '';
+      if (ninePoints.length > 0) {
+        let cardsHtml = '';
+        ninePoints.forEach((p, idx) => {
+          cardsHtml += `
+            <div class="summary-point-card">
+              <div class="point-card-header">
+                <span class="point-card-badge">${idx + 1}</span>
+                <span class="point-card-title-zh">${p.titleZh}</span>
+                <span class="point-card-pinyin">${p.pinyin || ''}</span>
+                <span class="point-card-title-en">${p.titleEn || ''}</span>
+              </div>
+              ${p.quote ? `<div class="point-card-quote">“${p.quote}”</div>` : ''}
+              <div class="point-card-body">
+                <div class="point-desc-zh">${p.descZh}</div>
+                <div class="point-desc-en">${p.descEn}</div>
+              </div>
+            </div>
+          `;
+        });
+
+        ninePointsHtml = `
+          <div class="summary-block">
+            <div class="summary-section-title">
+              <i class="ri-medal-line"></i>
+              <span>君子九项要点精要回顾 / Nine Core Tenets of the Junzi</span>
+            </div>
+            <div class="summary-nine-points-grid">
+              ${cardsHtml}
+            </div>
+          </div>
+        `;
+      }
+
       const vocabulary = sum.vocabulary || [];
       let vocabHtml = '';
       if (vocabulary.length > 0) {
@@ -467,6 +502,8 @@ document.addEventListener('DOMContentLoaded', () => {
               ${highlightsHtml}
             </div>
           </div>
+
+          ${ninePointsHtml}
 
           ${vocabHtml}
 
@@ -550,6 +587,40 @@ document.addEventListener('DOMContentLoaded', () => {
           transcriptContentEl.appendChild(pBlock);
         }
       });
+
+      // If the lesson has ninePoints summary, append an appendix block at the bottom of the transcript
+      if (lesson.summary && lesson.summary.ninePoints && lesson.summary.ninePoints.length > 0) {
+        const appendixBlock = document.createElement('div');
+        appendixBlock.className = 'transcript-appendix-block';
+        const titleZh = '附：君子九项要点精要回顾';
+        const titleEn = 'Appendix: Summary of the Nine Core Tenets of the Junzi';
+        let itemsHtml = '';
+        lesson.summary.ninePoints.forEach((p, idx) => {
+          itemsHtml += `
+            <div class="appendix-point-item">
+              <div class="appendix-point-header">
+                <span class="appendix-badge">${idx + 1}</span>
+                <span class="appendix-title-zh">${p.titleZh}</span>
+                <span class="appendix-pinyin">${p.pinyin || ''}</span>
+                <span class="appendix-title-en">${p.titleEn || ''}</span>
+              </div>
+              ${p.quote ? `<div class="appendix-quote">“${p.quote}”</div>` : ''}
+              <div class="appendix-desc-zh">${p.descZh}</div>
+              <div class="appendix-desc-en">${p.descEn}</div>
+            </div>
+          `;
+        });
+        appendixBlock.innerHTML = `
+          <div class="appendix-header">
+            <h3><i class="ri-book-open-line"></i> ${isZh ? titleZh : titleEn}</h3>
+          </div>
+          <div class="appendix-content">
+            ${itemsHtml}
+          </div>
+        `;
+        transcriptContentEl.appendChild(appendixBlock);
+      }
+
       lastActivePara = null;
       lastActiveSent = null;
       updateTranscriptHighlight(audioElement.currentTime || 0);

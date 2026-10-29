@@ -912,6 +912,80 @@ LESSON_SUMMARIES = {
                 "explanationZh": "生命垂危、行将离世的最后时刻。余秋雨描写钢铁般的领袖在临终弥留之际，最刻骨铭心的遗恨不是敌人，而是颤抖着吐出的两个字——“小人”。",
                 "explanationEn": "The threshold of final expiration. Historical commanders on their deathbeds carry lingering trauma not toward worthy rivals, but toward the elusive Xiaoren."
             }
+        ],
+        "ninePoints": [
+            {
+                "titleZh": "君子怀德",
+                "titleEn": "Junzi Cherishes Virtue",
+                "pinyin": "jūn zǐ huái dé",
+                "quote": "君子怀德，小人怀土；君子怀刑，小人怀惠。",
+                "descZh": "有道德才有真正的人。道德是君子安身立命、区别于禽兽与小人的第一精神支柱。小人所思所虑皆是田宅、家业、宗族乡土等现实利益（“怀土”），而君子心中始终装着道义原则、良知操守与精神高度（“怀德”）。君子重视的是超越物质利益的精神人格追求。",
+                "descEn": "Virtue is what makes an authentic human being. Confucius establishes virtue as the primary spiritual pillar of an exemplary life ('The Junzi cherishes virtue; the petty person cherishes land and comfort'). While the Xiaoren fixates on immediate material gains, clan real estate, and physical security, the Junzi anchors life in moral conscience, lofty spiritual values, and principled righteousness beyond worldly attachments."
+            },
+            {
+                "titleZh": "君子之德风",
+                "titleEn": "Virtue of the Junzi is Like Wind",
+                "pinyin": "jūn zǐ zhī dé fēng",
+                "quote": "君子之德风，小人之德草。草上之风，必偃。",
+                "descZh": "君子独善其身是不够的。真正的道德必须具备化育社会、引领风尚的强大辐射力与示范效应。君子的道德如同无形拂过的春风，具有强大的社会感染力；当德风吹过，普通民众与社会大众如草受风抚，自然向善倾服。君子必须承担起推动社会向善的道义责任。",
+                "descEn": "Solitary self-cultivation alone is insufficient. Drawing on Confucius's insight ('The virtue of the Junzi is like the wind, and that of the petty person is like grass; when the wind blows across the grass, it cannot but bend'), Yu Qiuyu highlights that genuine virtue must possess radiant social influence. An exemplary person does not retreat into sterile aloofness, but actively inspires and elevates the moral climate of the broader community."
+            },
+            {
+                "titleZh": "君子成人之美",
+                "titleEn": "Junzi Brings Out the Best in Others",
+                "pinyin": "jūn zǐ chéng rén zhī měi",
+                "quote": "君子成人之美，不成人之恶。小人反是。",
+                "descZh": "向他人投向真诚祝贺的目光。君子怀有博大仁厚的心胸，看到他人有所成就、有美德善举，会打心底里感到欢喜并真诚施以援手，促其圆满；而绝不像小人那样嫉贤妒能、见不得别人好、暗中下绊甚至落井下石（“成人之恶”）。成人之美是衡量一个人是否具有君子器量最直观的试金石。",
+                "descEn": "Gazing upon others with eyes of sincere celebration. The Analects teaches: 'The Junzi fosters the good in others, not what is base; the petty person does the opposite.' Possessing a generous and benevolent soul, the Junzi rejoices in and aids the noble achievements of fellow human beings, rather than succumbing to envy, sabotage, or kicking others while they are down."
+            },
+            {
+                "titleZh": "君子周而不比",
+                "titleEn": "Junzi is Harmonious Without Colluding",
+                "pinyin": "jūn zǐ zhōu ér bù bǐ",
+                "quote": "君子周而不比，小人比而不周。",
+                "descZh": "做光明的大团结，不做卑劣的私勾结。“周”是出于公理、道义的普遍包容与坦诚团结；“比”是拉帮结派、朋党营私的利益勾结。君子以天下公心待人接物，求同存异，凝聚共识；小人则以狭隘的私人算计拉小圈子、排斥异己。君子之聚是光明磊落的大团结，小人之聚是卑劣算计的私下勾结。",
+                "descEn": "Genuine public solidarity over factional conspiracy. In Confucius's words: 'The Junzi is all-embracing and does not form cliques; the petty person colludes and is not all-embracing.' Yu Qiuyu explains that the Junzi fosters broad, principled solidarity rooted in public good and moral fellowship, strictly rejecting nepotism, clannish cabals, and conspiratorial factionalism driven by selfish interest."
+            },
+            {
+                "titleZh": "君子坦荡荡",
+                "titleEn": "Junzi is Serene and Open-Hearted",
+                "pinyin": "jūn zǐ tǎn dàng dàng",
+                "quote": "君子坦荡荡，小人长戚戚。",
+                "descZh": "不忧不惧，心胸如青天白日。君子内心平坦宽广、光明磊落，行事无不可对人言，因此没有患得患失的阴暗心理，达到了“仁者不忧，勇者不惧”的精神境界；相反，小人因满腹算计、心怀鬼胎、总在追逐私利与担忧败露中挣扎，因而终日神思惶恐、战战兢兢、“长戚戚”。",
+                "descEn": "Untroubled and fearless like a clear sky. As recorded in the Analects: 'The Junzi is serene and open-hearted; the petty person is forever anxious and restless.' Because the Junzi conducts their life with absolute transparency and clear conscience, they are untroubled by selfish scheming and dwell in calm fortitude; the Xiaoren, racked with deceit and greed, lives in perpetual dread."
+            },
+            {
+                "titleZh": "君子中庸",
+                "titleEn": "Junzi Holds to the Golden Mean",
+                "pinyin": "jūn zǐ zhōng yōng",
+                "quote": "君子中庸，小人反中庸。君子之中庸也，君子而时中。",
+                "descZh": "在复杂矛盾中把握动态的黄金平衡点。《中庸》强调“君子而时中”。中庸绝非毫无原则的和稀泥、随波逐流或平庸，而是在洞悉极复杂、极微妙的矛盾关系后，能够准确把握事物最适宜的“度”，在极端偏激之间精准拿捏分寸与尺度的高超生存智慧。",
+                "descEn": "Mastering the dynamic golden balance amidst polarized extremes. The Doctrine of the Mean stresses 'embodying the Mean at the fitting moment' (时中). Zhongyong is neither lukewarm compromise nor mediocre passivity; it is the supreme art of dynamic calibration—finding the precise, harmonious equilibrium in complex human affairs while resisting fanatical polarization."
+            },
+            {
+                "titleZh": "君子有礼",
+                "titleEn": "Junzi Cultivates Propriety",
+                "pinyin": "jūn zǐ yǒu lǐ",
+                "quote": "不学礼，无以立。",
+                "descZh": "礼是敬意的生命形式，礼与美融为一体。《论语》云：“不学礼，无以立。”礼节不仅仅是外在的社交规矩或繁文缛节，更是将内在对生命、他人与文明的敬畏，化为体面、优雅、克制、优美的仪轨与风度。通过礼让与界限感，君子维系了文明交往的尊严与温暖。",
+                "descEn": "Reverence as a living form, uniting ritual with aesthetic grace. Reflecting Confucius's dictum 'Without mastering propriety, one cannot establish oneself' (不学礼，无以立), Yu Qiuyu underscores that Li (propriety) is the externalization of profound inner reverence. Far from empty etiquette, it preserves personal dignity, mutual boundaries, and civil decency in social life."
+            },
+            {
+                "titleZh": "君子不器",
+                "titleEn": "Junzi is Not a Mere Utensil",
+                "pinyin": "jūn zǐ bù qì",
+                "quote": "君子不器。",
+                "descZh": "不做功利工具与权力的奴仆。器物只有单一、固定的工具用途。君子坚决反对将自我降格为某种狭隘的功利工具、技术零件或权力的奴仆，始终保持博大的人文情怀、独立自由的灵魂与终极关怀，做有完整人格的人。",
+                "descEn": "Refusing utilitarian reduction and instrumental servitude. Drawn from the classic aphorism 'The Junzi is not a utensil' (君子不器), Yu Qiuyu asserts that tools exist only for single utilitarian functions. A true Junzi refuses to become a disposable cog or a slave to utilitarian greed, maintaining an expansive humanistic soul, broad-minded insight, and intellectual freedom."
+            },
+            {
+                "titleZh": "君子知耻",
+                "titleEn": "Junzi Possesses a Sense of Shame",
+                "pinyin": "jūn zǐ zhī chǐ",
+                "quote": "行己有耻；知耻近乎勇。",
+                "descZh": "耻和不耻是君子人格最低的阀门与底线。中国文化是典型的“耻感文化”，真正的勇敢不是匹夫之勇，而是敢于正视自身的过失与丑陋（“知耻近乎勇”）。知耻意味着内在拥有清晰的良知标尺，坚守道德红线；一旦丧失耻感，人便会堕入肆无忌惮的小人深渊。",
+                "descEn": "Shame as the essential bottom threshold of human character. Citing 'Conducting oneself with a sense of shame' (行己有耻) and 'To know shame is close to courage' (知耻近乎勇), Yu Qiuyu explains that an acute sense of shame serves as the bottom safety valve of Confucian personality. Real courage begins with confronting one's moral flaws; an acute sense of shame anchors moral self-discipline and prevents humanity from descending into uninhibited depravity."
+            }
         ]
     },
 
@@ -1711,14 +1785,13 @@ def main():
                 l['timedTranscript'] = json.load(tf)
             print(f"[{idx}] Synced timedTranscript ({len(l['timedTranscript'])} items) from {folder}")
 
-        # Ensure transcriptZh and transcriptEn are populated
-        if not l.get('transcriptZh') or not l.get('transcriptEn'):
-            zh_f = os.path.join(base_dir, folder, 'transcript.md')
-            en_f = os.path.join(base_dir, folder, 'english_transcript.md')
-            if os.path.exists(zh_f):
-                l['transcriptZh'] = open(zh_f, encoding='utf-8').read()
-            if os.path.exists(en_f):
-                l['transcriptEn'] = open(en_f, encoding='utf-8').read()
+        # Ensure transcriptZh and transcriptEn are synced from markdown files if they exist
+        zh_f = os.path.join(base_dir, folder, 'transcript.md')
+        en_f = os.path.join(base_dir, folder, 'english_transcript.md')
+        if os.path.exists(zh_f):
+            l['transcriptZh'] = open(zh_f, encoding='utf-8').read()
+        if os.path.exists(en_f):
+            l['transcriptEn'] = open(en_f, encoding='utf-8').read()
 
     with open(json_path, 'w', encoding='utf-8') as f:
         json.dump(lessons, f, ensure_ascii=False, indent=2)
